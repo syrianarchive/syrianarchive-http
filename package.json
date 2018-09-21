@@ -6,7 +6,7 @@
   "config": {
     "markdownSourceGitUrl": "https://github.com/syrianarchive/syrianarchive-investigations.git",
     "markdownSourceGitName": "syrianarchive-investigations",
-    "boilerplateSourceGitUrl": ""
+    "boilerplateSourceGitUrl": "https://github.com/syrianarchive/mnemonic-archive-http.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
