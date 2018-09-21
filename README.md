@@ -1,8 +1,9 @@
 # Syrian Archive website
 
-the website for syrianarchive.org
+The website for syrianarchive.org
 
-It is a static website using metalsmith.  It generates static html pages, that pull in a react application for the dynamic elements.  The react application calls the api for the database and statistics.
+This site uses the [mnemonic-archive-http](https://github.com/syrianarchive/mnemonic-archive-http) module which is a static website using metalsmith.  It generates static html pages, that pull in a react application for the dynamic elements. The react application calls the api for the database and statistics.
+
 
 ## Dependencies
 
@@ -20,7 +21,11 @@ To Deploy this site, One must run:
 npm install
 ```
 
-This installs the necessary libraries.
+This installs the necessary libraries, then clone the `mnemonic-archive-http` module :
+
+```
+npm run get-boilerplate
+```
 
 ----------------------
 
@@ -36,7 +41,13 @@ it also runs FINE without the api.
 npm run initial-content
 ```
 
-This clones the initial content repository
+This clones the initial content repository. Also you can run:
+
+```
+npm run initial-setup
+```
+
+Which clones the `mnemonic-archive-http` module and the initial content.
 
 ------------------------------------
 
