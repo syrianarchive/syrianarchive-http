@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+
+  {% block content %}
+
+
+   Collections
+
+  {% for collection in siblings %}
+  <a href="/{{collection.path}}"> {{collection.title}} </a>
+
+  {% endfor %}
+
+  {% endblock %}
+
+  {% block extraheadjs %}
+    window.location.replace("/en/collections/chemical-weapons");
+  {% endblock %}

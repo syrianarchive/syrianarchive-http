@@ -1,0 +1,405 @@
+.chemicalweapons {
+  @include breakpoint(medium) {
+    padding: 1rem;
+  }
+}
+
+.container.chem.title{
+  .columns{
+    min-height:40vh;
+  }
+}
+
+.chemical-weapons .title {
+  display: none;
+  @include breakpoint(medium) {
+    display: block;
+    height: 12.6rem;
+    font-size: 1.8rem;
+  }
+}
+
+.chemical-weapons .subheader .navbar-section:first-child{
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
+
+.chemical-weapons .navbar-section:last-child a {
+  @include breakpoint(medium) {
+    font-size: 1.2rem;
+  }
+}
+
+.chemical-weapons .title .menu-button {
+  font-size: 1.8rem;
+}
+
+.blackback {
+  background-color: #333;
+}
+.videocont{
+  video{
+    margin-top:-5rem;
+    margin-bottom: -6px;
+    @include breakpoint(medium) {
+      border-top: .5px solid $primary-color;
+    }
+  }
+  .col-12{
+    background-color: #333;
+  }
+}
+
+, .col-5, .col-6, .col-7, .col-9, {
+  @include breakpoint(medium){
+    width: 100%;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+  }
+}
+
+.halfimage{
+  height: 60vh;
+  overflow: hidden;
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+     background-attachment: fixed;
+     color: white;
+     .columns{
+       background-color:transparent !important;
+       margin-top: 35vh;
+       a h3{
+         background-color: black;
+         color:white;
+         padding: 1rem;
+         display: inline;
+       }
+     }
+}
+
+.chemicalweapons {
+  .columns{
+    background-color: white;
+    &.normalback{
+      background-color: $background-color;
+    }
+  }
+}
+
+.collection {
+
+  .card{
+    opacity: .9;
+
+    video{
+      width:110%;
+      margin: -5px -10px -10px -5px;
+      filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    }
+
+    &:hover{
+      opacity: 1;
+      video{
+        filter: blur(1px);
+          -webkit-filter: blur(1px);
+          -moz-filter: blur(1px);
+          -o-filter: blur(1px);
+          -ms-filter: blur(1px);
+      }
+    }
+    .card-header{
+      padding-top:2rem;
+      overflow:hidden;
+      cursor: pointer;
+    }
+    .videodiv{
+      overflow: hidden;
+      margin-bottom:1rem;
+    }
+
+  }
+
+  .incidentsummary{
+    word-wrap: break-word;
+    white-space:pre-wrap;
+  }
+
+background-color: $background-color;
+
+.columns{
+  padding: 0rem;
+}
+
+.incidentcol{
+  padding:2rem;
+  background-color:white;
+  .lbl {
+    background: $highlight-color;
+    color: #111;
+    padding: .2rem;
+    line-height: 3rem;
+    font-family: 'Merriweather';
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size: 1rem;
+  }
+}
+
+.obscol{
+  border-left: 1px solid #efefef;
+  background-color: #fefefe;
+}
+.obsbutton{
+  font-size: 1rem;
+  float:right;
+}
+.invisibleincidents{
+  opacity: .5;
+}
+
+.resultsMeta {
+    padding: 1rem;
+    padding-left: 4rem;
+    font-size: 1rem;
+    background-color: rgba(0,0,0,.1);
+
+    a{
+      color:#333;
+      text-decoration: none;
+    }
+    .boldme{
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .clickme{
+      cursor: pointer;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      @include breakpoint(medium) {
+	display: block;
+      }
+    }
+}
+
+.listincident{
+  padding:2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-right:5px solid transparent;
+  border-left:5px solid transparent;
+
+  border-bottom: 1px solid $background-color;
+  cursor: pointer;
+  position: relative;
+  background-color: #fefefe;
+
+  h5 {
+    font-size: 1.5rem;
+    color: black;
+    background-color: transparent;
+    display: inline;
+    padding-bottom: .2rem;
+    padding-top: .1rem;
+    text-decoration: underline;
+  }
+  h5::after {
+    content: ">";
+        position: absolute;
+        left: .5rem;
+        top: 1rem;
+        display: block;
+        box-sizing: content-box;
+        padding-left: 1.5rem;
+        color: $primary-color;
+        line-height: 4rem;
+  }
+  .code{
+    color: #111;
+    font-size: 1rem;
+    line-height: 3rem;
+    font-family: "Merriweather";
+    float: right;
+    margin-left: 1rem;
+    background-color: $highlight-color;
+  }
+  .metameta{
+    small{
+      font-family: "Merriweather";
+    }
+  }
+  //
+  // &.confidence-0{
+  //   border-left: 5px solid #fff;
+  // }
+  // &.confidence-1{
+  //   border-left: 5px solid #ffe1aa;
+  // }  &.confidence-2{
+  //     border-left: 5px solid #ffc355;
+  //   }  &.confidence-3{
+  //       border-left: 5px solid $primary-color;
+  //     }
+}
+.listincident:hover{
+  border-right:5px solid teal;
+  background-color: $highlight-color;
+  .columns {
+      background-color: $highlight-color;
+  }
+}
+
+.mapcol{
+  height: 100vh;
+  // make this only on desktop:
+  position: sticky !important;
+  top:11.4rem;
+}
+
+.leaflet-container{
+  height: 100vh;
+}
+
+
+.collectionsearch{
+  position: sticky !important;
+  top:11.4rem;
+  z-index:300;
+  @include breakpoint(medium) {
+    position: static !important;
+  }
+
+  
+  input[type=text]{
+    background-color: #fff;
+    border-color: #d9d9d9 #ccc #b3b3b3;
+    border-radius: 0px;
+    border: 0px solid;
+    color: #333;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:4rem;
+    border-bottom: 2px solid $primary-color;
+    &:focus{
+      background-color: #fff;
+      border-bottom: 2px solid $primary-color;
+    }
+    &:hover{
+      background-color: #efefef;
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+}
+
+.collectionsearch::after {
+    content: "⌕";
+    position: absolute;
+    z-index: 9999999;
+    left: 0;
+    top: 0rem;
+    display: block;
+    box-sizing: content-box;
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    color: teal;
+    opacity: .5;
+    line-height: 4rem;
+    font-weight: bold;
+    animation: blinker 1s linear 3;
+}
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+}
+
+.container.subheader{
+  position: sticky !important;
+  top:6.3rem;
+  z-index: 4000;
+  background-color:$primary-color;
+  color:white;
+  @include breakpoint(medium) {
+    position: static !important;
+  }
+
+  a{
+    color:white;
+  }
+
+  .columns{
+    background-color: rgba(0,0,0,.2);
+    margin-top:0rem;
+    margin-bottom:0rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+}
+
+
+
+.largeplayicon {
+    height: 4rem;
+    width: 4rem;
+    display: inline-block;
+    padding-left: .6rem;
+    color: white;
+    font-size: 2.7rem;
+    line-height: 2.4rem;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 1rem;
+    opacity: .5;
+}
+
+.countu{
+  text-align: right;
+}
+
+.marker-cluster-small {
+	background-color: rgba(139,0,0,.3);
+	}
+.marker-cluster-small div {
+	background-color: rgba(255,0,0,.5);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(139,0,0,.3);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(255,0,0,.5);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(139,0,0,.3);
+	}
+.marker-cluster-large div {
+	background-color: rgba(255,0,0,.5);
+	}
+
+  .marker-cluster span {
+  	line-height: 30px;
+    color:white;
+  }
+
+.cluhidden{
+  visibility: hidden;
+  img{
+    visibility:hidden;
+  }
+}

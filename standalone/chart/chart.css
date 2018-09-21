@@ -1,0 +1,25 @@
+.bar {
+  fill: steelblue;
+}
+
+.tick text {
+  font: 10px sans-serif;
+  stroke: teal !important;
+}
+
+path,
+line {
+  fill: none;
+  stroke: orange;
+  shape-rendering: crispEdges;
+}
+
+.tick line {
+  display: none;
+}
+.domain{
+  display: none;
+}
+.x.axis path {
+  display: none;
+}

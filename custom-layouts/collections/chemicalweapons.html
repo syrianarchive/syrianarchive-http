@@ -1,0 +1,454 @@
+{% extends 'collections/basecollection.html' %}
+
+{% block htmlclass %}
+chemical-weapons
+{% endblock %}
+
+{% block extraheadjs %}
+{% endblock %}
+
+{% block titlecontainer %}
+<div class="container chem title {% if image %}imaged{% endif %}" style="{% if image %}background-image:url({{image}}){% endif %}">
+     <div class="columns">
+       <div class="col-12">
+	 {% block title %}
+	 <h1>{{ title }} <i class="fa fa-bars menu-button" id="menuButton"></i></h1>
+	 <div class="desc">
+	 </div>
+	 {% endblock %}
+       </div>
+    </div>
+  </div>
+
+  <div class="container blackback videocont">
+    <div class="columns nopad">
+      <div class="col-12">
+        <video autoplay loop controls muted width="100%">
+          <source src="https://cube.syrianarchive.org/syrian_archive_trailer_2018_720p.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  {% include 'collections/includes/chemicalheader.html' %}
+
+{% endblock %}
+
+
+  {% block content %}
+
+  <style type="text/css">
+
+   .somepadtop{
+     padding-top: 2rem !important;
+   }
+
+   .chemicalweapons .columns p {
+     margin-bottom: 2rem;
+   }
+
+   .chemicalweapons > .container:nth-of-type(even) {
+     background: #e0e0e0;
+   }
+
+   .chemicalweapons .container .columns {
+     background-color: white;
+   }
+
+
+   .chemicalweapons > .container:nth-of-type(even) .columns{
+     background: #f9f9f9 !important;
+   }
+
+   .chemicalweapons a{
+     text-decoration: none !important;
+     color: #066884 !important;
+   }
+
+   iframe{
+     overflow:hidden;
+     border: 0px solid black;
+   }
+
+   .vizcall{
+     padding-top:13rem;
+     
+   }
+   
+
+   .floatright{
+     float:right;
+   }
+
+   ul li{
+     font-family: "Merriweather" !important;
+   }
+
+   .dblink{
+     display: block;
+     position: relative;
+   }
+
+   .dblink h6{
+     background-color: white;
+     margin-top:-4em;
+     display: inline;
+     position:absolute;
+     margin-left:2rem;
+     padding: 1rem;
+     border-bottom: 3px solid orange;
+   }
+
+   .shadowme{
+     box-shadow:inset 0 0 10px rgba(0,0,0,.2);
+     width:100%;
+     height:100%;
+     position:absolute;
+     top: 0;
+     left:0;
+   }
+
+   .dllink{
+     opacity: .7;
+   }
+
+   @media only screen and (max-width: 750px){
+     .vizcall{
+       padding-top: 0;
+     }
+     .chemicalweapons .dllink a{
+       margin-bottom: 1rem;
+     }
+     }
+  </style>
+
+<div class='chemicalweapons'>
+
+
+<!-- intro text and visualisation -->
+
+  <div class="container">
+        <div class="columns">
+      <div class="col-7 padrightextra">
+              <h1>{{sibs.intro.title}}</h1>
+              <hr />
+              {{sibs.intro.contents|safe}}
+              <hr />
+              {{sibs.shortSAabout.contents|safe}}
+      </div>
+
+      <div class="col-5 vizcall">
+
+        <a class="dblink" href="/en/collections/chemical-weapons/database">
+          <img src="/assets/chemical/chemicalmap.jpg" width="100%" />
+          <div class="shadowme"></div>
+          <h6>View the Database of incidents and videos -></h6>
+        </a>
+        <small class="floatright"><i>
+          <a class="dllink" href="/assets/chemical/chemicalmap.jpg">Download Image</a>
+        </i></small>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns zebra">
+      <div class="col-6 padrightextra">
+        <h3>{{sibs.violationslist.title}}</h3>
+          {{sibs.violationslist.contents|safe}}
+      </div>
+      <div class="col-6">
+        <h6>Number of Videos</h6>
+        <iframe id="eee" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/blockviz.html?num=862&color=teal"></iframe>
+        <h6>Sources of data</h6>
+        <iframe id="something" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/blockviz.html?num=193&color=red"></iframe>
+        <h6>Chemical weapon attacks</h6>
+
+
+        <!-- <iframe id="something" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/blockviz.html?num=212&color=teal"></iframe> -->
+
+
+        <iframe id="anything" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/blockviz.html?num=162&color=%235b92e5&num2=50&color2=orange"></iframe>
+        <small>Reported by the <font color="#5b92e5">United Nations and the French Foreign Ministry</font>,<br />
+          additional attacks reported by the <font color="orange">Syrian Archive</font></small>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns zebra">
+      <div class="col-9">
+        <h3>{{sibs.useofchemicalweapons1.title}}</h3>
+        {{sibs.useofchemicalweapons1.contents|safe}}
+      </div>
+    </div>
+  </div>
+
+<!-- chart -->
+  <div class="container">
+    <div class="columns nopadvertical zebra somepadtop">
+      <div class="col-12">
+        <iframe id="timeline" scrolling="no" height="200px" width="100%" src="/standalone/chart/index.html"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns zebra">
+      <div class="col-9">
+        {{sibs.useofchemicalweapons2.contents|safe}}
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container">
+    <div class="columns zebra">
+      <div class="col-9">
+        <h3>{{sibs.thedata.title}}</h3>
+        {{sibs.thedata.contents|safe}}
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="columns nopadvertical zebra somepadtop">
+      <div class="col-3">
+        <h5>Videos Removed From Youtube</h5>
+        <small>as of 20.4.2018</small>
+      </div>
+      <div class="col-9">
+          <iframe id="removed" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/removed_videos_visualisation.html"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="columns zebra">
+      <div class="col-9">
+        {{sibs.thedata2.contents|safe}}
+      </div>
+    </div>
+  </div>
+
+
+    <div class="container halfimage" style="background-image:url(/assets/chemical/chemicalheader.jpg)">
+      <div class="columns">
+          <div class="col-12">
+            <a href="/en/collections/chemical-weapons/database">
+              <h3>View the Database &gt;</h3>
+            </a>
+          </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="columns nopadvertical">
+        <div class="col-12">
+          <small class="floatright"><i>
+          Image Adam Harvey
+          <a class="dllink" href="/assets/chemical/chemicalheader.jpg">Download Image</a>
+          </i></small>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="columns zebra">
+        <div class="col-6 padrightextra">
+          <h4>{{sibs.usingthedatabase.title}}</h4>
+          {{sibs.usingthedatabase.contents|safe}}
+        </div>
+        <div class="col-6">
+          <h4>{{sibs.methodology.title}}</h4>
+          {{sibs.methodology.contents|safe}}
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <div class="container">
+        <div class="columns zebra">
+          <div class="col-9">
+            <h3>{{sibs.aboutSA.title}}</h3>
+            {{sibs.aboutSA.contents|safe}}
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="columns zebra">
+          <div class="col-6 padrightextra">
+            <h4>{{sibs.submit.title}}</h4>
+            {{sibs.submit.contents|safe}}
+          </div>
+          <div class="col-6">
+            <h4>{{sibs.errors.title}}</h4>
+            {{sibs.errors.contents|safe}}
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="container">
+        <div class="columns normalback nopad">
+          <div class="col-6 padright">
+
+
+          </div>
+          <div class="col-6">
+            {% set post = sibs.acknowledgements %}
+            {% include 'includes/card.html' %}
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+<!--
+
+      <div class="container">
+        <div class="columns">
+          <div class="col-12">
+                  <h1>{{sibs.findings.title}}</h1>
+            <p>{{sibs.findings.desc}}</p>
+            <p>{{sibs.testing.contents|safe}}</p>
+            <iframe id="anything" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/blockviz.html?num=162&color=%235b92e5&num2=50&color2=orange"></iframe>
+            <small>Reported by the <font color="#5b92e5">United Nations and the French Foreign Ministry</font>, additional attacks reported by the <font color="orange">Syrian Archive</font></small>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container halfimage" style="background-image:url(/assets/chemical/chemicalheader.jpg)">
+        <div class="columns">
+            <div class="col-12">
+              <a href="/en/collections/chemical-weapons/database">
+                <h3>View the Database ></h3>
+              </a>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="columns nopadvertical">
+            <div class="col-12">
+              <small class="floatright"><i>
+              Image Adam Harvey
+              <a class="dllink" href="/assets/chemical/chemicalheader.jpg">Download Image</a>
+              </i></small>
+            </div>
+          </div>
+        </div>
+
+            <div class="container">
+              <div class="columns">
+                <div class="col-12">
+                  <h1>{{sibs.data.title}}</h1>
+                  <p>{{sibs.data.contents|safe}}</p>
+                  <p>{{sibs.data.desc}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="columns">
+                <div class="col-3">
+                  <h5>Youtube Removes Videos</h5>
+                  <small>Statistics as of 20.4.2018</small>
+                </div>
+                <div class="col-9">
+
+                    <iframe id="removed" onload="onMyFrameLoad(this)" scrolling="no" width="100%" src="/standalone/removed_videos_visualisation.html"></iframe>
+
+                </div>
+              </div>
+            </div>
+
+                  <div class="container">
+                    <div class="columns">
+                      <div class="col-12">
+                              <h1>{{sibs.process.title}}</h1>
+                        <p>{{sibs.process.desc}}</p>
+                        <p>{{sibs.process.contents|safe}}</p>
+                      </div>
+                    </div>
+                  </div>
+
+                        <div class="container">
+                          <div class="columns">
+                            <div class="col-12">
+                                    <h1>{{sibs.how.title}}</h1>
+                              <p>{{sibs.how.desc}}</p>
+                              <p>{{sibs.how["contents"]|safe}}</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                                  <div class="container">
+                                    <div class="columns">
+                                      <div class="col-12">
+                                              <h1>{{sibs.aboutSA.title}}</h1>
+                                        <p>{{sibs.aboutSA.desc}}</p>
+                                        <p>{{sibs.aboutSA["contents"]|safe}}</p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+
+      <div class="container">
+        <div class="columns normalback nopad">
+          <div class="col-6 padright">
+              {% set post = sibs.acknowledgements %}
+              {% include 'includes/card.html' %}
+
+          </div>
+          <div class="col-6">
+
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+      <script type = "text/javascript">
+
+          const onMyFrameLoad = (node) => {
+            var iframeWin = node.contentWindow || node.contentDocument.parentWindow;
+            if (iframeWin.document.body) {
+              node.height = iframeWin.document.body.scrollHeight || iframeWin.document.documentElement.scrollHeight;
+            }
+          }
+      </script>
+
+
+
+</div>
+  {% endblock %}

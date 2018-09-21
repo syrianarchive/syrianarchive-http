@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>d3 and canvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+
+
+	<style type="text/css">
+
+		html, body{
+			margin:0px;
+			padding:0px;
+		}
+
+		body {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		canvas {
+			border:  0px dotted #ccc;
+		}
+
+		#text-explain {
+			display: inline-block;
+			font-size: 0.75em;
+			margin-bottom: 1em;
+		}
+
+		.alert {
+			color: tomato;
+		}
+
+
+/* new (in comparison to code w/o interactivty at:) ---- */
+/* (http://blockbuilder.org/larsvers/d187337850d58a444082841c739985ca) */
+
+		div#tooltip {
+		  position: absolute;
+			display: inline-block;
+			padding: 10px;
+			font-family: 'Open Sans' sans-serif;
+			color: #000;
+		  background-color: #fff;
+			border: 1px solid #999;
+			border-radius: 2px;
+		  pointer-events: none;
+			opacity: 0;
+			z-index: 1;
+		}
+
+/* new ------------------------------------------------ */
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container"></div>
+
+	<div id="tooltip">hello</div>	<!-- new  -->
+
+	<script>
+
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
+
+    const num = getParameterByName('num');
+
+    const color = getParameterByName('color');
+
+		const num2 = getParameterByName('num2');
+
+		const color2 = getParameterByName('color2');
+		const num3 = getParameterByName('num3');
+
+		const color3 = getParameterByName('color3');
+
+		// === Set up canvas === //
+
+		const w = Math.floor(document.body.clientWidth * .9);
+
+		var width = w,
+				height = Math.floor(w / 10) * (Math.floor(num / 1000) + 1);
+
+		var data = [];
+		var value = 5000;
+		var colorScale;
+
+
+		var mainCanvas = d3.select('#container')
+			.append('canvas')
+			.classed('mainCanvas', true)
+			.attr('width', width)
+			.attr('height', height);
+
+// new -----------------------------------------------------
+
+
+		var nodes = []; // map to track the colour of nodes
+
+		// function to create new colours for the picking
+
+		var nextCol = 1;
+
+
+// new -----------------------------------------------------
+
+		// === Load and prepare the data === //
+
+		for (var i = 0; i < num; i++) {
+			data.push({value: color});
+		}
+
+		if(num2) {
+
+					for (var i = 0; i < num2; i++) {
+						data.push({value: color2});
+					}
+
+		}
+
+		if(num3) {
+
+					for (var i = 0; i < num3; i++) {
+						data.push({value: color3});
+					}
+
+		}
+
+
+		// === Bind data to custom elements === //
+
+		var customBase = document.createElement('custom');
+		var custom = d3.select(customBase); // this is our svg replacement
+
+		var u = Math.floor(width / 100);
+		// settings for a grid with 40 cells in a row and 2x5 cells in a group
+		var groupSpacing = u;
+		var cellSpacing = Math.floor(.2 * u);
+		var cellSize = Math.floor(.8 * u);
+
+
+		// === First call === //
+
+		databind(data); // ...then update the databind function
+
+		var t = d3.interval(function(elapsed) {
+			draw(mainCanvas, false); // <--- new insert arguments
+			if (elapsed > 10000) t.stop();
+		}, 1000); // start a timer that runs the draw function for 300 ms (this needs to be higher than the transition in the databind function)
+
+		function databind(data) {
+
+			var join = custom.selectAll('custom.rect')
+				.data(data);
+
+			var enterSel = join.enter()
+				.append('custom')
+				.attr('class', 'rect')
+	      .attr('x', function(d, i) {
+	        var x0 = Math.floor(i / 100) % 10, x1 = Math.floor(i % 10);
+	        return groupSpacing * x0 + (cellSpacing + cellSize) * (x1 + x0 * 10);
+	      })
+	      .attr('y', function(d, i) {
+	        var y0 = Math.floor(i / 1000), y1 = Math.floor(i % 100 / 10);
+	        return groupSpacing * y0 + (cellSpacing + cellSize) * (y1 + y0 * 10);
+	      })
+				.attr('width', 0)
+				.attr('height', 0);
+
+			var exitSel = join.exit()
+				.transition()
+				.attr('width', 0)
+				.attr('height', 0)
+				.remove();
+
+			return join
+				.merge(enterSel)
+				.transition()
+				.attr('width', cellSize)
+				.attr('height', cellSize)
+				.attr('fillStyle', function(d) {
+					return d.value;
+				})
+
+		} // databind()
+
+
+		// === Draw canvas === //
+
+		function draw(canvas) { // <---- new arguments
+
+			// build context
+			var context = canvas.node().getContext('2d');
+
+
+			// clear canvas
+			context.clearRect(0, 0, width, height);
+
+
+			// draw each individual custom element with their properties
+
+			var elements = custom.selectAll('custom.rect') // this is the same as the join variable, but used here to draw
+
+			elements.each(function(d,i) { // for each virtual/custom element...
+
+				var node = d3.select(this);
+
+				nodes.push(_.merge(d, {
+					x: node.attr('x'),
+					y: node.attr('y'),
+					w: node.attr('width'),
+					h: node.attr('height')
+				}));
+
+				context.fillStyle = d.value;
+				context.fillRect(node.attr('x'), node.attr('y'), node.attr('width'), node.attr('height'))
+
+			});
+
+		} // draw()
+
+
+    //
+    //
+    //
+		// d3.select('.mainCanvas').on('mousemove', function() {
+    //
+		// 	// get mousePositions from the main canvas
+		// 	var mouseX = d3.event.layerX || d3.event.offsetX;
+		// 	var mouseY = d3.event.layerY || d3.event.offsetY;
+    //
+		// 	// get the data from our map !
+		// 	var nodeData = _.find(n => {
+		// 		if ((mouseX < parseInt(n.x) + parseInt(n.w)) && (mouseX > parseInt(n.x)) && (mouseY < parseInt(n.y) + parseInt(n.h)) && (mouseY > parseInt(n.y))) {
+		// 			return true;
+		// 		}
+		// 		return false;
+		// 	})(nodes)
+    //
+    //
+    //
+		// 	if (nodeData) {
+    //
+		// 		// Show the tooltip only when there is nodeData found by the mouse
+    //
+		// 		const message = `
+		// 			Video ${nodeData.id} <br />
+		// 			 ${nodeData.removed === true ? 'Removed from YouTube <br />': ''}
+		// 			 ${nodeData.removed === null ? 'Status unknown <br />': ''}
+		// 			 ${nodeData.removed === false ? 'Online': ''}
+		// 		`;
+    //
+		// 		d3.select('#tooltip')
+		// 			.style('opacity', 0.8)
+		// 			.style('top', d3.event.pageY + 5 + 'px')
+		// 			.style('left', d3.event.pageX + 5 + 'px')
+		// 			.html(message);
+    //
+		// 	} else {
+    //
+		// 		// Hide the tooltip when there our mouse doesn't find nodeData
+    //
+		// 		d3.select('#tooltip')
+		// 			.style('opacity', 0);
+    //
+		// 	}
+    //
+    //
+    //
+    //
+		// }); // canvas listener/handler
+    //
+
+// new -----------------------------------------------------
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

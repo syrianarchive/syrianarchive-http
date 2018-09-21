@@ -1,0 +1,9 @@
+{% extends 'contentwithsiblings.html' %}
+
+{% block extraheadjs %}
+{% endblock %}
+
+{% block titlecontainer %}
+{{ super() }}
+{% include 'collections/includes/chemicalheader.html' %}
+{% endblock %}

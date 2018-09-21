@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>d3 and canvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+
+
+	<style type="text/css">
+
+		html, body{
+			margin:0px;
+			padding:0px;
+		}
+
+		body {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		canvas {
+			border:  0px dotted #ccc;
+		}
+
+		#text-explain {
+			display: inline-block;
+			font-size: 0.75em;
+			margin-bottom: 1em;
+		}
+
+		.alert {
+			color: tomato;
+		}
+
+
+/* new (in comparison to code w/o interactivty at:) ---- */
+/* (http://blockbuilder.org/larsvers/d187337850d58a444082841c739985ca) */
+
+		div#tooltip {
+		  position: absolute;
+			display: inline-block;
+			padding: 10px;
+			font-family: 'Open Sans' sans-serif;
+			color: #000;
+		  background-color: #fff;
+			border: 1px solid #999;
+			border-radius: 2px;
+		  pointer-events: none;
+			opacity: 0;
+			z-index: 1;
+		}
+
+/* new ------------------------------------------------ */
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container"></div>
+
+	<div id="tooltip">hello</div>	<!-- new  -->
+
+	<script>
+
+
+    const ids = ["CW_1056","CW_1057","CW_1067","nfp-CdtdX0o","CW_1094","CW_1095","CW_1097","CW_1101","CW_1102","CW_1103","CW_1104","CW_1105","CW_1107","tm8segf3THY","CW_1110","CW_1111","CW_1113","CW_1114","CW_1115","CW_1182","CW_1184","CW_1186","CW_1193","CW_1194","CW_1196","CW_1197","CW_1198","CW_1199","CW_1209","CW_1217","CW_1218","CW_1283","CW_1284","CW_1285","CW_1287","CW_1288","CW_1289","CW_1290","CW_1291","CW_1292","CW_1293","CW_1294","CW_1295","CW_1321","CW_1322","rxRrih_nZcA","zNwbIqoi500","x8Nk1Wcq1qg","Y6IfWwr4ZOU","PDZbQP9vg3k","KksQb6kER7k","xmfLFxm6hrg","yp_Ju6742Z0","yzGcHdR2AVs","2rEGKm_h_Ao","JpGJnDtGQFk","ja_Osq_RTqU","8FDqnnbA8_g","nPD6I0X1At8","452547924893275","DJ8KxgXFZNU","k4tJYlu2E7I","EJ-h7uSuIr0","4b7byi5ZhbQ","v2Jf2ERDKwE","YGdOKGCpF5s","Ddpt3l_5TKU","4hH3_Rzfl1c","kGzwEZefCKE","PiDntC_E0SY","AlUgkDaYY9A","WF_Ru1F9mvs","IzyJOsD6nss","1l2HKxACHm8","azakmmwuGYU","FW_UjPUVI-I","PWTVRZMFoNQ","GBWQEZvJJI4","LZ3uJNMva5k","YuvBAWFY0FE","5tidhhzZMDw","MdI0lP6bwLI","s9PTmTXshzU","W-T4x9kGx14","QOBX45HdkyQ","tV4D87QREwg","U3WJneUCXZw","NnsNq4DC7II","_Er7GGQ6l1g","HRC9n4XBPmM","ZepXGT7om6c","Sdt9bzJETY0","RVD3yF7qkzE","Rly5IM-zBrM","zISD5qZz3nI","CW_1311","VcEvs1FRyvk","iT-r4bvRybA","DkaXKjty9DQ","mrIi5CDOFus","-0jpbgJlwiM","c3aBtgvMjZ8","_MXO-XPU_jE","tk50XXgnguM","DZehBgP9a60","BeXXbA1BKCE","DSEJC7oCnGo","ogmOcuZK9FM","jadSXNii-JU","kNF8aHxsOHo","CW_1096","CW_1225","2_-TCyUxwhQ","JTJUkNK8xI8","Eb9bxcCnN8I","hfN8cHOHACY","wISKzpsGqI8","q4KggDHXDfU","P2oECEixpHs","bxNi8vH0WDI","zcXDJcg7WzA","laX-F1QYqx8","BGzidAGSDOU","T2Afq_HnfAA","Fl0RyY1l3zU","frmmOk1xATM","hfKXHoSIvJQ","skdFI-BsZ1A","dwRr9e633hc","R2suT3QVhMg","hYn6uceG1Us","xeX-mKQjP0w","PGW9L2uK4DY","zaJBBOnucXA","e5Ss14Q0MwY","gxsCwe43nPg","k-yHGZ-WGOk","aGCf8Lui8Js","vxj8ygq6nFA","6faLNwdqhhs","aUh5MGxoOXE","1m7yNI7yT5Y","5wb_o4JVnU4","kuYSYOtbqlI","ffiEawI4VJA","wNrzAY1DFFw","XAf-RiKa4qM","s18RkNCBXqc","lRg0BtMXJJw","6SY9E1gNKlM","CW_1323","WVnYJyM3918","5cvCMFZW4iA","tayK50Ggs9w","jVS6r3R9KkM","BJDpNCnsSjI","LxfJZ921FNI","2YSSTQr80ys","PM05jCrCYDI","Hb4-08lks5E","PV0LCYKPjkU","Y8kXI3b3_9E","dsYdFO7UHk0","e85s0DXYGVs","x5DZzVEBuEo","MRk0TRM1Lg8","gPa_6CoYD_o","W8eZkU6jnTE","PVpoTbOptgQ","vFj-gtbPBqo","IsCXUceEKr0","X4bHtsfnxdY","lRZaD-pgpeE","qDEvm-JuH1I","Fu9NM6B8YgQ","cIK74zO_tM0","t2ASL0hn_Ko","ako6e3ajq9E","wz-Ixii2cA8","dTxZPT-1Dtw","l8PLFBXuVps","6I7v_ku9SvM","oZoAwJUyqTY","FAhzdWWKbHA","tL9P6fJ-mE0","Ca2OFdy0mwI","99-I75jlkZQ","7veMe7JEW_s","WCTCEzqh1Mc","ngKXBhQjiB4","uhseyvHCwP0","G0wdpetT3Dg","Ie3axnQweJk","oeGLv0RVjH4","NatLcXB5a38","kVapD-sctNM","lQvSG1HovUg","iV7q4NtIeSg","jkG0m7RXLQk","fx4Iy4D1d40","shziet0xBVM","PRA7c7O2KAQ","lxsozAjs-pI","CW_1324","dnK1YN8F-t4","tSrfJJSHPnI","mi9h6u7Z7fo","blqik-GJzcM","dR2WNY479mU","qlQENb3yrjA","fXvNDDzqfVQ","huhn-4Zbe1c","QRxLd9r2t8w","RpA07JqCrMY","YIlCdT7UNAk","5uCQzYKDy9o","vgM-BFMM1Gk","Mdt-QyUyQ2s","FQ3PWzDnPTs","bwFA8iPHy_Q","km0hDl-1Y2w","yxfAqfvj_Qo","2DCpxpgvKjE","ImCUPr9VIOQ","D0VCQMCvc28","CW_1345","Da_UizjNUz4","a4H0Hbw2S8M","fhJ6L80WRTs","r_C0eZSGMXY","8Vocsknjnco","ctV802BptNg","HxSVEK3Wtp8","X4xX76SNYos","OWvGdN6ywLs","kxwO9EG2vS8","Nzoahga4eLI","PeNCHUsZJpI","7Wv87lgdusU","Qeosawyrgyo","zZf_ihTO_gE","oBpE7bYBhd8","_07dbU4XqcY","oRbN_Uo5USw","pq_Ne3CnkKA","0rpQHCS954g","FO1UDNESjP0","gYHpEmSlBKE","J9bqZFzOucI","HhEh3YdJdAo","2ulRr9RolyA","IAXHMJLxZ_I","keXF8Igu_Eg","XKb4cLHFqDw","dF3OOqNDxEc","ifJ8jfZdQoo","2tQnQvYjNYQ","-p1NgK_0xtQ","hudRkY46HdU","7fkluR69wUg","ob92a9g_hpo","TXTlHuCycPc","A1R31s6_mhI","IU3IX8b7688","nvtzQV_GE7w","oQqWnfNg4Fs","LL23rgqyMmM","dlzv97UBCto","-COpUeEvkVc","u2d5FVsoPBA","VbA5OJK-8Is","WFfKDgfxbiA","laOprLUMO0g","F1TpV7IQcOk","oFLF-QX-_EM","Oyr_usyVkmM","RmSlAoli_gc","CDwTxq-J9SQ","En2sUi8bX-w","d9mocYGtc84","-THvtFT9zOk","hPQaPqtm1XA","l7q8rlId3gU","csSVuCS5viE","zEutXW563Hk","gnW9_kgHynw","L4aODkdigKY","hSNM8iYNxck","JX1p3DJM6pM","8hbB9CQHexU","1NBowrrese8","_9tzaQenbgQ","7tzZBxz1oWg","grpOrOVuc4c","13FguBUuRkM","26EQYs8EdGM","y7eP5hOuvTA","GUGrW-SjjbU","T-IkS3HIm6U","de278-eftBA","Z5Vby7TdnL8","J_cxvCeVcu8","OzpLeXcfNJk","VGOAmM1rN8s","eWhuHM2KifM","cO8_eZcZkNE","WfrRsOzXwaw","1dCRW9bfa7o","ZkGa2jr9MBA","njUUPpVmHYk","j6QLw8ySAU8","yDigYxTQx68","gzW5tKCXrqg","30meTj6z_hM","psd73C9pCv0","eTXtjVOAnIA","g1Ty1cseWpQ","Xkzq9sJFruQ","AveU6A40Ol0","JqVeCVovF58","5iSZIbBnksc","evHgj4dnF9k","Mc5kqpYyT2c","sQrl1MQ1anI","0fRTMheTT8A","dcHWSKMD96w","DFS_8GFttKk","Nz6lIxSGPdY","a0TgtDLK5PE","qy6mEhq_E_4","6OHdeGfk2OE","VKokjNNUdjc","HNi1S9Cb-XI","KTSVC-FrQzw","vyS602saPiY","daDtPb8epGU","YLcqi_dE9SU","Tpk4MPpWYPk","EeFixwlBdx4","NJUhg9iqHpU","47fYGExsKaM","PXD177BZj18","dsI4tWQbjps","WHXIAMoCEuk","NeGVj872QqQ","qBKuVxggSJ8","QgDcuu3CRZw","tGynQ_p3I-U","A1oGPD4Y3o8","Ude2OMpyX6g","LBPnB2zs8jw","UZx5m5iZo3c","_hWPExJLyog","zng2hXoCaUQ","C8F-t0uCkvw","BA7VGH_j2GQ","jU26RJ1IXYo","mK1Nu8A1jEo","GnDBMWASV3M","Lrgx2sG0kTI","DlYSmoa6BUs","xfTKTlf4-Dg","PXwS4_E3OQE","m94BO9kzx_Y","L6B8wq1VXN0","iMATMUbDk0A","Pc6xL-N6f5M","0rw31LO_2o8","goClj6UW4Qg","h2uBpDxAoJA","HaTqn0dvEMo","6Kr8hL2lgw8","9ckY4GrBGNs","oiNO7Ra52Ak","C9ut2Mvrn84","xnmD7Ia2VKE","awC2Ytiq0lA","5FplcqDZKXQ","xeY71fQk8Kc","0wkimUH9qJg","p7kmtd9EKTE","uQ-Glp7mtDI","QCy6Fp0uAwo","60hu_y7cSlE","P0V1RyT5zfg","XABg4zY8FO0","YDR1vW5IiRE","5jYFcVfKhQU","MnaxiOu6d_o","I6iQV_j_MSU","4HaQkSIWXW0","lBkM1CGOlso","RhcbiJGU-Zk","426y-WPo2jk","eql1X4Xs8jQ","SBRyGdGPEt0","t_CkaAHD-UM","2xjQah8dP0o","FAIvWw-Mt7k","jfOkhxajs5k","RYnzMNWA6OE","gnZYrQiYXYw","E36Urpbl9pw","6FhcQKV2NXU","nAa0uIoCo0w","l0mA8iS2ItQ","GBd7aclRLMg","JX1oy7R9MUs","pZA4Tknw1Zk","eF4GF1ysNm8","lb2RkVVK_Aw","tB2d_ujkkqQ","kOKKHVMWHmw","kDxW_CJrx2k","P4AJZWPfUBA","Z7XjiyvGW8s","-JTJqzZu0rA","zNwbIqoi500","u8xLeDUwx2g","fE_sn3IJ6cU","89nDfRv8xy4","TJjz-u29kFI","jBq0HJs_ggw","nRDkuRGNFiE","YVTZSLUtLOQ","Qa0fWpKmFuY","t8H_iuI56zY","zUnehzxsUGs","9UU_uONafGE","K7_Hih7L_3k","RIcOHAzbdO0","GClAquN8dzg","S8tyhONC6Dw","X-OlQsJ0RSw","FiOSTx4P4pM","aBFLhDlscvM","_GdKQqRa2qc","_uGeEkyYoQw","faxCgsiPHmc","c-9pOLUVDW4","eD8or81BCaA","Oehi1_yYivE","AqCDSq_BXKo","0vSLFE4W0nw","0SSl40wOQ-U","dPZwlhsglIs","HejQs5XEPYU","CCqGGxkNZBU","fSvm8mDZyOY","6O-G9HQru_o","ZYopg-9C_6E","RihQAfheWtE","X3pnDnuQ5Io","mgxxlcaZjqk","UZuxvhVIUT8","-b8i0SCPr2A","33iIKpUxKLE","AtO3SOcVJ6Y","6VN0SEVjoRU","FUWOOSafEBQ","JNKUhtbU88Q","34ayUjjpIsA","SHhTn6XXwS4","3uXvicrmF00","ar9SwSit3Og","enNm1gsXfHI","bzuFaQVa3G0","fJvyC2htvZ8","oZn0_-TLc0U","c89ZKh3GVZg","k8gIvedK5k0","UXvQrLfb2to","2StIjf4OAd8","-V8XjdfIzfg","RfAmwTXQNzo","y3UUhYHQ9IM","WIAlfjqdRXk","ds6kAvoWMmk","WtNcG79SV6w","A3suhYoXQjA","rFpICih_naw","0IHmlAFhw2o","XdxduPj9XeE","_jfTpsyTFig","pFzGJ0pKjbw","qvWF79AdRxE","7VBDsqpZMrs","psDedf0hkh0","f1GsjmnZcGI","sODZWf4dl9M","QxKI4u3mirQ","QUh8_PFYM1Y","RUJ0ofdQwc8","oxbDtFZfY4A","KrBnM4QvsLo","HmXud-ugA5k","1dyD-F-uf0g","oHkWU60AXj4","E_t8QoTPrFE","-bBc2H4ftjo","HEnqQ59A0yY","s3cpnzq_qGM","G2pr4x2ZWPk","nutcQCSf9eQ","ojAiE6xXiiU","yrYPZ19ZAYg","b3SotTtD9eI","jisrBpekbVQ","U048X_yVxVA","i9x_6tCqQL4","2GXzFYvMqO8","DeZYVbFQ4_0","Er3oGqtDXGY","qH8xFH_BHQQ","Dm0c6Ke919s","pMXi7M5FoMQ","hsROM2CY2Wc","DIkc9uykuoc","Qc990oy5Yzc","pQAewAts0kc","Zr5HQTfKsvY","Ks9YB99H-Do","L7V6uNjhTnk","YtdQxbEu2bs","qniDsrUCCJg","DX67-tEg1oY","0Q-UVxTymBA","d664UoNOjEY","zpokffgpCpE","c6BGAl561No","cJc-iytI7LE","1dErjYKtUWE","BnOhq2BPG4I","qYTQ7OIjGJs","OWlPHqzNFAw","JI32KMu9Yno","YhE9NeNk8cc","rvJCSJOwZhI","UJcCaiV35wY","HUrOKtQCSGc","2IvHxOmHHhM","p4XHYlUrErU","T2L3t8Q4hmo","EQi18kyXpT0","NpiqnS8OuIs","lkWdhXtP3kw","ybSqzn93vIg","SCoN-FcrAqM","dPWfQ6wEa5U","pDr4lXnMvJI","jrk1siUUrdE","sNkPHUySCvI","HeKHCsAQ9eM","LvY7sQZSznI","wzXP9e13XOk","_nNdkpA6YBo","09H_KyNrhf8","5lcjoWTsLxs","4_O_d2yCTCM","qRTPJjGvOAE","LSVFE0Xzdog","C512gk-d-4s","KWP1OPM8HtI","IXrgqUnlvhQ","3HXZjvHxdJE","Ce1dx5ssEL0","7fHgTREi5j4","KNXWo4jlnAw","GJmz9wP3HWk","jxWrao9rzY8","KqM1yCOA8DA","16qFgAfM5jg","IznlJfozlZA","BcwyeYEZQHY","iesXS-3_4Lw","6rTWQkAkt_k","GACKH7lVn-Y","so_8Je1F3Bg","XPegoJxVDms","UrJ1fdB4eog","8AbHN7h3Ceg","ow1G0SrnX8U","UbLs2R04mcc","rSWjLVE4X3w","Lvx7AR77Y6c","f0a2QjzFne0","lgePFthPs00","csR1FINnNZg","AuODK31BSfg","bz9B-uKbXb0","oXNeprYlpIc","9tJdjNTXzQ4","9KemrS6Z6yk","MWQBgh5eH7k","TRaK0GJN0NQ","xIfQ_X2pfZg","_tdUopLdweI","82p0lvHFMsc","AZRUkncVkus","gvXs41rvFLc","y6CZtF6pGvQ","Dfu-P1j541A","LeVcA5fbpKE","KZfdR9tN19Q","oCWpTjfShqg","nFCUm6rldxE","aepxboM55Wo","48iuQHLymds","ax5zifrU_Xw","ImKgM3fa6Dg","opzx0koRDaA","9BBjCWcOhl0","u4nADXs6mNQ","_cBnezHHrBQ","0SmJAO0DMyg","I9fWxtN6DQ8","3_0_HYb-HZ0","Y0NBSC0Mpb0","p-GhbtRn450","MI3Bit69h6w","G3ONzXjHr9Y","qnp00TocRSY","JIlBRb2aFzo","dM9eqdCEwBY","CW_1122","gbtg8WrbRvI","Ep6BTAN_M4k","A2GNP5n4gzY","vbDvRlMPuZQ","EeFixwlBdx4","nfp-CdtdX0o","Dm0c6Ke919s","Tpk4MPpWYPk","Molztr3I_FM","vI4HEuBl0YU","L37x5zJjtLk","0_1fkKEEJ5E","0bJw84eXALs","1HY3ySGtrgM","9MCiIMFG1uU","Z_qh3ZRuCr0","l1Z23RPra5I","49VaVfe_0pE","gGrUcxZ3YeM","_dVgO6LPKpk","C6jlUHMk1_4","6Ua3Mhwgrno","65-iR_fEb-0","oUEqMIFnIoc","6qzOyrR66kE","iUMDOKP4yQY","rMNvmICoUmk","k7TwicGkTdo","X1vkxJNMdEI","AGdRzibZrss","b_Aq30rIl1g","iNhV17ILsIo","PbckiaHbpks","KQSJ9vLL-B0","hXM_9WChsjI","rdMMi7VLLD0","IyFAl2gjZJQ","IdED26CH2SM","rawKjREXfcU","rh3Z3jkQATo","sEPLW6Ur-Wo","rzN51rG9aHk","LTKbw9W8EAc","k61hVGRHjZA","NOmKpQkUGN0","MVUGow5atNg","I_Y3eswpnAY","YcShaNT_arY","Qcvui5uUKe4","b2X6VUwe6_8","PqAz5s_IoeY","bx9ebxU38YA","cqlS_zgLRl0","-IDI7tNgiVE","Ahl-eHebnyk","Jt3wWrL1pnU","yJJUMofu4Vo","HYY5I6Z3aOM","Zgr9kwqD9VE","6hlnurmAJHY","wNLlx4zmvXU","LA1LcjaNvFo","BiP4ypX_6T8","GUXhaabVggc","mSzrPZ4Obw0","mWk8ObYs6do","7JdVpmExt_E","EnZxoLkb474","D_4rGKGuTc4","jzqK66x-b0I","XiqKBJXYqBY","yIBF8E85YA4","a4eEn6AvdlY","oMKUOfz5mAM","Y1vMd8mG9gE","TbmL3Rtsy14","VjAZFUhCefg","63zQWQ-OWxY","--BEZRo5XFI","EFY3qw3YBNE","-TSj3Ea1kDk","ILbEGH8itAg","dNjAxHMC6sA","3qeICYyCILo","cxm-quhCLvI","sR-X5m_4UYU","J24gD9JusMs","hQfT_UIYYB4","4bHvZBVuTSI","WHnW0hP3jdg","ag_MtVmDBU0","Kbs0bNNVEnw","L62fDntiGj8","AMsPVhynyuk","sZuYpsZZTlc","qvIJfktU71c","vBJg67hNK3c","IX9N1bmaQbI","7qQuXmm4pjA","hilJHIvytVo","Y_EKUKBMgAM","N17puCFoI8A","V1NksAJHhDU","jOEqrPvhMLU","e8DmWnt_nOY","1ebkWL6RMCQ","8vIMxgQ0RI8","-fhEsDTja6M","jc4DGGySRCc","RjKOuylgP5Q","96z1ePXyzqM","pbvtCCCI6S4","hNOaU5PMJrk","agbXS1KPkWA","x2snJA2WM0s","bbLFN5XSHnA","JBX-iposfDQ","rjI6Xjygi6k","bdEGmho1I-0","9IImIO0VBZ4","rr5sZQb0U08","QrcDWQ2vS8c","_cEwURYkvGE","MaKUdKp4eUY","c6YaqGYFGkM","pPkJOb2VgJQ","z1XIVAHsTew","nu-rpMa5l0M","iM1fnBgSfAc","EMyr9ZXpxTg","F0Ndy0Cimus","g0lb_jiVBOw","sPkJXt81gK8","3QhghFuK8lE","hwn4-Ak4dSY","14qbCsay9wk","c2gwKxS8SEs","-eDHqQIZsDM","EI5LnArDo0s","uTGZzrX_uCU","u9qU0_pwotM","ysxeLrFLJtA","CBYAPxOnhrk","L7ffYQ4vhqs","a-mZtsHjyBI","Cohvs9e93qc","3jX9r2nGZ2Q","8Kcdz0imI0w","GpoTeb_tgwg","XE6WnxXh2PQ","5-7U3FP8sGE","3DqzR-47Ou0","KSSoJkOuY3Q","66JEoYl7pTc","7_xi2sKWC60","UPrFiQBnpuU","mstdSsWaliY","hkiYKX0yDR4","pii57I-lnG8","O_T-7Hv-LNw","5jTNgaAMvow","21K2g_LkSts","17SbpDo4jvc","bg2qHNKEam4","UnXnvesjHtY","OqFgqrSgUhA","AqBJH6rLD4I","-Qd4WLR1mEw","MmNBLUtP3hw","SMVkFIlY5II","LgYKIJt-z2s","J6c6A1Qnbbw"]
+
+    const removed = ["CW_1056","CW_1057","CW_1067","nfp-CdtdX0o","CW_1094","CW_1095","CW_1097","CW_1101","CW_1102","CW_1103","CW_1104","CW_1105","CW_1107","CW_1110","CW_1111","CW_1113","CW_1114","CW_1115","CW_1182","CW_1184","CW_1186","CW_1193","CW_1194","CW_1196","CW_1197","CW_1198","CW_1199","CW_1209","CW_1217","CW_1218","CW_1283","CW_1284","CW_1285","CW_1287","CW_1288","CW_1289","CW_1290","CW_1291","CW_1292","CW_1293","CW_1294","CW_1295","CW_1321","CW_1322","PDZbQP9vg3k","xmfLFxm6hrg","yzGcHdR2AVs","2rEGKm_h_Ao","JpGJnDtGQFk","ja_Osq_RTqU","8FDqnnbA8_g","452547924893275","DJ8KxgXFZNU","4b7byi5ZhbQ","YGdOKGCpF5s","4hH3_Rzfl1c","kGzwEZefCKE","CW_1311","iT-r4bvRybA","kNF8aHxsOHo","CW_1096","CW_1225","wNrzAY1DFFw","XAf-RiKa4qM","s18RkNCBXqc","CW_1323","WVnYJyM3918","5cvCMFZW4iA","tayK50Ggs9w","jVS6r3R9KkM","BJDpNCnsSjI","LxfJZ921FNI","2YSSTQr80ys","PM05jCrCYDI","Hb4-08lks5E","PV0LCYKPjkU","Y8kXI3b3_9E","lxsozAjs-pI","CW_1324","CW_1345","Da_UizjNUz4","a4H0Hbw2S8M","fhJ6L80WRTs","r_C0eZSGMXY","8Vocsknjnco","ctV802BptNg","HxSVEK3Wtp8","Nzoahga4eLI","PeNCHUsZJpI","7Wv87lgdusU","Qeosawyrgyo","zZf_ihTO_gE","oBpE7bYBhd8","VGOAmM1rN8s","BA7VGH_j2GQ","c-9pOLUVDW4","eD8or81BCaA","Oehi1_yYivE","GJmz9wP3HWk","jxWrao9rzY8","KqM1yCOA8DA","0SmJAO0DMyg","G3ONzXjHr9Y","qnp00TocRSY","JIlBRb2aFzo","dM9eqdCEwBY","CW_1122","Ep6BTAN_M4k","rdMMi7VLLD0","IyFAl2gjZJQ","rawKjREXfcU","YcShaNT_arY","7JdVpmExt_E","TbmL3Rtsy14","jOEqrPvhMLU","8vIMxgQ0RI8","u9qU0_pwotM","XE6WnxXh2PQ","7_xi2sKWC60","hkiYKX0yDR4","O_T-7Hv-LNw","OqFgqrSgUhA"]
+
+
+
+		// === Set up canvas === //
+		console.log(document.body.clientWidth);
+		console.log(document.body.clientHeight);
+
+		var width = document.body.clientWidth,
+				height = Math.floor(document.body.clientWidth / 8);
+
+		var data = [];
+		var value = 5000;
+		var colorScale;
+
+
+		var mainCanvas = d3.select('#container')
+			.append('canvas')
+			.classed('mainCanvas', true)
+			.attr('width', width)
+			.attr('height', height);
+
+// new -----------------------------------------------------
+
+
+		var nodes = []; // map to track the colour of nodes
+
+		// function to create new colours for the picking
+
+		var nextCol = 1;
+
+
+// new -----------------------------------------------------
+
+		// === Load and prepare the data === //
+
+		_.each(i => data.push({
+			value: removed.includes(i)
+				? i.includes('CW_')
+					? '#999'
+					: 'orange'
+				: 'teal',
+			removed: removed.includes(i)
+				? i.includes('CW_')
+					? null
+					: true
+				: false,
+			id: i
+		}), ids);
+
+
+		// === Bind data to custom elements === //
+
+		var customBase = document.createElement('custom');
+		var custom = d3.select(customBase); // this is our svg replacement
+
+		var u = Math.floor(width / 88);
+		// settings for a grid with 40 cells in a row and 2x5 cells in a group
+		var groupSpacing = u;
+		var cellSpacing = Math.floor(.2 * u);
+		var cellSize = Math.floor(.8 * u);
+
+
+		// === First call === //
+
+		databind(data); // ...then update the databind function
+
+		var t = d3.interval(function(elapsed) {
+			draw(mainCanvas, false); // <--- new insert arguments
+			if (elapsed > 10000) t.stop();
+		}, 1000); // start a timer that runs the draw function for 300 ms (this needs to be higher than the transition in the databind function)
+
+		// === Bind and draw functions === //
+
+		function databind(data) {
+
+			var join = custom.selectAll('custom.rect')
+				.data(data);
+
+			var enterSel = join.enter()
+				.append('custom')
+				.attr('class', 'rect')
+	      .attr('x', function(d, i) {
+	        var x0 = Math.floor(i / 100) % 10, x1 = Math.floor(i % 10);
+	        return groupSpacing * x0 + (cellSpacing + cellSize) * (x1 + x0 * 10);
+	      })
+	      .attr('y', function(d, i) {
+	        var y0 = Math.floor(i / 1000), y1 = Math.floor(i % 100 / 10);
+	        return groupSpacing * y0 + (cellSpacing + cellSize) * (y1 + y0 * 10);
+	      })
+				.attr('width', 0)
+				.attr('height', 0);
+
+			join
+				.merge(enterSel)
+				.transition()
+				.attr('width', cellSize)
+				.attr('height', cellSize)
+				.attr('fillStyle', function(d) {
+					return d.value;
+				})
+
+
+
+
+			var exitSel = join.exit()
+				.transition()
+				.attr('width', 0)
+				.attr('height', 0)
+				.remove();
+
+		} // databind()
+
+
+		// === Draw canvas === //
+
+		function draw(canvas) { // <---- new arguments
+
+			// build context
+			var context = canvas.node().getContext('2d');
+
+
+			// clear canvas
+			context.clearRect(0, 0, width, height);
+
+
+			// draw each individual custom element with their properties
+
+			var elements = custom.selectAll('custom.rect') // this is the same as the join variable, but used here to draw
+
+			elements.each(function(d,i) { // for each virtual/custom element...
+
+				var node = d3.select(this);
+
+				nodes.push(_.merge(d, {
+					x: node.attr('x'),
+					y: node.attr('y'),
+					w: node.attr('width'),
+					h: node.attr('height')
+				}));
+
+				context.fillStyle = d.value;
+				context.fillRect(node.attr('x'), node.attr('y'), node.attr('width'), node.attr('height'))
+
+			});
+
+		} // draw()
+
+
+
+
+
+		d3.select('.mainCanvas').on('mousemove', function() {
+
+			// get mousePositions from the main canvas
+			var mouseX = d3.event.layerX || d3.event.offsetX;
+			var mouseY = d3.event.layerY || d3.event.offsetY;
+
+			// get the data from our map !
+			var nodeData = _.find(n => {
+				if ((mouseX < parseInt(n.x) + parseInt(n.w)) && (mouseX > parseInt(n.x)) && (mouseY < parseInt(n.y) + parseInt(n.h)) && (mouseY > parseInt(n.y))) {
+					return true;
+				}
+				return false;
+			})(nodes)
+
+
+
+			if (nodeData) {
+
+				// Show the tooltip only when there is nodeData found by the mouse
+
+				const message = `
+					Video ${nodeData.id} <br />
+					 ${nodeData.removed === true ? 'Removed from YouTube <br />': ''}
+					 ${nodeData.removed === null ? 'Status unknown <br />': ''}
+					 ${nodeData.removed === false ? 'Online': ''}
+				`;
+
+				d3.select('#tooltip')
+					.style('opacity', 0.8)
+					.style('top', d3.event.pageY + 5 + 'px')
+					.style('left', d3.event.pageX + 5 + 'px')
+					.html(message);
+
+			} else {
+
+				// Hide the tooltip when there our mouse doesn't find nodeData
+
+				d3.select('#tooltip')
+					.style('opacity', 0);
+
+			}
+
+
+
+
+		}); // canvas listener/handler
+
+
+// new -----------------------------------------------------
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

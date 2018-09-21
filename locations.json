@@ -1,0 +1,7554 @@
+[
+  {
+    "name": "ALEPPO : ALEPPO",
+    "name_ar": "حلب : حلب",
+    "id": 1,
+    "region": "ALEPPO",
+    "lat": 36.197971,
+    "lon": 37.1656697
+  },
+  {
+    "name": "ALEPPO : Abi Fares al-Hamdani roundabout",
+    "name_ar": "حلب : دوار ابو فراس الحمداني",
+    "id": 2,
+    "region": "ALEPPO",
+    "lat": 36.18861111,
+    "lon": 37.10222222
+  },
+  {
+    "name": "ALEPPO : Akramiyah",
+    "name_ar": "حلب : الأكرمية",
+    "id": 3,
+    "region": "ALEPPO",
+    "lat": 36.19083333,
+    "lon": 37.11611111
+  },
+  {
+    "name": "ALEPPO : Ameriyah",
+    "name_ar": "حلب : العامرية",
+    "id": 4,
+    "region": "ALEPPO",
+    "lat": 36.17027778,
+    "lon": 37.12611111
+  },
+  {
+    "name": "ALEPPO : Ansari",
+    "name_ar": "حلب : الأنصاري",
+    "id": 5,
+    "region": "ALEPPO",
+    "lat": 36.19583333,
+    "lon": 37.13055556
+  },
+  {
+    "name": "ALEPPO : Aqabeh",
+    "name_ar": "حلب : العقبة",
+    "id": 6,
+    "region": "ALEPPO",
+    "lat": 36.20194444,
+    "lon": 37.15277778
+  },
+  {
+    "name": "ALEPPO : Aqioul",
+    "name_ar": "حلب : أقيول",
+    "id": 7,
+    "region": "ALEPPO",
+    "lat": 36.20888889,
+    "lon": 37.16583333
+  },
+  {
+    "name": "ALEPPO : Arqoub",
+    "name_ar": "حلب : العرقوب",
+    "id": 8,
+    "region": "ALEPPO",
+    "lat": 36.21388889,
+    "lon": 37.17527778
+  },
+  {
+    "name": "ALEPPO : Ashrafiyeh",
+    "name_ar": "حلب : الاشرفيه",
+    "id": 9,
+    "region": "ALEPPO",
+    "lat": 36.22888889,
+    "lon": 37.14722222
+  },
+  {
+    "name": "ALEPPO : Asilah",
+    "name_ar": "حلب : أصيلة",
+    "id": 10,
+    "region": "ALEPPO",
+    "lat": 36.1925,
+    "lon": 37.16416667
+  },
+  {
+    "name": "ALEPPO : Azamiyeh",
+    "name_ar": "حلب : حي الأعظمية",
+    "id": 11,
+    "region": "ALEPPO",
+    "lat": 36.19138889,
+    "lon": 37.11861111
+  },
+  {
+    "name": "ALEPPO : Bab al-Hadid",
+    "name_ar": "حلب : باب الحديد",
+    "id": 12,
+    "region": "ALEPPO",
+    "lat": 36.20333333,
+    "lon": 37.16694444
+  },
+  {
+    "name": "ALEPPO : Bab Jnein",
+    "name_ar": "حلب : باب جنين",
+    "id": 13,
+    "region": "ALEPPO",
+    "lat": 36.20194444,
+    "lon": 37.15194444
+  },
+  {
+    "name": "ALEPPO : Bab al-Nasr",
+    "name_ar": "حلب : باب النصر",
+    "id": 14,
+    "region": "ALEPPO",
+    "lat": 36.20388889,
+    "lon": 37.16055556
+  },
+  {
+    "name": "ALEPPO : Bab Nayrab",
+    "name_ar": "حلب : باب النيرب",
+    "id": 15,
+    "region": "ALEPPO",
+    "lat": 36.19694444,
+    "lon": 37.16638889
+  },
+  {
+    "name": "ALEPPO : Bab Road",
+    "name_ar": "حلب : طريق الباب",
+    "id": 16,
+    "region": "ALEPPO",
+    "lat": 36.20944444,
+    "lon": 37.19861111
+  },
+  {
+    "name": "ALEPPO : Ba'idin",
+    "name_ar": "حلب : حي بعيدين",
+    "id": 17,
+    "region": "ALEPPO",
+    "lat": 36.235,
+    "lon": 37.18305556
+  },
+  {
+    "name": "ALEPPO : Bani Zeid",
+    "name_ar": "حلب : بني زيد",
+    "id": 18,
+    "region": "ALEPPO",
+    "lat": 36.2375,
+    "lon": 37.13361111
+  },
+  {
+    "name": "ALEPPO : Banqusa",
+    "name_ar": "حلب : بانقوسا",
+    "id": 19,
+    "region": "ALEPPO",
+    "lat": 36.205,
+    "lon": 37.16833333
+  },
+  {
+    "name": "ALEPPO : Balleramoun",
+    "name_ar": "حلب : حيّ الليرمون",
+    "id": 20,
+    "region": "ALEPPO",
+    "lat": 36.2386595,
+    "lon": 37.0926547
+  },
+  {
+    "name": "ALEPPO : Bayadah",
+    "name_ar": "حلب : حي البياضة",
+    "id": 21,
+    "region": "ALEPPO",
+    "lat": 36.20166667,
+    "lon": 37.16527778
+  },
+  {
+    "name": "ALEPPO : Bustan al-Basha",
+    "name_ar": "حلب : بستان باشا",
+    "id": 22,
+    "region": "ALEPPO",
+    "lat": 36.22555556,
+    "lon": 37.16527778
+  },
+  {
+    "name": "ALEPPO : Bustan al-Zahra",
+    "name_ar": "حلب : بستان الزهرة",
+    "id": 23,
+    "region": "ALEPPO",
+    "lat": 36.19888889,
+    "lon": 37.13805556
+  },
+  {
+    "name": "ALEPPO : Feid",
+    "name_ar": "حلب : الفيض",
+    "id": 25,
+    "region": "ALEPPO",
+    "lat": 36.20222222,
+    "lon": 37.13805556
+  },
+  {
+    "name": "ALEPPO : Hamidiyeh",
+    "name_ar": "حلب : حميدية",
+    "id": 26,
+    "region": "ALEPPO",
+    "lat": 36.21194444,
+    "lon": 37.16083333
+  },
+  {
+    "name": "ALEPPO : Thakanet Hananu",
+    "name_ar": "حلب : ثكنة هنانو",
+    "id": 27,
+    "region": "ALEPPO",
+    "lat": 36.2075,
+    "lon": 37.16944444
+  },
+  {
+    "name": "ALEPPO : Haydariyah",
+    "name_ar": "حلب : الحيدريه",
+    "id": 28,
+    "region": "ALEPPO",
+    "lat": 36.23555556,
+    "lon": 37.19222222
+  },
+  {
+    "name": "ALEPPO : Hazzazeh",
+    "name_ar": "حلب : الهزازة",
+    "id": 29,
+    "region": "ALEPPO",
+    "lat": 36.20916667,
+    "lon": 37.15805556
+  },
+  {
+    "name": "ALEPPO : Helwaniyah",
+    "name_ar": "حلب : الحلوانية",
+    "id": 30,
+    "region": "ALEPPO",
+    "lat": 36.20611111,
+    "lon": 37.2
+  },
+  {
+    "name": "ALEPPO : Iza'ah",
+    "name_ar": "حلب : حي عزة",
+    "id": 31,
+    "region": "ALEPPO",
+    "lat": 36.19416667,
+    "lon": 37.13166667
+  },
+  {
+    "name": "ALEPPO : Jadet al-Khandaq",
+    "name_ar": "حلب : جادة الخندق",
+    "id": 32,
+    "region": "ALEPPO",
+    "lat": 36.20444444,
+    "lon": 37.15833333
+  },
+  {
+    "name": "ALEPPO : Jalloum",
+    "name_ar": "حلب : جامع حلب الكبير",
+    "id": 33,
+    "region": "ALEPPO",
+    "lat": 36.19694444,
+    "lon": 37.15638889
+  },
+  {
+    "name": "ALEPPO : Jamiyat Mohandasin",
+    "name_ar": "حلب : جمعية المهندسين",
+    "id": 34,
+    "region": "ALEPPO",
+    "lat": 36.20611111,
+    "lon": 37.10333333
+  },
+  {
+    "name": "ALEPPO : Jandoul",
+    "name_ar": "حلب : الجندول",
+    "id": 35,
+    "region": "ALEPPO",
+    "lat": 36.24861111,
+    "lon": 37.1725
+  },
+  {
+    "name": "ALEPPO : Jazmati",
+    "name_ar": "حلب : جزماتي",
+    "id": 36,
+    "region": "ALEPPO",
+    "lat": 36.198604,
+    "lon": 37.202782
+  },
+  {
+    "name": "ALEPPO : Karah Bridge",
+    "name_ar": "حلب : جسر الكرة",
+    "id": 37,
+    "region": "ALEPPO",
+    "lat": 36.19944444,
+    "lon": 37.12666667
+  },
+  {
+    "name": "ALEPPO : Karam al-Beek",
+    "name_ar": "حلب : كرم البيك",
+    "id": 38,
+    "region": "ALEPPO",
+    "lat": 36.19111111,
+    "lon": 37.17222222
+  },
+  {
+    "name": "ALEPPO : Karam al-Jabal",
+    "name_ar": "حلب : كرم الجبل",
+    "id": 39,
+    "region": "ALEPPO",
+    "lat": 36.21055556,
+    "lon": 37.17638889
+  },
+  {
+    "name": "ALEPPO : Karam al-Qaterji",
+    "name_ar": "حلب : كرم القاطرجي",
+    "id": 40,
+    "region": "ALEPPO",
+    "lat": 36.19944444,
+    "lon": 37.18138889
+  },
+  {
+    "name": "ALEPPO : Kawakibi",
+    "name_ar": "حلب : كواكبي",
+    "id": 41,
+    "region": "ALEPPO",
+    "lat": 36.20444444,
+    "lon": 37.13027778
+  },
+  {
+    "name": "ALEPPO : Kayyali St.",
+    "name_ar": "حلب : الكيالي",
+    "id": 42,
+    "region": "ALEPPO",
+    "lat": 36.20527778,
+    "lon": 37.15694444
+  },
+  {
+    "name": "ALEPPO : Khan al-Harir",
+    "name_ar": "حلب : خان الحرير",
+    "id": 43,
+    "region": "ALEPPO",
+    "lat": 36.20083333,
+    "lon": 37.15527778
+  },
+  {
+    "name": "ALEPPO : Ma'adi",
+    "name_ar": "حلب : حي المعادي",
+    "id": 44,
+    "region": "ALEPPO",
+    "lat": 36.19138889,
+    "lon": 37.16277778
+  },
+  {
+    "name": "ALEPPO : Maghayer",
+    "name_ar": "حلب : المغاير",
+    "id": 45,
+    "region": "ALEPPO",
+    "lat": 36.18916667,
+    "lon": 37.15527778
+  },
+  {
+    "name": "ALEPPO : Manshiyah al-Qadimeh",
+    "name_ar": "حلب : منشأة الكاظمية",
+    "id": 46,
+    "region": "ALEPPO",
+    "lat": 36.20694444,
+    "lon": 37.15222222
+  },
+  {
+    "name": "ALEPPO : Marjeh",
+    "name_ar": "حلب : مرجة",
+    "id": 47,
+    "region": "ALEPPO",
+    "lat": 36.1825,
+    "lon": 37.17527778
+  },
+  {
+    "name": "ALEPPO : Martini",
+    "name_ar": "حلب : المارتيني",
+    "id": 48,
+    "region": "ALEPPO",
+    "lat": 36.20444444,
+    "lon": 37.13027778
+  },
+  {
+    "name": "ALEPPO : Masaken Shebabi",
+    "name_ar": "حلب : مساكن شبابي",
+    "id": 49,
+    "region": "ALEPPO",
+    "lat": 36.20222222,
+    "lon": 37.2075
+  },
+  {
+    "name": "ALEPPO : Mashhad",
+    "name_ar": "حلب : حي المشهد",
+    "id": 50,
+    "region": "ALEPPO",
+    "lat": 36.17805556,
+    "lon": 37.13361111
+  },
+  {
+    "name": "ALEPPO : Masharqah",
+    "name_ar": "حلب : مشارقة",
+    "id": 51,
+    "region": "ALEPPO",
+    "lat": 36.20055556,
+    "lon": 37.14277778
+  },
+  {
+    "name": "ALEPPO : Maysser",
+    "name_ar": "حلب : ميسر",
+    "id": 52,
+    "region": "ALEPPO",
+    "lat": 36.193637,
+    "lon": 37.190703
+  },
+  {
+    "name": "ALEPPO : Maysaloun",
+    "name_ar": "حلب : ميسلون",
+    "id": 53,
+    "region": "ALEPPO",
+    "lat": 36.2125,
+    "lon": 37.165
+  },
+  {
+    "name": "ALEPPO : Meridian",
+    "name_ar": "حلب : فندق ديدمان",
+    "id": 54,
+    "region": "ALEPPO",
+    "lat": 36.20305556,
+    "lon": 37.13083333
+  },
+  {
+    "name": "ALEPPO : Midan",
+    "name_ar": "حلب : حي الميدان",
+    "id": 55,
+    "region": "ALEPPO",
+    "lat": 36.21972222,
+    "lon": 37.16583333
+  },
+  {
+    "name": "ALEPPO : Military Academy",
+    "name_ar": "حلب : الكليه الحربيه",
+    "id": 56,
+    "region": "ALEPPO",
+    "lat": 36.18138889,
+    "lon": 37.09527778
+  },
+  {
+    "name": "ALEPPO : Mohafaza",
+    "name_ar": "حلب : المحافظه",
+    "id": 57,
+    "region": "ALEPPO",
+    "lat": 36.21,
+    "lon": 37.13555556
+  },
+  {
+    "name": "ALEPPO : Mokambo",
+    "name_ar": "حلب : الموكامبو",
+    "id": 58,
+    "region": "ALEPPO",
+    "lat": 36.21944444,
+    "lon": 37.125
+  },
+  {
+    "name": "ALEPPO : Mushatiyeh",
+    "name_ar": "حلب : المشاطية",
+    "id": 59,
+    "region": "ALEPPO",
+    "lat": 36.20472222,
+    "lon": 37.16916667
+  },
+  {
+    "name": "ALEPPO : Nile St.",
+    "name_ar": "حلب : شارع النيل",
+    "id": 60,
+    "region": "ALEPPO",
+    "lat": 36.22166667,
+    "lon": 37.12916667
+  },
+  {
+    "name": "ALEPPO : Qadi Asker",
+    "name_ar": "حلب : قاضي عسكر",
+    "id": 61,
+    "region": "ALEPPO",
+    "lat": 36.2025,
+    "lon": 37.17361111
+  },
+  {
+    "name": "ALEPPO : Qarleq",
+    "name_ar": "حلب : حي قارلق",
+    "id": 62,
+    "region": "ALEPPO",
+    "lat": 36.20777778,
+    "lon": 37.17444444
+  },
+  {
+    "name": "ALEPPO : Qastal Mosht",
+    "name_ar": "حلب : قسطل مشط",
+    "id": 63,
+    "region": "ALEPPO",
+    "lat": 36.20527778,
+    "lon": 37.16388889
+  },
+  {
+    "name": "ALEPPO : Rasafeh",
+    "name_ar": "حلب : الرصافة",
+    "id": 64,
+    "region": "ALEPPO",
+    "lat": 36.23666667,
+    "lon": 37.13
+  },
+  {
+    "name": "ALEPPO : Rashiddin",
+    "name_ar": "حلب : الراشدين",
+    "id": 65,
+    "region": "ALEPPO",
+    "lat": 36.203172,
+    "lon": 37.177741
+  },
+  {
+    "name": "ALEPPO : Sabaa Bahrat",
+    "name_ar": "حلب : ساحة السبع بحرات",
+    "id": 66,
+    "region": "ALEPPO",
+    "lat": 36.20222222,
+    "lon": 37.15583333
+  },
+  {
+    "name": "ALEPPO : Sabil",
+    "name_ar": "حلب : السبيل",
+    "id": 67,
+    "region": "ALEPPO",
+    "lat": 36.20222222,
+    "lon": 37.15583333
+  },
+  {
+    "name": "ALEPPO : Salah al-Din",
+    "name_ar": "حلب : صلاح الدين",
+    "id": 68,
+    "region": "ALEPPO",
+    "lat": 36.18277778,
+    "lon": 37.12222222
+  },
+  {
+    "name": "ALEPPO : Salaheen",
+    "name_ar": "حلب : الصالحين",
+    "id": 69,
+    "region": "ALEPPO",
+    "lat": 36.18388889,
+    "lon": 37.16722222
+  },
+  {
+    "name": "ALEPPO : Sijan St.",
+    "name_ar": "حلب : شارع السجن",
+    "id": 70,
+    "region": "ALEPPO",
+    "lat": 36.2025,
+    "lon": 37.16277778
+  },
+  {
+    "name": "ALEPPO : Sanam Bridge",
+    "name_ar": "حلب : جسر الصنم",
+    "id": 71,
+    "region": "ALEPPO",
+    "lat": 36.19305556,
+    "lon": 37.11222222
+  },
+  {
+    "name": "ALEPPO : Sayed Ali",
+    "name_ar": "حلب : سيد علي",
+    "id": 72,
+    "region": "ALEPPO",
+    "lat": 36.21,
+    "lon": 37.15861111
+  },
+  {
+    "name": "ALEPPO : Seif al-Dawleh",
+    "name_ar": "حلب : سيف الدولة",
+    "id": 73,
+    "region": "ALEPPO",
+    "lat": 36.19083333,
+    "lon": 37.12694444
+  },
+  {
+    "name": "ALEPPO : Shahba",
+    "name_ar": "حلب : حي الشهباء",
+    "id": 74,
+    "region": "ALEPPO",
+    "lat": 36.21694444,
+    "lon": 37.1175
+  },
+  {
+    "name": "ALEPPO : Alshaar",
+    "name_ar": "حلب : حي الشعار",
+    "id": 75,
+    "region": "ALEPPO",
+    "lat": 36.20888889,
+    "lon": 37.18555556
+  },
+  {
+    "name": "ALEPPO : Sheikh Fares",
+    "name_ar": "حلب : شيخ فارس",
+    "id": 76,
+    "region": "ALEPPO",
+    "lat": 36.22361111,
+    "lon": 37.17472222
+  },
+  {
+    "name": "ALEPPO : Sheikh Khader",
+    "name_ar": "حلب : شيخ خضر",
+    "id": 77,
+    "region": "ALEPPO",
+    "lat": 36.22222222,
+    "lon": 37.18472222
+  },
+  {
+    "name": "ALEPPO : Sheirran",
+    "name_ar": "حلب : بلدة شيران",
+    "id": 78,
+    "region": "ALEPPO",
+    "lat": 36.84861111,
+    "lon": 38.40888889
+  },
+  {
+    "name": "ALEPPO : Souq al-Hal",
+    "name_ar": "حلب : سوق الهال",
+    "id": 79,
+    "region": "ALEPPO",
+    "lat": 36.19777778,
+    "lon": 37.1475
+  },
+  {
+    "name": "ALEPPO : Sukkari",
+    "name_ar": "حلب : حي السكري",
+    "id": 80,
+    "region": "ALEPPO",
+    "lat": 36.175,
+    "lon": 37.14138889
+  },
+  {
+    "name": "ALEPPO : Suleiman al-Halabi",
+    "name_ar": "حلب : سليمان الحلبي",
+    "id": 81,
+    "region": "ALEPPO",
+    "lat": 36.21805556,
+    "lon": 37.17333333
+  },
+  {
+    "name": "ALEPPO : Suleimaniyah",
+    "name_ar": "حلب : السليمانية",
+    "id": 82,
+    "region": "ALEPPO",
+    "lat": 36.21833333,
+    "lon": 37.15777778
+  },
+  {
+    "name": "ALEPPO : Suweiqah",
+    "name_ar": "حلب : حي السويقة",
+    "id": 83,
+    "region": "ALEPPO",
+    "lat": 36.20111111,
+    "lon": 37.15722222
+  },
+  {
+    "name": "ALEPPO : Tal az-Zarazir",
+    "name_ar": "حلب : تل الزرازير",
+    "id": 84,
+    "region": "ALEPPO",
+    "lat": 36.17222222,
+    "lon": 37.13361111
+  },
+  {
+    "name": "ALEPPO : University Square",
+    "name_ar": "حلب : دوار الجامعة",
+    "id": 85,
+    "region": "ALEPPO",
+    "lat": 36.20944444,
+    "lon": 37.12638889
+  },
+  {
+    "name": "ALEPPO : Zabadiyah",
+    "name_ar": "حلب : حي الزبدية",
+    "id": 86,
+    "region": "ALEPPO",
+    "lat": 36.18916667,
+    "lon": 37.13305556
+  },
+  {
+    "name": "ALEPPO : Zahra",
+    "name_ar": "حلب : الزهراء",
+    "id": 87,
+    "region": "ALEPPO",
+    "lat": 36.22194444,
+    "lon": 37.09777778
+  },
+  {
+    "name": "ALEPPO : Zara'a roundabout",
+    "name_ar": "حلب : دوار الزراعة",
+    "id": 88,
+    "region": "ALEPPO",
+    "lat": 36.22222222,
+    "lon": 37.16138889
+  },
+  {
+    "name": "ALEPPO : Abbad",
+    "name_ar": "حلب : عباد",
+    "id": 89,
+    "region": "ALEPPO",
+    "lat": 35.92194444,
+    "lon": 36.92972222
+  },
+  {
+    "name": "ALEPPO : Abbin Samaan",
+    "name_ar": "حلب : إبين سمعان",
+    "id": 90,
+    "region": "ALEPPO",
+    "lat": 36.088661,
+    "lon": 36.760865
+  },
+  {
+    "name": "ALEPPO : Ablah",
+    "name_ar": "حلب : عبلة",
+    "id": 91,
+    "region": "ALEPPO",
+    "lat": 36.43333333,
+    "lon": 37.35444444
+  },
+  {
+    "name": "ALEPPO : Abzemu",
+    "name_ar": "حلب : ابزمو",
+    "id": 92,
+    "region": "ALEPPO",
+    "lat": 36.16722222,
+    "lon": 36.86444444
+  },
+  {
+    "name": "ALEPPO : Afrin",
+    "name_ar": "حلب : عفرين",
+    "id": 93,
+    "region": "ALEPPO",
+    "lat": 36.512287,
+    "lon": 36.866353
+  },
+  {
+    "name": "ALEPPO : Akhtarin",
+    "name_ar": "حلب : اخترين",
+    "id": 94,
+    "region": "ALEPPO",
+    "lat": 36.50861111,
+    "lon": 37.33416667
+  },
+  {
+    "name": "ALEPPO : Amarnah",
+    "name_ar": "حلب : جرابلس",
+    "id": 95,
+    "region": "ALEPPO",
+    "lat": 36.74166667,
+    "lon": 38.01083333
+  },
+  {
+    "name": "ALEPPO : Arima",
+    "name_ar": "حلب : العريمة",
+    "id": 96,
+    "region": "ALEPPO",
+    "lat": 36.47194444,
+    "lon": 37.72277778
+  },
+  {
+    "name": "ALEPPO : Ayn al-Arab",
+    "name_ar": "حلب : عين العرب",
+    "id": 97,
+    "region": "ALEPPO",
+    "lat": 36.888067,
+    "lon": 38.350895
+  },
+  {
+    "name": "ALEPPO : Ayoun",
+    "name_ar": "حلب : العيون",
+    "id": 98,
+    "region": "ALEPPO",
+    "lat": 36.4596777,
+    "lon": 37.2478955
+  },
+  {
+    "name": "ALEPPO : Azaz",
+    "name_ar": "حلب : عزاز",
+    "id": 99,
+    "region": "ALEPPO",
+    "lat": 36.584381,
+    "lon": 37.049911
+  },
+  {
+    "name": "ALEPPO : Al Bab",
+    "name_ar": "حلب : الباب",
+    "id": 100,
+    "region": "ALEPPO",
+    "lat": 36.372567,
+    "lon": 37.517489
+  },
+  {
+    "name": "ALEPPO : Babakah",
+    "name_ar": "حلب : بابكة",
+    "id": 101,
+    "region": "ALEPPO",
+    "lat": 36.14138889,
+    "lon": 36.75416667
+  },
+  {
+    "name": "ALEPPO : Baraj Abdullah",
+    "name_ar": "حلب : برج عبدالو",
+    "id": 102,
+    "region": "ALEPPO",
+    "lat": 36.4103171,
+    "lon": 36.8624997
+  },
+  {
+    "name": "ALEPPO : Bashantara",
+    "name_ar": "حلب : بشانطرة",
+    "id": 103,
+    "region": "ALEPPO",
+    "lat": 36.21972222,
+    "lon": 37.0025
+  },
+  {
+    "name": "ALEPPO : Bashqatin",
+    "name_ar": "حلب : بشقاتين",
+    "id": 104,
+    "region": "ALEPPO",
+    "lat": 36.2025,
+    "lon": 36.99361111
+  },
+  {
+    "name": "ALEPPO : Bel",
+    "name_ar": "حلب : البل",
+    "id": 105,
+    "region": "ALEPPO",
+    "lat": 36.5915,
+    "lon": 37.2
+  },
+  {
+    "name": "ALEPPO : Braghidah",
+    "name_ar": "حلب : براغيدة",
+    "id": 106,
+    "region": "ALEPPO",
+    "lat": 36.6325,
+    "lon": 37.21333333
+  },
+  {
+    "name": "ALEPPO : Darat Izzah",
+    "name_ar": "حلب : دارة عزة",
+    "id": 107,
+    "region": "ALEPPO",
+    "lat": 36.2833397,
+    "lon": 36.8499899
+  },
+  {
+    "name": "ALEPPO : Deir Hafir",
+    "name_ar": "حلب : دير حافر",
+    "id": 108,
+    "region": "ALEPPO",
+    "lat": 36.150353,
+    "lon": 37.69973
+  },
+  {
+    "name": "ALEPPO : Ghandawi",
+    "name_ar": "حلب : الغندورة",
+    "id": 109,
+    "region": "ALEPPO",
+    "lat": 36.67638889,
+    "lon": 37.75611111
+  },
+  {
+    "name": "ALEPPO : Ghouz",
+    "name_ar": "حلب : حوزه",
+    "id": 110,
+    "region": "ALEPPO",
+    "lat": 36.46444444,
+    "lon": 37.29222222
+  },
+  {
+    "name": "ALEPPO : Hawwar",
+    "name_ar": "حلب : حور",
+    "id": 111,
+    "region": "ALEPPO",
+    "lat": 36.2287311,
+    "lon": 36.9751807
+  },
+  {
+    "name": "ALEPPO : Ihtimalat",
+    "name_ar": "حلب : احتيملات",
+    "id": 112,
+    "region": "ALEPPO",
+    "lat": 36.56361111,
+    "lon": 37.25138889
+  },
+  {
+    "name": "ALEPPO : Irshaf",
+    "name_ar": "حلب : ارشاف",
+    "id": 113,
+    "region": "ALEPPO",
+    "lat": 36.5175,
+    "lon": 37.26777778
+  },
+  {
+    "name": "ALEPPO : Asunbul",
+    "name_ar": "حلب : أسنبل",
+    "id": 114,
+    "region": "ALEPPO",
+    "lat": 36.48333333,
+    "lon": 37.24638889
+  },
+  {
+    "name": "ALEPPO : Jab al-Khass",
+    "name_ar": "حلب : جب كاس",
+    "id": 115,
+    "region": "ALEPPO",
+    "lat": 35.98055556,
+    "lon": 36.87305556
+  },
+  {
+    "name": "ALEPPO : Jindaris",
+    "name_ar": "حلب : جنديرس",
+    "id": 117,
+    "region": "ALEPPO",
+    "lat": 36.39666667,
+    "lon": 36.69111111
+  },
+  {
+    "name": "ALEPPO : Kafar Aleppo",
+    "name_ar": "حلب : كفر حلب",
+    "id": 118,
+    "region": "ALEPPO",
+    "lat": 36.06,
+    "lon": 36.87166667
+  },
+  {
+    "name": "ALEPPO : Kafar Ameh",
+    "name_ar": "حلب : كفر عمة",
+    "id": 119,
+    "region": "ALEPPO",
+    "lat": 36.14027778,
+    "lon": 36.87305556
+  },
+  {
+    "name": "ALEPPO : Kafar Dael",
+    "name_ar": "حلب : كفر داعل",
+    "id": 120,
+    "region": "ALEPPO",
+    "lat": 36.21194444,
+    "lon": 37.02694444
+  },
+  {
+    "name": "ALEPPO : Kafar Ghan",
+    "name_ar": "حلب : كفر خان",
+    "id": 121,
+    "region": "ALEPPO",
+    "lat": 36.63083333,
+    "lon": 37.18416667
+  },
+  {
+    "name": "ALEPPO : Kafar Karmin",
+    "name_ar": "حلب : كفر كرمين",
+    "id": 122,
+    "region": "ALEPPO",
+    "lat": 36.1625,
+    "lon": 36.78861111
+  },
+  {
+    "name": "ALEPPO : Kafar Naha",
+    "name_ar": "حلب : كفر ناها",
+    "id": 123,
+    "region": "ALEPPO",
+    "lat": 36.16555556,
+    "lon": 36.97555556
+  },
+  {
+    "name": "ALEPPO : Kafar Naseh",
+    "name_ar": "حلب : كفر ناصح",
+    "id": 124,
+    "region": "ALEPPO",
+    "lat": 36.13472222,
+    "lon": 36.7875
+  },
+  {
+    "name": "ALEPPO : Kafar Naya",
+    "name_ar": "حلب : كفر نايا",
+    "id": 125,
+    "region": "ALEPPO",
+    "lat": 36.42083333,
+    "lon": 37.07361111
+  },
+  {
+    "name": "ALEPPO : Khafisah",
+    "name_ar": "حلب : الخفسة",
+    "id": 126,
+    "region": "ALEPPO",
+    "lat": 36.23083333,
+    "lon": 38.02055556
+  },
+  {
+    "name": "ALEPPO : Khan al-Asl",
+    "name_ar": "حلب : خان العسل",
+    "id": 127,
+    "region": "ALEPPO",
+    "lat": 36.16972222,
+    "lon": 37.04444444
+  },
+  {
+    "name": "ALEPPO : Kuwayris Airbase",
+    "name_ar": "حلب : مطار كويرس",
+    "id": 128,
+    "region": "ALEPPO",
+    "lat": 36.18527778,
+    "lon": 37.58027778
+  },
+  {
+    "name": "ALEPPO : Madiunah",
+    "name_ar": "حلب : المديونة",
+    "id": 129,
+    "region": "ALEPPO",
+    "lat": 36.29416667,
+    "lon": 37.42444444
+  },
+  {
+    "name": "ALEPPO : Manbij",
+    "name_ar": "حلب : منبج",
+    "id": 130,
+    "region": "ALEPPO",
+    "lat": 36.5269242,
+    "lon": 37.9559288
+  },
+  {
+    "name": "ALEPPO : Mansoura",
+    "name_ar": "حلب : منصورة",
+    "id": 131,
+    "region": "ALEPPO",
+    "lat": 36.19833333,
+    "lon": 37.0525
+  },
+  {
+    "name": "ALEPPO : Maqri",
+    "name_ar": "حلب : المقري",
+    "id": 132,
+    "region": "ALEPPO",
+    "lat": 36.39611111,
+    "lon": 37.60777778
+  },
+  {
+    "name": "ALEPPO : Ma'ranaz",
+    "name_ar": "حلب : مرغناز",
+    "id": 133,
+    "region": "ALEPPO",
+    "lat": 36.551,
+    "lon": 37.0169
+  },
+  {
+    "name": "ALEPPO : Mar'e",
+    "name_ar": "حلب : مارع",
+    "id": 134,
+    "region": "ALEPPO",
+    "lat": 36.4814643,
+    "lon": 37.1968431
+  },
+  {
+    "name": "ALEPPO : Maret Artiq",
+    "name_ar": "حلب : معارة الارتيق",
+    "id": 135,
+    "region": "ALEPPO",
+    "lat": 36.25055556,
+    "lon": 37.05361111
+  },
+  {
+    "name": "ALEPPO : Maryamayn",
+    "name_ar": "حلب : مريمين",
+    "id": 136,
+    "region": "ALEPPO",
+    "lat": 35.966,
+    "lon": 37.1166
+  },
+  {
+    "name": "ALEPPO : Masalmiyah",
+    "name_ar": "حلب : المسلمية",
+    "id": 137,
+    "region": "ALEPPO",
+    "lat": 36.3165,
+    "lon": 37.201
+  },
+  {
+    "name": "ALEPPO : Maskanah",
+    "name_ar": "حلب : مسكنة",
+    "id": 138,
+    "region": "ALEPPO",
+    "lat": 35.97416667,
+    "lon": 38.04583333
+  },
+  {
+    "name": "ALEPPO : Midanki",
+    "name_ar": "حلب : ميدانكي",
+    "id": 139,
+    "region": "ALEPPO",
+    "lat": 36.64027778,
+    "lon": 36.88166667
+  },
+  {
+    "name": "ALEPPO : Miznaz",
+    "name_ar": "حلب : قرية ميزناز",
+    "id": 140,
+    "region": "ALEPPO",
+    "lat": 36.0583805,
+    "lon": 36.8525865
+  },
+  {
+    "name": "ALEPPO : Niyarah",
+    "name_ar": "حلب : نيارة",
+    "id": 141,
+    "region": "ALEPPO",
+    "lat": 36.6075,
+    "lon": 37.111
+  },
+  {
+    "name": "ALEPPO : Nubl",
+    "name_ar": "حلب : نبل",
+    "id": 142,
+    "region": "ALEPPO",
+    "lat": 36.4814643,
+    "lon": 37.1968431
+  },
+  {
+    "name": "ALEPPO : Qastel Jendu",
+    "name_ar": "حلب : قسطل جندو",
+    "id": 143,
+    "region": "ALEPPO",
+    "lat": 36.62833333,
+    "lon": 37.02083333
+  },
+  {
+    "name": "ALEPPO : Mregel",
+    "name_ar": "حلب : مريغل",
+    "id": 144,
+    "region": "ALEPPO",
+    "lat": 36.597,
+    "lon": 37.268
+  },
+  {
+    "name": "ALEPPO : Safirah",
+    "name_ar": "حلب : السفيرة",
+    "id": 145,
+    "region": "ALEPPO",
+    "lat": 36.0206411,
+    "lon": 37.1977357
+  },
+  {
+    "name": "ALEPPO : Sakriyah Kabira",
+    "name_ar": "حلب : قرية سكرية كبيرة",
+    "id": 146,
+    "region": "ALEPPO",
+    "lat": 36.39833333,
+    "lon": 37.71916667
+  },
+  {
+    "name": "ALEPPO : Sandarah",
+    "name_ar": "حلب : صندرة",
+    "id": 147,
+    "region": "ALEPPO",
+    "lat": 36.595521,
+    "lon": 37.3317451
+  },
+  {
+    "name": "ALEPPO : Sarrin",
+    "name_ar": "حلب : حي السريان",
+    "id": 148,
+    "region": "ALEPPO",
+    "lat": 36.58472222,
+    "lon": 38.29861111
+  },
+  {
+    "name": "ALEPPO : Shaddar",
+    "name_ar": "حلب : شدار",
+    "id": 149,
+    "region": "ALEPPO",
+    "lat": 36.6002756,
+    "lon": 37.6131623
+  },
+  {
+    "name": "ALEPPO : Shayukh Fuqani",
+    "name_ar": "حلب : شيوخ فوقاني",
+    "id": 150,
+    "region": "ALEPPO",
+    "lat": 36.78388889,
+    "lon": 38.0475
+  },
+  {
+    "name": "ALEPPO : Shweiha",
+    "name_ar": "حلب : شويحة",
+    "id": 151,
+    "region": "ALEPPO",
+    "lat": 36.54277778,
+    "lon": 37.60944444
+  },
+  {
+    "name": "ALEPPO : Ta'anah",
+    "name_ar": "حلب : طعانه",
+    "id": 152,
+    "region": "ALEPPO",
+    "lat": 36.3833,
+    "lon": 37.3167
+  },
+  {
+    "name": "ALEPPO : Tadif",
+    "name_ar": "حلب : تادف",
+    "id": 153,
+    "region": "ALEPPO",
+    "lat": 36.34722222,
+    "lon": 37.53166667
+  },
+  {
+    "name": "ALEPPO : Tafriah",
+    "name_ar": "حلب : تافريا",
+    "id": 154,
+    "region": "ALEPPO",
+    "lat": 36.36305556,
+    "lon": 37.685
+  },
+  {
+    "name": "ALEPPO : Talafeh",
+    "name_ar": "حلب : طلافح",
+    "id": 155,
+    "region": "ALEPPO",
+    "lat": 35.89138889,
+    "lon": 36.95361111
+  },
+  {
+    "name": "ALEPPO : Tal Aran",
+    "name_ar": "حلب : تل عرن",
+    "id": 156,
+    "region": "ALEPPO",
+    "lat": 36.12305556,
+    "lon": 37.33694444
+  },
+  {
+    "name": "ALEPPO : Tal Hodan",
+    "name_ar": "حلب : تل حوذان",
+    "id": 157,
+    "region": "ALEPPO",
+    "lat": 36.29833333,
+    "lon": 38.04861111
+  },
+  {
+    "name": "ALEPPO : Tal Jabin",
+    "name_ar": "حلب : تل جبين",
+    "id": 158,
+    "region": "ALEPPO",
+    "lat": 36.35527778,
+    "lon": 37.1425
+  },
+  {
+    "name": "ALEPPO : Tal Rifaat",
+    "name_ar": "حلب : تل رفعت",
+    "id": 159,
+    "region": "ALEPPO",
+    "lat": 36.470267,
+    "lon": 37.0954454
+  },
+  {
+    "name": "ALEPPO : Tal Sullur",
+    "name_ar": "حلب : تل سلور",
+    "id": 160,
+    "region": "ALEPPO",
+    "lat": 36.365,
+    "lon": 36.7333
+  },
+  {
+    "name": "ALEPPO : Tawwamah",
+    "name_ar": "حلب : التوامة",
+    "id": 161,
+    "region": "ALEPPO",
+    "lat": 36.19416667,
+    "lon": 36.80888889
+  },
+  {
+    "name": "ALEPPO : Turkmen al-Bareh",
+    "name_ar": "حلب : تركمان بارح",
+    "id": 162,
+    "region": "ALEPPO",
+    "lat": 36.5411567,
+    "lon": 37.3210287
+  },
+  {
+    "name": "ALEPPO : Umayjil",
+    "name_ar": "حلب : عويجل",
+    "id": 163,
+    "region": "ALEPPO",
+    "lat": 36.183,
+    "lon": 36.95
+  },
+  {
+    "name": "ALEPPO : Urum al-Kubra",
+    "name_ar": "حلب : اورم الكبرى",
+    "id": 164,
+    "region": "ALEPPO",
+    "lat": 36.14861111,
+    "lon": 36.95
+  },
+  {
+    "name": "ALEPPO : Zammar",
+    "name_ar": "حلب : زمار",
+    "id": 166,
+    "region": "ALEPPO",
+    "lat": 35.89138889,
+    "lon": 36.97166667
+  },
+  {
+    "name": "ALEPPO : Zerbah",
+    "name_ar": "حلب : زربه",
+    "id": 167,
+    "region": "ALEPPO",
+    "lat": 36.06944444,
+    "lon": 36.9775
+  },
+  {
+    "name": "ALEPPO : Ziadiyah",
+    "name_ar": "حلب : زيادية",
+    "id": 168,
+    "region": "ALEPPO",
+    "lat": 36.55638889,
+    "lon": 37.36138889
+  },
+  {
+    "name": "ALEPPO : Al-Fardos",
+    "name_ar": "حلب : حي الفردوس",
+    "id": 169,
+    "region": "ALEPPO",
+    "lat": 36.181296,
+    "lon": 37.151284
+  },
+  {
+    "name": "ALEPPO : Ashekh Saeed",
+    "name_ar": "حلب : الشيخ سعيد",
+    "id": 170,
+    "region": "ALEPPO",
+    "lat": 36.181059,
+    "lon": 37.149289
+  },
+  {
+    "name": "DAMASCUS : DAMASCUS",
+    "name_ar": "دمشق : دمشق",
+    "id": 171,
+    "region": "DAMASCUS",
+    "lat": 33.5130695,
+    "lon": 36.3095814
+  },
+  {
+    "name": "DAMASCUS : Hatita Al-Jarash",
+    "name_ar": "دمشق : حتيتة الجرش",
+    "id": "",
+    "region": "DAMASCUS",
+    "lat": 33.4913744,
+    "lon": 36.3972223
+  },
+  {
+    "name": "DAMASCUS : Madyara",
+    "name_ar": "دمشق : مديرا",
+    "id": "",
+    "region": "DAMASCUS",
+    "lat": 33.545633,
+    "lon": 36.386182
+  },
+  {
+    "name": "DAMASCUS : Bahsah",
+    "name_ar": "دمشق : البحصة",
+    "id": 172,
+    "region": "DAMASCUS",
+    "lat": 33.51527778,
+    "lon": 36.29638889
+  },
+  {
+    "name": "DAMASCUS : Beit Saham",
+    "name_ar": "دمشق : بيت سحم",
+    "id": 173,
+    "region": "DAMASCUS",
+    "lat": 33.47777778,
+    "lon": 36.33694444
+  },
+  {
+    "name": "DAMASCUS : Daf al-Shook",
+    "name_ar": "دمشق : دف الشوك",
+    "id": 174,
+    "region": "DAMASCUS",
+    "lat": 33.48583333,
+    "lon": 36.31555556
+  },
+  {
+    "name": "DAMASCUS : Jamarek Sq",
+    "name_ar": "دمشق : دورا الجمارك",
+    "id": 175,
+    "region": "DAMASCUS",
+    "lat": 33.51,
+    "lon": 36.27805556
+  },
+  {
+    "name": "DAMASCUS : Jouret Sherabati",
+    "name_ar": "دمشق : جورة الشربتي",
+    "id": 176,
+    "region": "DAMASCUS",
+    "lat": 33.47055556,
+    "lon": 36.28861111
+  },
+  {
+    "name": "DAMASCUS : Khairo Yassin mosque",
+    "name_ar": "دمشق : جامع ياسين",
+    "id": 177,
+    "region": "DAMASCUS",
+    "lat": 33.49777778,
+    "lon": 36.29722222
+  },
+  {
+    "name": "DAMASCUS : Khuzimeh mosque",
+    "name_ar": "دمشق : جامع خزيمة بن ثابت الانصاري",
+    "id": 178,
+    "region": "DAMASCUS",
+    "lat": 33.49416667,
+    "lon": 36.27138889
+  },
+  {
+    "name": "DAMASCUS : Sakhanah Square",
+    "name_ar": "دمشق : ساحة السخانة",
+    "id": 179,
+    "region": "DAMASCUS",
+    "lat": 33.48555556,
+    "lon": 36.29777778
+  },
+  {
+    "name": "DAMASCUS : Sidi Moqdad",
+    "name_ar": "دمشق : سيدي مقداد",
+    "id": 180,
+    "region": "DAMASCUS",
+    "lat": 33.47638889,
+    "lon": 36.32972222
+  },
+  {
+    "name": "DAMASCUS : Tishreen",
+    "name_ar": "دمشق : حي تشرين",
+    "id": 181,
+    "region": "DAMASCUS",
+    "lat": 33.44194444,
+    "lon": 36.34972222
+  },
+  {
+    "name": "DAMASCUS : Zein al-Abideen Mosque",
+    "name_ar": "دمشق : جامع زين العابدين",
+    "id": 182,
+    "region": "DAMASCUS",
+    "lat": 33.49138889,
+    "lon": 36.29972222
+  },
+  {
+    "name": "DAMASCUS : Yarmouk Camp",
+    "name_ar": "دمشق : مخيم اليرموك",
+    "id": 183,
+    "region": "DAMASCUS",
+    "lat": 33.472256,
+    "lon": 36.302626
+  },
+  {
+    "name": "DAMASCUS : Al Midan",
+    "name_ar": "دمشق : الميدان",
+    "id": 184,
+    "region": "DAMASCUS",
+    "lat": 33.49037,
+    "lon": 36.298458
+  },
+  {
+    "name": "DAMASCUS : Ruken Al-Din",
+    "name_ar": "دمشق : ركن الدين",
+    "id": 185,
+    "region": "DAMASCUS",
+    "lat": 33.540021,
+    "lon": 36.297935
+  },
+  {
+    "name": "DAMASCUS : Qaboun",
+    "name_ar": "دمشق : القابون",
+    "id": 186,
+    "region": "DAMASCUS",
+    "lat": 33.550171,
+    "lon": 36.349935
+  },
+  {
+    "name": "DAMASCUS : Barzeh",
+    "name_ar": "دمشق : برزة",
+    "id": 187,
+    "region": "DAMASCUS",
+    "lat": 33.556782,
+    "lon": 36.3205
+  },
+  {
+    "name": "DAMASCUS : Jobar",
+    "name_ar": "دمشق : جوبر",
+    "id": 188,
+    "region": "DAMASCUS",
+    "lat": 33.531162,
+    "lon": 36.336808
+  },
+  {
+    "name": "DAMASCUS : Kafar souseh",
+    "name_ar": "دمشق : كفرسوسة",
+    "id": 189,
+    "region": "DAMASCUS",
+    "lat": 33.498282,
+    "lon": 36.277195
+  },
+  {
+    "name": "DAMASCUS : Babila",
+    "name_ar": "دمشق : ببيلا",
+    "id": 190,
+    "region": "DAMASCUS",
+    "lat": 33.473512,
+    "lon": 36.334265
+  },
+  {
+    "name": "DAMASCUS : Muadamiyat Al-sham",
+    "name_ar": "دمشق : معضمية",
+    "id": 191,
+    "region": "DAMASCUS",
+    "lat": 33.461233,
+    "lon": 36.193042
+  },
+  {
+    "name": "DAMASCUS : Yalda",
+    "name_ar": "دمشق : يلدا",
+    "id": 192,
+    "region": "DAMASCUS",
+    "lat": 33.463185,
+    "lon": 36.321541
+  },
+  {
+    "name": "DAMASCUS : Irbin nahiyah",
+    "name_ar": "دمشق : عربين",
+    "id": 193,
+    "region": "DAMASCUS",
+    "lat": 33.538893,
+    "lon": 36.365787
+  },
+  {
+    "name": "DAMASCUS : Jaramana",
+    "name_ar": "دمشق : جرمانا",
+    "id": 194,
+    "region": "DAMASCUS",
+    "lat": 33.491347,
+    "lon": 36.328719
+  },
+  {
+    "name": "DAMASCUS : Kafar Batna",
+    "name_ar": "دمشق : كفربطنا",
+    "id": 195,
+    "region": "DAMASCUS",
+    "lat": 33.514295,
+    "lon": 36.373479
+  },
+  {
+    "name": "DAMASCUS : Kiswah",
+    "name_ar": "دمشق : كسوة",
+    "id": 196,
+    "region": "DAMASCUS",
+    "lat": 33.350602,
+    "lon": 36.234755
+  },
+  {
+    "name": "DAMASCUS : Kiswah nahiyah",
+    "name_ar": "دمشق : ناحية الكسوة",
+    "id": 197,
+    "region": "DAMASCUS",
+    "lat": 33.349562,
+    "lon": 36.233296
+  },
+  {
+    "name": "DAMASCUS : Mleiha",
+    "name_ar": "دمشق : مليحة",
+    "id": 198,
+    "region": "DAMASCUS",
+    "lat": 33.48724,
+    "lon": 36.369338
+  },
+  {
+    "name": "DAMASCUS : Daraya mantiqah",
+    "name_ar": "دمشق : داريا البلد",
+    "id": 199,
+    "region": "DAMASCUS",
+    "lat": 33.452208,
+    "lon": 36.246869
+  },
+  {
+    "name": "DAMASCUS : al-Hajar al-Aswad nahiyah",
+    "name_ar": "دمشق : الحجر الاسود",
+    "id": 200,
+    "region": "DAMASCUS",
+    "lat": 33.464049,
+    "lon": 36.304439
+  },
+  {
+    "name": "DAMASCUS : Sahnaya nahiyah",
+    "name_ar": "دمشق : ضاحية صحنايا",
+    "id": 201,
+    "region": "DAMASCUS",
+    "lat": 33.424528,
+    "lon": 36.225035
+  },
+  {
+    "name": "DAMASCUS : Duma",
+    "name_ar": "دمشق : دوما البلد",
+    "id": 202,
+    "region": "DAMASCUS",
+    "lat": 33.572677,
+    "lon": 36.401873
+  },
+  {
+    "name": "DAMASCUS : Dumayr nahiyah",
+    "name_ar": "دمشق : دمر",
+    "id": 203,
+    "region": "DAMASCUS",
+    "lat": 33.528158,
+    "lon": 36.226918
+  },
+  {
+    "name": "DAMASCUS : Harasta nahiyah",
+    "name_ar": "دمشق : حرستا",
+    "id": 204,
+    "region": "DAMASCUS",
+    "lat": 33.566963,
+    "lon": 36.36672
+  },
+  {
+    "name": "DAMASCUS : Harran al-Awamid nahiyah",
+    "name_ar": "دمشق : حران العواميد",
+    "id": 205,
+    "region": "DAMASCUS",
+    "lat": 33.447539,
+    "lon": 36.559176
+  },
+  {
+    "name": "DAMASCUS : Nashabiyah nahiyah",
+    "name_ar": "دمشق : النشابية",
+    "id": 206,
+    "region": "DAMASCUS",
+    "lat": 33.513959,
+    "lon": 36.487033
+  },
+  {
+    "name": "DAMASCUS : Sabaa Biyar nahiyah",
+    "name_ar": "دمشق : السبع بيار",
+    "id": 207,
+    "region": "DAMASCUS",
+    "lat": 33.766881,
+    "lon": 37.683326
+  },
+  {
+    "name": "DAMASCUS : an-Nabek mantiqah",
+    "name_ar": "دمشق : النبك",
+    "id": 208,
+    "region": "DAMASCUS",
+    "lat": 34.017341,
+    "lon": 36.718197
+  },
+  {
+    "name": "DAMASCUS : Deir Atiyah nahiyah",
+    "name_ar": "دمشق : دير عطية",
+    "id": 209,
+    "region": "DAMASCUS",
+    "lat": 34.083486,
+    "lon": 36.766513
+  },
+  {
+    "name": "DAMASCUS : Qatana mantiqah",
+    "name_ar": "دمشق : قطنا البلد",
+    "id": 210,
+    "region": "DAMASCUS",
+    "lat": 33.433679,
+    "lon": 36.083321
+  },
+  {
+    "name": "DAMASCUS : Beit Jen nahiyah",
+    "name_ar": "دمشق : بيت جن",
+    "id": 211,
+    "region": "DAMASCUS",
+    "lat": 33.310859,
+    "lon": 35.919221
+  },
+  {
+    "name": "DAMASCUS : Sa'sa' nahiyah",
+    "name_ar": "دمشق : سعسع كناكر",
+    "id": 212,
+    "region": "DAMASCUS",
+    "lat": 33.267631,
+    "lon": 36.096783
+  },
+  {
+    "name": "DAMASCUS : Qudsaya mantiqah",
+    "name_ar": "دمشق : قدسيا",
+    "id": 213,
+    "region": "DAMASCUS",
+    "lat": 33.548074,
+    "lon": 36.217343
+  },
+  {
+    "name": "DAMASCUS : Ayn al-Fijah nahiyah",
+    "name_ar": "دمشق : عين الفيجة",
+    "id": 214,
+    "region": "DAMASCUS",
+    "lat": 33.614235,
+    "lon": 36.180457
+  },
+  {
+    "name": "DAMASCUS : al-Demas nahiyah",
+    "name_ar": "دمشق : ديماس",
+    "id": 215,
+    "region": "DAMASCUS",
+    "lat": 33.589589,
+    "lon": 36.090539
+  },
+  {
+    "name": "DAMASCUS : Qudsaya nahiyah",
+    "name_ar": "دمشق : ضاحية قدسيا",
+    "id": 216,
+    "region": "DAMASCUS",
+    "lat": 33.538121,
+    "lon": 36.189802
+  },
+  {
+    "name": "DAMASCUS : Qutayfah mantiqah",
+    "name_ar": "دمشق : القطيفة",
+    "id": 217,
+    "region": "DAMASCUS",
+    "lat": 33.739756,
+    "lon": 36.595579
+  },
+  {
+    "name": "DAMASCUS : Jayrud nahiyah",
+    "name_ar": "دمشق : جيرود",
+    "id": 218,
+    "region": "DAMASCUS",
+    "lat": 33.808524,
+    "lon": 36.740384
+  },
+  {
+    "name": "DAMASCUS : Ma'alula nahiyah",
+    "name_ar": "دمشق : معلولا",
+    "id": 219,
+    "region": "DAMASCUS",
+    "lat": 33.844417,
+    "lon": 36.546793
+  },
+  {
+    "name": "DAMASCUS : Ruhaybah nahiyah",
+    "name_ar": "دمشق : الرحيبة",
+    "id": 220,
+    "region": "DAMASCUS",
+    "lat": 33.744631,
+    "lon": 36.701223
+  },
+  {
+    "name": "DAMASCUS : at-Tal mantiqah",
+    "name_ar": "دمشق : التل",
+    "id": 221,
+    "region": "DAMASCUS",
+    "lat": 33.600798,
+    "lon": 36.30003
+  },
+  {
+    "name": "DAMASCUS : Rankous nahiyah",
+    "name_ar": "دمشق : رنكوس",
+    "id": 222,
+    "region": "DAMASCUS",
+    "lat": 33.75719,
+    "lon": 36.389229
+  },
+  {
+    "name": "DAMASCUS : Seidnaya nahiyah",
+    "name_ar": "دمشق : صيدنايا",
+    "id": 223,
+    "region": "DAMASCUS",
+    "lat": 33.691231,
+    "lon": 36.368632
+  },
+  {
+    "name": "DAMASCUS : Yabrud mantiqah",
+    "name_ar": "دمشق : يبرود",
+    "id": 224,
+    "region": "DAMASCUS",
+    "lat": 33.966942,
+    "lon": 36.666913
+  },
+  {
+    "name": "DAMASCUS : Assal al-Ward nahiyah",
+    "name_ar": "دمشق : عسال الورد",
+    "id": 225,
+    "region": "DAMASCUS",
+    "lat": 33.86605,
+    "lon": 36.413391
+  },
+  {
+    "name": "DAMASCUS : Zabadani mantiqah",
+    "name_ar": "دمشق : زبداني",
+    "id": 226,
+    "region": "DAMASCUS",
+    "lat": 33.724532,
+    "lon": 36.096663
+  },
+  {
+    "name": "DAMASCUS : Madaya",
+    "name_ar": "دمشق : مضايا",
+    "id": 227,
+    "region": "DAMASCUS",
+    "lat": 33.687833,
+    "lon": 36.100233
+  },
+  {
+    "name": "DAMASCUS : Serghaya nahiyah",
+    "name_ar": "دمشق : سرغايا",
+    "id": 228,
+    "region": "DAMASCUS",
+    "lat": 33.800099,
+    "lon": 36.149995
+  },
+  {
+    "name": "DAMASCUS : Az-Zabadani nahiyah",
+    "name_ar": "دمشق : زبداني الضاحبة",
+    "id": 229,
+    "region": "DAMASCUS",
+    "lat": 33.72416667,
+    "lon": 36.09916667
+  },
+  {
+    "name": "DAMASCUS : Ghazlaniyah nahiyah",
+    "name_ar": "دمشق : غزلانية",
+    "id": 231,
+    "region": "DAMASCUS",
+    "lat": 33.398845,
+    "lon": 36.452038
+  },
+  {
+    "name": "DAMASCUS : an-Nabek nahiyah",
+    "name_ar": "دمشق : النبك الضاحية",
+    "id": 237,
+    "region": "DAMASCUS",
+    "lat": 34.025,
+    "lon": 36.74111111
+  },
+  {
+    "name": "DAMASCUS : Qatana nahiyah",
+    "name_ar": "دمشق : قطنا",
+    "id": 240,
+    "region": "DAMASCUS",
+    "lat": 33.433607,
+    "lon": 36.082892
+  },
+  {
+    "name": "DAMASCUS : Ashrafiat Wadi Barada",
+    "name_ar": "دمشق : أشرفية وادي بردى",
+    "id": 253,
+    "region": "DAMASCUS",
+    "lat": 33.58757,
+    "lon": 36.192768
+  },
+  {
+    "name": "DAMASCUS : Wadi Barada Market",
+    "name_ar": "دمشق : سوق وادي بردى",
+    "id": 254,
+    "region": "DAMASCUS",
+    "lat": 33.6246946,
+    "lon": 36.1096623
+  },
+  {
+    "name": "DAMASCUS : Jdaydet al-Fadel",
+    "name_ar": "دمشق : جديدة الفاضل",
+    "id": 257,
+    "region": "DAMASCUS",
+    "lat": 33.44305556,
+    "lon": 36.15472222
+  },
+  {
+    "name": "DAMASCUS : Jdaydet Shibani",
+    "name_ar": "دمشق : جديدة الشيباني",
+    "id": 258,
+    "region": "DAMASCUS",
+    "lat": 33.57277778,
+    "lon": 36.18666667
+  },
+  {
+    "name": "DARAA : DARAA",
+    "name_ar": "درعا : درعا",
+    "id": 259,
+    "region": "DARAA",
+    "lat": 32.625457,
+    "lon": 36.105709
+  },
+  {
+    "name": "DARAA : Dahiya Gharbiyah",
+    "name_ar": "درعا : الضاحية الغربية",
+    "id": 260,
+    "region": "DARAA",
+    "lat": 32.63944444,
+    "lon": 36.08055556
+  },
+  {
+    "name": "DARAA : Kashef",
+    "name_ar": "درعا : الكاشف",
+    "id": 261,
+    "region": "DARAA",
+    "lat": 32.63277778,
+    "lon": 36.11083333
+  },
+  {
+    "name": "DARAA : Matar",
+    "name_ar": "درعا : مطرب",
+    "id": 262,
+    "region": "DARAA",
+    "lat": 32.63,
+    "lon": 36.09944444
+  },
+  {
+    "name": "DARAA : Qusour",
+    "name_ar": "درعا : القصور",
+    "id": 263,
+    "region": "DARAA",
+    "lat": 32.63555556,
+    "lon": 36.10305556
+  },
+  {
+    "name": "DARAA : Sahari",
+    "name_ar": "درعا : حي السحاري",
+    "id": 264,
+    "region": "DARAA",
+    "lat": 32.62277778,
+    "lon": 36.09833333
+  },
+  {
+    "name": "DARAA : Arab International (European) Uni",
+    "name_ar": "درعا : الجامعة العربية الدولية",
+    "id": 265,
+    "region": "DARAA",
+    "lat": 33.16611111,
+    "lon": 36.29305556
+  },
+  {
+    "name": "DARAA : Bosra",
+    "name_ar": "درعا : بصرة",
+    "id": 266,
+    "region": "DARAA",
+    "lat": 32.516655,
+    "lon": 36.474137
+  },
+  {
+    "name": "DARAA : Dael",
+    "name_ar": "درعا : داعل",
+    "id": 267,
+    "region": "DARAA",
+    "lat": 32.754129,
+    "lon": 36.129827
+  },
+  {
+    "name": "DARAA : Herak",
+    "name_ar": "درعا : الحراك",
+    "id": 268,
+    "region": "DARAA",
+    "lat": 32.751242,
+    "lon": 36.30518
+  },
+  {
+    "name": "DARAA : Inkhil",
+    "name_ar": "درعا : انخل",
+    "id": 269,
+    "region": "DARAA",
+    "lat": 33.015319,
+    "lon": 36.127467
+  },
+  {
+    "name": "DARAA : Izraa",
+    "name_ar": "درعا : ازرع",
+    "id": 270,
+    "region": "DARAA",
+    "lat": 32.844545,
+    "lon": 36.224456
+  },
+  {
+    "name": "DARAA : jasim",
+    "name_ar": "درعا : جاسم",
+    "id": 271,
+    "region": "DARAA",
+    "lat": 32.993616,
+    "lon": 36.056314
+  },
+  {
+    "name": "DARAA : Nafiah",
+    "name_ar": "درعا : نافعة",
+    "id": 272,
+    "region": "DARAA",
+    "lat": 32.80888889,
+    "lon": 35.89361111
+  },
+  {
+    "name": "DARAA : Nawa",
+    "name_ar": "درعا : نوى",
+    "id": 273,
+    "region": "DARAA",
+    "lat": 32.888847,
+    "lon": 36.043096
+  },
+  {
+    "name": "DARAA : Sanamayn",
+    "name_ar": "درعا : الصنمين",
+    "id": 274,
+    "region": "DARAA",
+    "lat": 33.071151,
+    "lon": 36.184115
+  },
+  {
+    "name": "DARAA : Sheikh Miskin",
+    "name_ar": "درعا : الشيخ مسكين",
+    "id": 275,
+    "region": "DARAA",
+    "lat": 32.827996,
+    "lon": 36.158238
+  },
+  {
+    "name": "DARAA : Tafas",
+    "name_ar": "درعا : طفس",
+    "id": 276,
+    "region": "DARAA",
+    "lat": 32.737868,
+    "lon": 36.068845
+  },
+  {
+    "name": "DARAA : Kafar Shames",
+    "name_ar": "درعا : كفر شمس",
+    "id": "",
+    "region": "DARAA",
+    "lat": 33.1168858,
+    "lon": 36.1084557
+  },
+  {
+    "name": "DEIR EZZOR : DEIR EZZOR",
+    "name_ar": "دير الزور : دير الزور",
+    "id": 277,
+    "region": "DEIR EZZOR",
+    "lat": 35.3333335,
+    "lon": 40.1499999
+  },
+  {
+    "name": "DEIR EZZOR : Abu Kamal mantiqah",
+    "name_ar": "دير الزور : ابو كامل",
+    "id": 278,
+    "region": "DEIR EZZOR",
+    "lat": 34.464422,
+    "lon": 40.906563
+  },
+  {
+    "name": "DEIR EZZOR : Abu Kamal nahiyah",
+    "name_ar": "دير الزور : ابو كامل الضاحية",
+    "id": 279,
+    "region": "DEIR EZZOR",
+    "lat": 34.464422,
+    "lon": 40.906563
+  },
+  {
+    "name": "DEIR EZZOR : Hajez Jamyan",
+    "name_ar": "دير الزور : حاجز جميان",
+    "id": 280,
+    "region": "DEIR EZZOR",
+    "lat": 35.321511,
+    "lon": 40.159562
+  },
+  {
+    "name": "DEIR EZZOR : al-Jalaa nahiyah",
+    "name_ar": "دير الزور : الجلاء",
+    "id": 281,
+    "region": "DEIR EZZOR",
+    "lat": 34.632352,
+    "lon": 40.828886
+  },
+  {
+    "name": "DEIR EZZOR : as-Souseh nahiyah",
+    "name_ar": "دير الزور : السوسة",
+    "id": 282,
+    "region": "DEIR EZZOR",
+    "lat": 34.51611111,
+    "lon": 40.95444444
+  },
+  {
+    "name": "DEIR EZZOR : Deir ez-Zour mantiqah",
+    "name_ar": "دير الزور : دير الزور البلد",
+    "id": 283,
+    "region": "DEIR EZZOR",
+    "lat": 35.32944444,
+    "lon": 40.13166667
+  },
+  {
+    "name": "DEIR EZZOR : Busayrah nahiyah",
+    "name_ar": "دير الزور : مدينة البصيرة",
+    "id": 284,
+    "region": "DEIR EZZOR",
+    "lat": 35.15567,
+    "lon": 40.425782
+  },
+  {
+    "name": "DEIR EZZOR : Deir ez-Zour nahiyah",
+    "name_ar": "دير الزور : دير الزور الضاحية",
+    "id": 285,
+    "region": "DEIR EZZOR",
+    "lat": 35.336733,
+    "lon": 40.142267
+  },
+  {
+    "name": "DEIR EZZOR : Kasra nahiyah",
+    "name_ar": "دير الزور : الكسرة",
+    "id": 286,
+    "region": "DEIR EZZOR",
+    "lat": 36.25583333,
+    "lon": 38.09555556
+  },
+  {
+    "name": "DEIR EZZOR : Khesham nahiyah",
+    "name_ar": "دير الزور : ناحية خشام",
+    "id": 287,
+    "region": "DEIR EZZOR",
+    "lat": 35.3736502,
+    "lon": 40.2586055
+  },
+  {
+    "name": "DEIR EZZOR : Muhasan nahiyah",
+    "name_ar": "دير الزور : موحسن",
+    "id": 288,
+    "region": "DEIR EZZOR",
+    "lat": 35.219736,
+    "lon": 40.318666
+  },
+  {
+    "name": "DEIR EZZOR : Sour nahiyah",
+    "name_ar": "دير الزور : صور",
+    "id": 289,
+    "region": "DEIR EZZOR",
+    "lat": 35.34583333,
+    "lon": 40.14305556
+  },
+  {
+    "name": "DEIR EZZOR : At-Tibni nahiyah",
+    "name_ar": "دير الزور : التبني",
+    "id": 290,
+    "region": "DEIR EZZOR",
+    "lat": 35.606963,
+    "lon": 39.821663
+  },
+  {
+    "name": "DEIR EZZOR : al-Mayadin mantiqah",
+    "name_ar": "دير الزور : الميادين",
+    "id": 291,
+    "region": "DEIR EZZOR",
+    "lat": 35.016622,
+    "lon": 40.449536
+  },
+  {
+    "name": "DEIR EZZOR : Asharh nahiyah",
+    "name_ar": "دير الزور : العشارة",
+    "id": 292,
+    "region": "DEIR EZZOR",
+    "lat": 34.920228,
+    "lon": 40.559163
+  },
+  {
+    "name": "DEIR EZZOR : Dhiban nahiyah",
+    "name_ar": "دير الزور : ذيبان",
+    "id": 293,
+    "region": "DEIR EZZOR",
+    "lat": 35.0172391,
+    "lon": 40.5022144
+  },
+  {
+    "name": "DEIR EZZOR : Baloum",
+    "name_ar": "دير الزور : البلعوم",
+    "id": 295,
+    "region": "DEIR EZZOR",
+    "lat": 35.03166667,
+    "lon": 40.4275
+  },
+  {
+    "name": "DEIR EZZOR : Buomar",
+    "name_ar": "دير الزور : البوعمر",
+    "id": 296,
+    "region": "DEIR EZZOR",
+    "lat": 35.2537415,
+    "lon": 40.2762222
+  },
+  {
+    "name": "DEIR EZZOR : Dahleh",
+    "name_ar": "دير الزور : دحلة",
+    "id": 297,
+    "region": "DEIR EZZOR",
+    "lat": 35.2275,
+    "lon": 40.38027778
+  },
+  {
+    "name": "DEIR EZZOR : Ghamam",
+    "name_ar": "دير الزور : غمام",
+    "id": 298,
+    "region": "DEIR EZZOR",
+    "lat": 35.67361111,
+    "lon": 36.00638889
+  },
+  {
+    "name": "DEIR EZZOR : Hatilah",
+    "name_ar": "دير الزور : حطلة",
+    "id": 299,
+    "region": "DEIR EZZOR",
+    "lat": 35.32638889,
+    "lon": 40.20361111
+  },
+  {
+    "name": "DEIR EZZOR : Mahaymidah",
+    "name_ar": "دير الزور : محيمدة",
+    "id": 300,
+    "region": "DEIR EZZOR",
+    "lat": 35.4475,
+    "lon": 40.10611111
+  },
+  {
+    "name": "DEIR EZZOR : Safirat Tahtaniyah",
+    "name_ar": "دير الزور : سفيرة تحتاني",
+    "id": 301,
+    "region": "DEIR EZZOR",
+    "lat": 35.43222222,
+    "lon": 40.04388889
+  },
+  {
+    "name": "DEIR EZZOR : Sawa'ih",
+    "name_ar": "دير الزور : الصويغة",
+    "id": 302,
+    "region": "DEIR EZZOR",
+    "lat": 34.43416667,
+    "lon": 40.93277778
+  },
+  {
+    "name": "DEIR EZZOR : Shaitat",
+    "name_ar": "دير الزور : شيتات",
+    "id": 303,
+    "region": "DEIR EZZOR",
+    "lat": 34.81,
+    "lon": 40.69472222
+  },
+  {
+    "name": "DEIR EZZOR : Shnan",
+    "name_ar": "دير الزور : سحنان",
+    "id": 304,
+    "region": "DEIR EZZOR",
+    "lat": 34.96611111,
+    "lon": 40.55333333
+  },
+  {
+    "name": "DEIR EZZOR : Taybah",
+    "name_ar": "دير الزور : طيبة",
+    "id": 305,
+    "region": "DEIR EZZOR",
+    "lat": 34.99777778,
+    "lon": 40.46166667
+  },
+  {
+    "name": "DEIR EZZOR : Zabari",
+    "name_ar": "دير الزور : الزباري",
+    "id": 306,
+    "region": "DEIR EZZOR",
+    "lat": 35.111271,
+    "lon": 40.4088306
+  },
+  {
+    "name": "DEIR EZZOR : Al-Sinaa",
+    "name_ar": "دير الزور : حي الصناعة",
+    "id": 307,
+    "region": "DEIR EZZOR",
+    "lat": 35.321511,
+    "lon": 40.159562
+  },
+  {
+    "name": "DEIR EZZOR : Hajin nahiyah",
+    "name_ar": "دير الزور : هجين",
+    "id": 308,
+    "region": "DEIR EZZOR",
+    "lat": 34.68527778,
+    "lon": 40.83888889
+  },
+  {
+    "name": "HAMA : HAMA",
+    "name_ar": "حماة : حماة",
+    "id": 309,
+    "region": "HAMA",
+    "lat": 35.135776,
+    "lon": 36.746461
+  },
+  {
+    "name": "HAMA : Qastun",
+    "name_ar": "حماة : قسطون",
+    "id": "",
+    "region": "HAMA",
+    "lat": 35.68574586,
+    "lon": 36.38919488
+  },
+  {
+    "name": "HAMA : 15 March St",
+    "name_ar": "حماة : شارع 15 اذار",
+    "id": 310,
+    "region": "HAMA",
+    "lat": 35.12916667,
+    "lon": 36.74972222
+  },
+  {
+    "name": "HAMA : Abi al-Fida",
+    "name_ar": "حماة : ابي الفداء",
+    "id": 311,
+    "region": "HAMA",
+    "lat": 35.10305556,
+    "lon": 36.76111111
+  },
+  {
+    "name": "HAMA : Amiriyah",
+    "name_ar": "حماة : حي الأميرية",
+    "id": 312,
+    "region": "HAMA",
+    "lat": 35.13861111,
+    "lon": 36.76027778
+  },
+  {
+    "name": "HAMA : Aylilat",
+    "name_ar": "حماة : العليليات",
+    "id": 313,
+    "region": "HAMA",
+    "lat": 35.12666667,
+    "lon": 36.76027778
+  },
+  {
+    "name": "HAMA : Bab al-Balad",
+    "name_ar": "حماة : باب البلد",
+    "id": 314,
+    "region": "HAMA",
+    "lat": 35.12722222,
+    "lon": 36.7525
+  },
+  {
+    "name": "HAMA : Bab Qebli",
+    "name_ar": "حماة : باب قبلي",
+    "id": 315,
+    "region": "HAMA",
+    "lat": 35.13194444,
+    "lon": 36.74416667
+  },
+  {
+    "name": "HAMA : Baraziyah",
+    "name_ar": "حماة : حي البرازية",
+    "id": 316,
+    "region": "HAMA",
+    "lat": 35.125,
+    "lon": 36.75166667
+  },
+  {
+    "name": "HAMA : Basher al-Hafi mosque",
+    "name_ar": "حماة : جامع بشير الحافي",
+    "id": 317,
+    "region": "HAMA",
+    "lat": 35.13583333,
+    "lon": 36.7725
+  },
+  {
+    "name": "HAMA : Bayad",
+    "name_ar": "حماة : البياض",
+    "id": 318,
+    "region": "HAMA",
+    "lat": 35.12361111,
+    "lon": 36.74083333
+  },
+  {
+    "name": "HAMA : Burhan Souq (Hader)",
+    "name_ar": "حماة : سوق برهان الأثري",
+    "id": 319,
+    "region": "HAMA",
+    "lat": 35.136125,
+    "lon": 36.754706
+  },
+  {
+    "name": "HAMA : Dabagha",
+    "name_ar": "حماة : الدباغة",
+    "id": 320,
+    "region": "HAMA",
+    "lat": 35.13111111,
+    "lon": 36.75222222
+  },
+  {
+    "name": "HAMA : Farrayah",
+    "name_ar": "حماة : حي الفراية",
+    "id": 321,
+    "region": "HAMA",
+    "lat": 35.12611111,
+    "lon": 36.75388889
+  },
+  {
+    "name": "HAMA : Haddadin Souq",
+    "name_ar": "حماة : سوق الحدادين",
+    "id": 322,
+    "region": "HAMA",
+    "lat": 35.13166667,
+    "lon": 36.75
+  },
+  {
+    "name": "HAMA : Ibn Rashid St",
+    "name_ar": "حماة : شارع ابن رشيد",
+    "id": 323,
+    "region": "HAMA",
+    "lat": 35.13222222,
+    "lon": 36.75
+  },
+  {
+    "name": "HAMA : Jab roundabout",
+    "name_ar": "حماة : دوار الجب",
+    "id": 324,
+    "region": "HAMA",
+    "lat": 35.14638889,
+    "lon": 36.76638889
+  },
+  {
+    "name": "HAMA : Janoob al-Thakneh",
+    "name_ar": "حماة : جنوب الثكنة",
+    "id": 326,
+    "region": "HAMA",
+    "lat": 35.13444444,
+    "lon": 36.73694444
+  },
+  {
+    "name": "HAMA : Jarajmeh",
+    "name_ar": "حماة : جراجمة",
+    "id": 327,
+    "region": "HAMA",
+    "lat": 35.13388889,
+    "lon": 36.74111111
+  },
+  {
+    "name": "HAMA : Karam Hourani",
+    "name_ar": "حماة : كرم الحوراني",
+    "id": 328,
+    "region": "HAMA",
+    "lat": 35.12111111,
+    "lon": 36.74722222
+  },
+  {
+    "name": "HAMA : Marabet",
+    "name_ar": "حماة : مرابط",
+    "id": 329,
+    "region": "HAMA",
+    "lat": 35.12722222,
+    "lon": 36.75277778
+  },
+  {
+    "name": "HAMA : Mashaa al-Tayar",
+    "name_ar": "حماة : مشاع الطيار",
+    "id": 330,
+    "region": "HAMA",
+    "lat": 35.101864,
+    "lon": 36.770809
+  },
+  {
+    "name": "HAMA : Al-Madena",
+    "name_ar": "حماة : المدينة",
+    "id": 331,
+    "region": "HAMA",
+    "lat": 35.13388889,
+    "lon": 36.74472222
+  },
+  {
+    "name": "HAMA : Nasr",
+    "name_ar": "حماة : ناصر",
+    "id": 332,
+    "region": "HAMA",
+    "lat": 35.11416667,
+    "lon": 36.74
+  },
+  {
+    "name": "HAMA : Shamaliyeh",
+    "name_ar": "حماة : الشمالي",
+    "id": 333,
+    "region": "HAMA",
+    "lat": 35.13833333,
+    "lon": 36.75861111
+  },
+  {
+    "name": "HAMA : Sharqiyah",
+    "name_ar": "حماة : الشرقية",
+    "id": 334,
+    "region": "HAMA",
+    "lat": 35.13416667,
+    "lon": 36.76527778
+  },
+  {
+    "name": "HAMA : Sheikh Alwan",
+    "name_ar": "حماة : مسجد الشيخ علوان",
+    "id": 335,
+    "region": "HAMA",
+    "lat": 35.12888889,
+    "lon": 36.75777778
+  },
+  {
+    "name": "HAMA : Sheikh Anbar",
+    "name_ar": "حماة : الشيخ عنبر",
+    "id": 336,
+    "region": "HAMA",
+    "lat": 35.12611111,
+    "lon": 36.74666667
+  },
+  {
+    "name": "HAMA : Sheikh Mohammed al-Hamid St",
+    "name_ar": "حماة : شارع الشيخ محمد الخامد",
+    "id": 337,
+    "region": "HAMA",
+    "lat": 35.12472222,
+    "lon": 36.75444444
+  },
+  {
+    "name": "HAMA : Shuhada mosque",
+    "name_ar": "حماة : جامع الشهداء",
+    "id": 338,
+    "region": "HAMA",
+    "lat": 35.12111111,
+    "lon": 36.76111111
+  },
+  {
+    "name": "HAMA : Souq Taweel",
+    "name_ar": "حماة : سوق الطويل",
+    "id": 339,
+    "region": "HAMA",
+    "lat": 35.12861111,
+    "lon": 36.75166667
+  },
+  {
+    "name": "HAMA : Taawniyah",
+    "name_ar": "حماة : التوينة",
+    "id": 340,
+    "region": "HAMA",
+    "lat": 35.12361111,
+    "lon": 36.73611111
+  },
+  {
+    "name": "HAMA : Abu Hanaya",
+    "name_ar": "حماة : أبو الحنايا",
+    "id": 342,
+    "region": "HAMA",
+    "lat": 35.07194444,
+    "lon": 37.32611111
+  },
+  {
+    "name": "HAMA : Abu Rimal",
+    "name_ar": "حماة : قرية ابو رمال",
+    "id": 343,
+    "region": "HAMA",
+    "lat": 35.05,
+    "lon": 37.3833
+  },
+  {
+    "name": "HAMA : Amiqiyah",
+    "name_ar": "حماة : مدينة عميقة",
+    "id": 344,
+    "region": "HAMA",
+    "lat": 35.5725,
+    "lon": 36.38611111
+  },
+  {
+    "name": "HAMA : Aqayribat",
+    "name_ar": "حماة : عقبريات",
+    "id": 345,
+    "region": "HAMA",
+    "lat": 35.04027778,
+    "lon": 37.46194444
+  },
+  {
+    "name": "HAMA : Arba'een",
+    "name_ar": "حماة : حي مشاع الأربعين",
+    "id": 346,
+    "region": "HAMA",
+    "lat": 35.35388889,
+    "lon": 36.55833333
+  },
+  {
+    "name": "HAMA : Arzeh",
+    "name_ar": "حماة : أرزة",
+    "id": 347,
+    "region": "HAMA",
+    "lat": 35.17527778,
+    "lon": 36.69861111
+  },
+  {
+    "name": "HAMA : Asharenah",
+    "name_ar": "حماة : العشارنة",
+    "id": 348,
+    "region": "HAMA",
+    "lat": 35.28916667,
+    "lon": 36.4075
+  },
+  {
+    "name": "HAMA : Ashrafiyah",
+    "name_ar": "حماة : أشرفية",
+    "id": 349,
+    "region": "HAMA",
+    "lat": 34.9626,
+    "lon": 36.5752
+  },
+  {
+    "name": "HAMA : Aweinah",
+    "name_ar": "حماة : صبا العوينة",
+    "id": 351,
+    "region": "HAMA",
+    "lat": 35.31777778,
+    "lon": 36.43388889
+  },
+  {
+    "name": "HAMA : Aziziyah",
+    "name_ar": "حماة : ضيعة العزيزية",
+    "id": 352,
+    "region": "HAMA",
+    "lat": 35.52083333,
+    "lon": 36.32194444
+  },
+  {
+    "name": "HAMA : Bab al-Taqah",
+    "name_ar": "حماة : باب الطاقة",
+    "id": 353,
+    "region": "HAMA",
+    "lat": 35.44944444,
+    "lon": 36.38027778
+  },
+  {
+    "name": "HAMA : Balahsin",
+    "name_ar": "حماة : بلحسين",
+    "id": 355,
+    "region": "HAMA",
+    "lat": 35.18861111,
+    "lon": 36.69638889
+  },
+  {
+    "name": "HAMA : Berri al-Sharqi",
+    "name_ar": "حماة : بري شرقي",
+    "id": 357,
+    "region": "HAMA",
+    "lat": 34.98055556,
+    "lon": 37.205
+  },
+  {
+    "name": "HAMA : Deemu",
+    "name_ar": "حماة : ديمو",
+    "id": 358,
+    "region": "HAMA",
+    "lat": 35.2025,
+    "lon": 36.44722222
+  },
+  {
+    "name": "HAMA : Fan Shamali",
+    "name_ar": "حماة : فان شمالي",
+    "id": 360,
+    "region": "HAMA",
+    "lat": 35.30944444,
+    "lon": 36.91694444
+  },
+  {
+    "name": "HAMA : Fellah",
+    "name_ar": "حماة : فيلاح",
+    "id": 361,
+    "region": "HAMA",
+    "lat": 34.85305556,
+    "lon": 36.505
+  },
+  {
+    "name": "HAMA : Halfaya",
+    "name_ar": "حماة : حلفايا",
+    "id": 362,
+    "region": "HAMA",
+    "lat": 35.261419,
+    "lon": 36.604177
+  },
+  {
+    "name": "HAMA : Hamidiyah",
+    "name_ar": "حماة : الحميدية",
+    "id": 363,
+    "region": "HAMA",
+    "lat": 35.65666667,
+    "lon": 36.38777778
+  },
+  {
+    "name": "HAMA : Hammadi al-Omar",
+    "name_ar": "حماة : حمادي العمر",
+    "id": 364,
+    "region": "HAMA",
+    "lat": 35.02527778,
+    "lon": 37.42333333
+  },
+  {
+    "name": "HAMA : Hanjour",
+    "name_ar": "حماة : حنجور",
+    "id": 365,
+    "region": "HAMA",
+    "lat": 35.18333333,
+    "lon": 36.47083333
+  },
+  {
+    "name": "HAMA : Hawash",
+    "name_ar": "حماة : تل هواش",
+    "id": 366,
+    "region": "HAMA",
+    "lat": 35.54944444,
+    "lon": 36.37888889
+  },
+  {
+    "name": "HAMA : Hawijah",
+    "name_ar": "حماة : الحويجة",
+    "id": 367,
+    "region": "HAMA",
+    "lat": 35.52305556,
+    "lon": 36.37305556
+  },
+  {
+    "name": "HAMA : Hawiz",
+    "name_ar": "حماة : الحويز",
+    "id": 368,
+    "region": "HAMA",
+    "lat": 35.5,
+    "lon": 36.35527778
+  },
+  {
+    "name": "HAMA : Hayalin",
+    "name_ar": "حماة : حيالين الغاب",
+    "id": 369,
+    "region": "HAMA",
+    "lat": 35.34833333,
+    "lon": 36.43833333
+  },
+  {
+    "name": "HAMA : Jabriyah",
+    "name_ar": "حماة : قرية الجابرية",
+    "id": 370,
+    "region": "HAMA",
+    "lat": 34.97777778,
+    "lon": 37.42444444
+  },
+  {
+    "name": "HAMA : Jadideh",
+    "name_ar": "حماة : الجديدة",
+    "id": 371,
+    "region": "HAMA",
+    "lat": 35.28111111,
+    "lon": 36.53527778
+  },
+  {
+    "name": "HAMA : Jalameh",
+    "name_ar": "حماة : الجلمة",
+    "id": 372,
+    "region": "HAMA",
+    "lat": 35.32555556,
+    "lon": 36.48555556
+  },
+  {
+    "name": "HAMA : Jammaseh",
+    "name_ar": "حماة : جماسة",
+    "id": 373,
+    "region": "HAMA",
+    "lat": 35.0475,
+    "lon": 36.15
+  },
+  {
+    "name": "HAMA : Jarjarah",
+    "name_ar": "حماة : جرجرة",
+    "id": 374,
+    "region": "HAMA",
+    "lat": 35.13916667,
+    "lon": 36.56527778
+  },
+  {
+    "name": "HAMA : Jarjiseh",
+    "name_ar": "حماة : جرجيسة",
+    "id": 375,
+    "region": "HAMA",
+    "lat": 34.94361111,
+    "lon": 36.69333333
+  },
+  {
+    "name": "HAMA : Jayed",
+    "name_ar": "حماة : الجايد",
+    "id": 376,
+    "region": "HAMA",
+    "lat": 35.55166667,
+    "lon": 36.31138889
+  },
+  {
+    "name": "HAMA : Jennan",
+    "name_ar": "حماة : الجنان",
+    "id": 377,
+    "region": "HAMA",
+    "lat": 35.08472222,
+    "lon": 36.845
+  },
+  {
+    "name": "HAMA : Jibeen",
+    "name_ar": "حماة : جبين",
+    "id": 378,
+    "region": "HAMA",
+    "lat": 35.33777778,
+    "lon": 36.51361111
+  },
+  {
+    "name": "HAMA : Jreijas",
+    "name_ar": "حماة : جريجس",
+    "id": 379,
+    "region": "HAMA",
+    "lat": 35.19416667,
+    "lon": 36.5025
+  },
+  {
+    "name": "HAMA : Kafar Houd",
+    "name_ar": "حماة : مسجد كفر هود",
+    "id": 380,
+    "region": "HAMA",
+    "lat": 35.28666667,
+    "lon": 36.51083333
+  },
+  {
+    "name": "HAMA : Kafar al-Toun",
+    "name_ar": "حماة : كفر الطون",
+    "id": 381,
+    "region": "HAMA",
+    "lat": 35.15888889,
+    "lon": 36.63138889
+  },
+  {
+    "name": "HAMA : Kafraa",
+    "name_ar": "حماة : كفراع",
+    "id": 383,
+    "region": "HAMA",
+    "lat": 35.217446,
+    "lon": 36.805884
+  },
+  {
+    "name": "HAMA : Karameh",
+    "name_ar": "حماة : الكرامة",
+    "id": 384,
+    "region": "HAMA",
+    "lat": 35.13955,
+    "lon": 36.729714
+  },
+  {
+    "name": "HAMA : Karayam",
+    "name_ar": "حماة : الكريم",
+    "id": 385,
+    "region": "HAMA",
+    "lat": 35.43944444,
+    "lon": 36.32916667
+  },
+  {
+    "name": "HAMA : Khafsin",
+    "name_ar": "حماة : خفسين",
+    "id": 386,
+    "region": "HAMA",
+    "lat": 35.34694444,
+    "lon": 36.85583333
+  },
+  {
+    "name": "HAMA : Khnayzir",
+    "name_ar": "حماة : خنيزير",
+    "id": 387,
+    "region": "HAMA",
+    "lat": 35.24833333,
+    "lon": 36.52916667
+  },
+  {
+    "name": "HAMA : Krah",
+    "name_ar": "حماة : كراح",
+    "id": 388,
+    "region": "HAMA",
+    "lat": 35.33861111,
+    "lon": 36.83138889
+  },
+  {
+    "name": "HAMA : Latammin",
+    "name_ar": "حماة : لطمين",
+    "id": 389,
+    "region": "HAMA",
+    "lat": 35.35833333,
+    "lon": 36.65222222
+  },
+  {
+    "name": "HAMA : latamneh",
+    "name_ar": "حماة : اللطامنة",
+    "id": 390,
+    "region": "HAMA",
+    "lat": 35.326749,
+    "lon": 36.621766
+  },
+  {
+    "name": "HAMA : Ma'arzaf",
+    "name_ar": "حماة : معرزاف",
+    "id": 391,
+    "region": "HAMA",
+    "lat": 35.20388889,
+    "lon": 36.55611111
+  },
+  {
+    "name": "HAMA : Jubb Al-Aswad",
+    "name_ar": "حماة : جب الأسود",
+    "id": 392,
+    "region": "HAMA",
+    "lat": 35.05861111,
+    "lon": 37.50916667
+  },
+  {
+    "name": "HAMA : Marrashidah",
+    "name_ar": "حماة : مرشدية",
+    "id": 393,
+    "region": "HAMA",
+    "lat": 34.50972222,
+    "lon": 40.93083333
+  },
+  {
+    "name": "HAMA : Massoud",
+    "name_ar": "حماة : مسعود",
+    "id": 394,
+    "region": "HAMA",
+    "lat": 35.09027778,
+    "lon": 37.36638889
+  },
+  {
+    "name": "HAMA : Misyaf",
+    "name_ar": "حماة : مصياف",
+    "id": 395,
+    "region": "HAMA",
+    "lat": 35.064982,
+    "lon": 36.341866
+  },
+  {
+    "name": "HAMA : Morek",
+    "name_ar": "حماة : مورك",
+    "id": 396,
+    "region": "HAMA",
+    "lat": 35.375176,
+    "lon": 36.687255
+  },
+  {
+    "name": "HAMA : Muhradah",
+    "name_ar": "حماة : محردة",
+    "id": 397,
+    "region": "HAMA",
+    "lat": 35.249636,
+    "lon": 36.583017
+  },
+  {
+    "name": "HAMA : Mustarihah",
+    "name_ar": "حماة : قرية المستريحة",
+    "id": 398,
+    "region": "HAMA",
+    "lat": 35.139,
+    "lon": 37.652
+  },
+  {
+    "name": "HAMA : Qaber Fidah",
+    "name_ar": "حماة : قبر فضة",
+    "id": 399,
+    "region": "HAMA",
+    "lat": 35.47305556,
+    "lon": 36.31833333
+  },
+  {
+    "name": "HAMA : Qabu",
+    "name_ar": "حماة : القبة",
+    "id": 400,
+    "region": "HAMA",
+    "lat": 34.84472222,
+    "lon": 36.45444444
+  },
+  {
+    "name": "HAMA : Qanbar",
+    "name_ar": "حماة : قرية قنبر",
+    "id": 401,
+    "region": "HAMA",
+    "lat": 35.07222222,
+    "lon": 37.45361111
+  },
+  {
+    "name": "HAMA : Qasr Abu Samrah",
+    "name_ar": "حماة : قصر ابو سمرة",
+    "id": 402,
+    "region": "HAMA",
+    "lat": 35.35444444,
+    "lon": 36.97194444
+  },
+  {
+    "name": "HAMA : Qassabiyah",
+    "name_ar": "حماة : القصابية",
+    "id": 403,
+    "region": "HAMA",
+    "lat": 35.46611111,
+    "lon": 36.49611111
+  },
+  {
+    "name": "HAMA : Qubeir",
+    "name_ar": "حماة : القبير",
+    "id": 404,
+    "region": "HAMA",
+    "lat": 35.1775,
+    "lon": 36.51472222
+  },
+  {
+    "name": "HAMA : Qubaybat",
+    "name_ar": "حماة : قبيبات",
+    "id": 405,
+    "region": "HAMA",
+    "lat": 35.204129,
+    "lon": 37.159844
+  },
+  {
+    "name": "HAMA : Qulaydin",
+    "name_ar": "حماة : قليدين",
+    "id": 406,
+    "region": "HAMA",
+    "lat": 35.611194,
+    "lon": 36.384766
+  },
+  {
+    "name": "HAMA : Rihajan",
+    "name_ar": "حماة : الرهجان",
+    "id": 407,
+    "region": "HAMA",
+    "lat": 35.39416667,
+    "lon": 37.40027778
+  },
+  {
+    "name": "HAMA : Sabburah",
+    "name_ar": "حماة : صبورة",
+    "id": 408,
+    "region": "HAMA",
+    "lat": 35.15777778,
+    "lon": 37.21222222
+  },
+  {
+    "name": "HAMA : Safsafeh",
+    "name_ar": "حماة : جامع الصفصافية",
+    "id": 409,
+    "region": "HAMA",
+    "lat": 35.26305556,
+    "lon": 36.47694444
+  },
+  {
+    "name": "HAMA : Sahariyah",
+    "name_ar": "حماة : الصهرية",
+    "id": 410,
+    "region": "HAMA",
+    "lat": 35.48305556,
+    "lon": 36.42805556
+  },
+  {
+    "name": "HAMA : Salamiyah",
+    "name_ar": "حماة : سلمية",
+    "id": 411,
+    "region": "HAMA",
+    "lat": 35.013336,
+    "lon": 37.056627
+  },
+  {
+    "name": "HAMA : Samalil",
+    "name_ar": "حماة : جامع السميعل الكبير",
+    "id": 412,
+    "region": "HAMA",
+    "lat": 34.83833333,
+    "lon": 36.5725
+  },
+  {
+    "name": "HAMA : Sa'an",
+    "name_ar": "حماة : السعن",
+    "id": 413,
+    "region": "HAMA",
+    "lat": 35.26388889,
+    "lon": 37.37138889
+  },
+  {
+    "name": "HAMA : Shaharnaz",
+    "name_ar": "حماة : شهرناز",
+    "id": 414,
+    "region": "HAMA",
+    "lat": 35.51722222,
+    "lon": 36.40277778
+  },
+  {
+    "name": "HAMA : Shari'ah",
+    "name_ar": "حماة : الشريعة",
+    "id": 415,
+    "region": "HAMA",
+    "lat": 35.44472222,
+    "lon": 36.35305556
+  },
+  {
+    "name": "HAMA : Shayr",
+    "name_ar": "حماة : الشير",
+    "id": 416,
+    "region": "HAMA",
+    "lat": 35.19305556,
+    "lon": 36.62055556
+  },
+  {
+    "name": "HAMA : Shayzer",
+    "name_ar": "حماة : شيزر",
+    "id": 417,
+    "region": "HAMA",
+    "lat": 35.26333333,
+    "lon": 36.56
+  },
+  {
+    "name": "HAMA : Sheikh Hadid",
+    "name_ar": "حماة : شيخ حديد",
+    "id": 418,
+    "region": "HAMA",
+    "lat": 35.35277778,
+    "lon": 36.48305556
+  },
+  {
+    "name": "HAMA : Sheyha",
+    "name_ar": "حماة : الشيحة",
+    "id": 419,
+    "region": "HAMA",
+    "lat": 35.15277778,
+    "lon": 36.68555556
+  },
+  {
+    "name": "HAMA : Sihriyah",
+    "name_ar": "حماة : سحرية",
+    "id": 420,
+    "region": "HAMA",
+    "lat": 35.48305556,
+    "lon": 36.42805556
+  },
+  {
+    "name": "HAMA : Sormaniyah",
+    "name_ar": "حماة : السرمانية",
+    "id": 421,
+    "region": "HAMA",
+    "lat": 35.71416667,
+    "lon": 36.28416667
+  },
+  {
+    "name": "HAMA : Souha",
+    "name_ar": "حماة : سوحا",
+    "id": 422,
+    "region": "HAMA",
+    "lat": 35.00055556,
+    "lon": 37.40222222
+  },
+  {
+    "name": "IDLIB : Sukayk",
+    "name_ar": "ادلب : سكيك",
+    "id": 423,
+    "region": "IDLIB",
+    "lat": 35.4275,
+    "lon": 36.77
+  },
+  {
+    "name": "HAMA : Suqaylabiyah",
+    "name_ar": "حماة : السقيلبية",
+    "id": 424,
+    "region": "HAMA",
+    "lat": 35.369472,
+    "lon": 36.379788
+  },
+  {
+    "name": "HAMA : Suran",
+    "name_ar": "حماة : صوران",
+    "id": 425,
+    "region": "HAMA",
+    "lat": 35.292326,
+    "lon": 36.746128
+  },
+  {
+    "name": "HAMA : Tal Khanzir",
+    "name_ar": "حماة : تل خنزير",
+    "id": 427,
+    "region": "HAMA",
+    "lat": 35.43305556,
+    "lon": 36.98166667
+  },
+  {
+    "name": "HAMA : Tal Malah",
+    "name_ar": "حماة : تل ملاح",
+    "id": 428,
+    "region": "HAMA",
+    "lat": 35.30583333,
+    "lon": 36.52
+  },
+  {
+    "name": "HAMA : Tal Sakkin",
+    "name_ar": "حماة : تل سكين",
+    "id": 429,
+    "region": "HAMA",
+    "lat": 35.15472222,
+    "lon": 36.58222222
+  },
+  {
+    "name": "HAMA : Talaf",
+    "name_ar": "حماة : طلف",
+    "id": 431,
+    "region": "HAMA",
+    "lat": 34.91166667,
+    "lon": 36.56083333
+  },
+  {
+    "name": "HAMA : Talisiyah",
+    "name_ar": "حماة : قرية الطلسية",
+    "id": 432,
+    "region": "HAMA",
+    "lat": 35.36694444,
+    "lon": 36.91444444
+  },
+  {
+    "name": "HAMA : Tamana'at al-Ghab",
+    "name_ar": "حماة : تمانعة الغاب",
+    "id": 433,
+    "region": "HAMA",
+    "lat": 35.53888889,
+    "lon": 36.31583333
+  },
+  {
+    "name": "HAMA : Tarmala",
+    "name_ar": "حماة : بلدة ترملا",
+    "id": 434,
+    "region": "HAMA",
+    "lat": 35.52472222,
+    "lon": 36.48222222
+  },
+  {
+    "name": "HAMA : Tayyibat al-Imam",
+    "name_ar": "حماة : طيبة الامام",
+    "id": 435,
+    "region": "HAMA",
+    "lat": 35.265002,
+    "lon": 36.711112
+  },
+  {
+    "name": "HAMA : Tayyibat al-Turki",
+    "name_ar": "حماة : طيبة التركي",
+    "id": 436,
+    "region": "HAMA",
+    "lat": 35.24027778,
+    "lon": 36.93583333
+  },
+  {
+    "name": "HAMA : Toubah",
+    "name_ar": "حماة : طوبة",
+    "id": 437,
+    "region": "HAMA",
+    "lat": 35.44083333,
+    "lon": 36.43722222
+  },
+  {
+    "name": "HAMA : Traymseh",
+    "name_ar": "حماة : التريمسة",
+    "id": 438,
+    "region": "HAMA",
+    "lat": 35.27305556,
+    "lon": 36.50472222
+  },
+  {
+    "name": "HAMA : Utshan",
+    "name_ar": "حماة : عطشان",
+    "id": 439,
+    "region": "HAMA",
+    "lat": 35.4081469,
+    "lon": 36.8234988
+  },
+  {
+    "name": "HAMA : Zakah",
+    "name_ar": "حماة : الزكاه",
+    "id": 440,
+    "region": "HAMA",
+    "lat": 35.34,
+    "lon": 36.57722222
+  },
+  {
+    "name": "HAMA : Zeizoun",
+    "name_ar": "حماة : زيزون",
+    "id": 441,
+    "region": "HAMA",
+    "lat": 35.72694444,
+    "lon": 36.35694444
+  },
+  {
+    "name": "HAMA : Zillakiat",
+    "name_ar": "حماة : الزلاقيات",
+    "id": 442,
+    "region": "HAMA",
+    "lat": 35.2675562,
+    "lon": 36.6005184
+  },
+  {
+    "name": "HAMA : Khatamlu",
+    "name_ar": "حماة : خطملو",
+    "id": 443,
+    "region": "HAMA",
+    "lat": 34.9665,
+    "lon": 37.5
+  },
+  {
+    "name": "HAMA : KafrZita",
+    "name_ar": "حماة : كفرزيتا",
+    "id": 444,
+    "region": "HAMA",
+    "lat": 35.373461,
+    "lon": 36.601458
+  },
+  {
+    "name": "HAMA : Al-Boida",
+    "name_ar": "حماة : البويضة",
+    "id": 445,
+    "region": "HAMA",
+    "lat": 35.315751,
+    "lon": 36.695237
+  },
+  {
+    "name": "HAMA : Ziyarah",
+    "name_ar": "حماة : الزيارة",
+    "id": 446,
+    "region": "HAMA",
+    "lat": 35.688947,
+    "lon": 36.338737
+  },
+  {
+    "name": "HASAKAH : HASAKAH",
+    "name_ar": "الحسكة : الحسكة",
+    "id": 447,
+    "region": "HASAKAH",
+    "lat": 36.5013738,
+    "lon": 40.7469948
+  },
+  {
+    "name": "HASAKAH : Tall Bulayj",
+    "name_ar": "الحسكة : تل بليج",
+    "id": 448,
+    "region": "HASAKAH",
+    "lat": 36.925,
+    "lon": 41.4377778
+  },
+  {
+    "name": "HASAKAH : Salihiyat Harb",
+    "name_ar": "الحسكة : صالحيات حرب",
+    "id": 449,
+    "region": "HASAKAH",
+    "lat": 36.8427778,
+    "lon": 41.28
+  },
+  {
+    "name": "HASAKAH : Haddadiyah",
+    "name_ar": "الحسكة : حدادية",
+    "id": 450,
+    "region": "HASAKAH",
+    "lat": 36.8466667,
+    "lon": 41.3016667
+  },
+  {
+    "name": "HASAKAH : al-Arisheh nahiyah",
+    "name_ar": "الحسكة : العريشة",
+    "id": 451,
+    "region": "HASAKAH",
+    "lat": 36.243754,
+    "lon": 40.7561874
+  },
+  {
+    "name": "HASAKAH : Bir al-Helou nahiyah",
+    "name_ar": "الحسكة : بير الحلو",
+    "id": 452,
+    "region": "HASAKAH",
+    "lat": 36.513172,
+    "lon": 40.749727
+  },
+  {
+    "name": "HASAKAH : al-Hasakah nahiyah",
+    "name_ar": "الحسكة : ناحية الحسكة",
+    "id": 453,
+    "region": "HASAKAH",
+    "lat": 36.513172,
+    "lon": 40.749727
+  },
+  {
+    "name": "HASAKAH : al-Houl nahiyah",
+    "name_ar": "الحسكة : ناحية الحول",
+    "id": 454,
+    "region": "HASAKAH",
+    "lat": 36.243754,
+    "lon": 40.7561874
+  },
+  {
+    "name": "HASAKAH : Markadeh nahiyah",
+    "name_ar": "الحسكة : مركدة",
+    "id": 455,
+    "region": "HASAKAH",
+    "lat": 35.75055556,
+    "lon": 40.79222222
+  },
+  {
+    "name": "HASAKAH : Shaddadeh nahiyah",
+    "name_ar": "الحسكة : الشدادي",
+    "id": 456,
+    "region": "HASAKAH",
+    "lat": 36.055241,
+    "lon": 40.730953
+  },
+  {
+    "name": "HASAKAH : Tal Tamer nahiyah",
+    "name_ar": "الحسكة : تل تمر",
+    "id": 457,
+    "region": "HASAKAH",
+    "lat": 36.656359,
+    "lon": 40.367753
+  },
+  {
+    "name": "HASAKAH : al-Malikiyah mantiqah",
+    "name_ar": "الحسكة : المالكية",
+    "id": 458,
+    "region": "HASAKAH",
+    "lat": 37.168112,
+    "lon": 42.13377
+  },
+  {
+    "name": "HASAKAH : Jawadiyah nahiyah",
+    "name_ar": "الحسكة : الجوادية",
+    "id": 459,
+    "region": "HASAKAH",
+    "lat": 36.96138889,
+    "lon": 41.88472222
+  },
+  {
+    "name": "HASAKAH : al-Malikiyah nahiyah",
+    "name_ar": "الحسكة : ناحية المالكية",
+    "id": 460,
+    "region": "HASAKAH",
+    "lat": 37.1725,
+    "lon": 42.14
+  },
+  {
+    "name": "HASAKAH : Yarubiyeh nahiyah",
+    "name_ar": "الحسكة : يعربية",
+    "id": 461,
+    "region": "HASAKAH",
+    "lat": 36.8072489,
+    "lon": 42.0747614
+  },
+  {
+    "name": "HASAKAH : Qamishli mantiqah",
+    "name_ar": "الحسكة : قامشلي",
+    "id": 462,
+    "region": "HASAKAH",
+    "lat": 37.049653,
+    "lon": 41.217567
+  },
+  {
+    "name": "HASAKAH : Amouda nahiyah",
+    "name_ar": "الحسكة : عامودا",
+    "id": 463,
+    "region": "HASAKAH",
+    "lat": 37.104466,
+    "lon": 40.929955
+  },
+  {
+    "name": "HASAKAH : Qamishli nahiyah",
+    "name_ar": "الحسكة : ناحية القامشلي",
+    "id": 464,
+    "region": "HASAKAH",
+    "lat": 36.513172,
+    "lon": 40.749727
+  },
+  {
+    "name": "HASAKAH : Tal Hamis nahiyah",
+    "name_ar": "الحسكة : تل حميس",
+    "id": 465,
+    "region": "HASAKAH",
+    "lat": 36.755841,
+    "lon": 41.398557
+  },
+  {
+    "name": "HASAKAH : al-Qahtaniyeh nahiyah",
+    "name_ar": "الحسكة : القحطانية",
+    "id": 466,
+    "region": "HASAKAH",
+    "lat": 37.028612,
+    "lon": 41.548254
+  },
+  {
+    "name": "HASAKAH : Ras al-Ayn mantiqah",
+    "name_ar": "الحسكة : راس العين",
+    "id": 467,
+    "region": "HASAKAH",
+    "lat": 36.849405,
+    "lon": 40.064735
+  },
+  {
+    "name": "HASAKAH : Darbasiyah nahiyah",
+    "name_ar": "الحسكة : الدرباسية",
+    "id": 468,
+    "region": "HASAKAH",
+    "lat": 37.072695,
+    "lon": 40.65141
+  },
+  {
+    "name": "HASAKAH : Ras al-Ayn nahiyah",
+    "name_ar": "الحسكة : ناحية راس العين",
+    "id": 469,
+    "region": "HASAKAH",
+    "lat": 36.62527778,
+    "lon": 40.2225
+  },
+  {
+    "name": "HASAKAH : Khirbet Bajar",
+    "name_ar": "الحسكة : خربة",
+    "id": 470,
+    "region": "HASAKAH",
+    "lat": 36.95,
+    "lon": 41.816
+  },
+  {
+    "name": "HASAKAH : Saba Arba'een",
+    "name_ar": "الحسكة : قرية سبعة",
+    "id": 471,
+    "region": "HASAKAH",
+    "lat": 36.082,
+    "lon": 40.656
+  },
+  {
+    "name": "HASAKAH : Tawarikh",
+    "name_ar": "الحسكة : أم تواريخ",
+    "id": 472,
+    "region": "HASAKAH",
+    "lat": 36.86083333,
+    "lon": 41.30166667
+  },
+  {
+    "name": "HOMS : HOMS",
+    "name_ar": "حمص : حمص",
+    "id": 473,
+    "region": "HOMS",
+    "lat": 34.7333334,
+    "lon": 36.7166667
+  },
+  {
+    "name": "HOMS : Old Homs",
+    "name_ar": "حمص : حمص القديمة",
+    "id": 474,
+    "region": "HOMS",
+    "lat": 34.727628,
+    "lon": 36.717086
+  },
+  {
+    "name": "HOMS : Adawiyah",
+    "name_ar": "حمص : العدوية",
+    "id": 475,
+    "region": "HOMS",
+    "lat": 34.71833333,
+    "lon": 36.72166667
+  },
+  {
+    "name": "HOMS : A'iddine Camp",
+    "name_ar": "حمص : مخيم العائدين",
+    "id": 476,
+    "region": "HOMS",
+    "lat": 34.70722222,
+    "lon": 36.70694444
+  },
+  {
+    "name": "HOMS : Asheerah",
+    "name_ar": "حمص : حي عشيرة",
+    "id": 477,
+    "region": "HOMS",
+    "lat": 34.71722222,
+    "lon": 36.74666667
+  },
+  {
+    "name": "HOMS : Bab Turkman",
+    "name_ar": "حمص : باب تركمان",
+    "id": 478,
+    "region": "HOMS",
+    "lat": 34.725,
+    "lon": 36.7125
+  },
+  {
+    "name": "HOMS : Bani Sibai",
+    "name_ar": "حمص : باب سباع",
+    "id": 479,
+    "region": "HOMS",
+    "lat": 34.72666667,
+    "lon": 36.71722222
+  },
+  {
+    "name": "HOMS : Dalati mosque",
+    "name_ar": "حمص : جامع الدالاتي",
+    "id": 481,
+    "region": "HOMS",
+    "lat": 34.73222222,
+    "lon": 36.71444444
+  },
+  {
+    "name": "HOMS : Fakhoura",
+    "name_ar": "حمص : الفاخورة",
+    "id": 482,
+    "region": "HOMS",
+    "lat": 34.72,
+    "lon": 36.72638889
+  },
+  {
+    "name": "HOMS : Hama Street",
+    "name_ar": "حمص : شارع حما",
+    "id": 483,
+    "region": "HOMS",
+    "lat": 34.75138889,
+    "lon": 36.71555556
+  },
+  {
+    "name": "HOMS : Jab al-Jandali",
+    "name_ar": "حمص : جب الجندلي",
+    "id": 484,
+    "region": "HOMS",
+    "lat": 34.72666667,
+    "lon": 36.73111111
+  },
+  {
+    "name": "HOMS : Karam Shamsham",
+    "name_ar": "حمص : كرم شمشم",
+    "id": 486,
+    "region": "HOMS",
+    "lat": 34.73611111,
+    "lon": 36.72222222
+  },
+  {
+    "name": "HOMS : Marija",
+    "name_ar": "حمص : مريجة",
+    "id": 487,
+    "region": "HOMS",
+    "lat": 34.72111111,
+    "lon": 36.72361111
+  },
+  {
+    "name": "HOMS : Rabia al-Arabi",
+    "name_ar": "حمص : ربيع العربي",
+    "id": 488,
+    "region": "HOMS",
+    "lat": 34.73611111,
+    "lon": 36.72222222
+  },
+  {
+    "name": "HOMS : Rifai",
+    "name_ar": "حمص : حي رفاعي",
+    "id": 489,
+    "region": "HOMS",
+    "lat": 34.69666667,
+    "lon": 36.72916667
+  },
+  {
+    "name": "HOMS : Sharakes",
+    "name_ar": "حمص : حاجز شركس",
+    "id": 490,
+    "region": "HOMS",
+    "lat": 34.74277778,
+    "lon": 36.725
+  },
+  {
+    "name": "HOMS : Sultaniyah",
+    "name_ar": "حمص : سلطانية",
+    "id": 491,
+    "region": "HOMS",
+    "lat": 34.70027778,
+    "lon": 36.67972222
+  },
+  {
+    "name": "HOMS : Wadi Arab",
+    "name_ar": "حمص : وادي العرب",
+    "id": 492,
+    "region": "HOMS",
+    "lat": 34.74138889,
+    "lon": 36.73
+  },
+  {
+    "name": "HOMS : Abel",
+    "name_ar": "حمص : ابل",
+    "id": 493,
+    "region": "HOMS",
+    "lat": 34.63694444,
+    "lon": 36.67638889
+  },
+  {
+    "name": "HOMS : Al-Burayj",
+    "name_ar": "حمص : البريج",
+    "id": 494,
+    "region": "HOMS",
+    "lat": 34.55055556,
+    "lon": 36.61333333
+  },
+  {
+    "name": "HOMS : Dhaba'ah",
+    "name_ar": "حمص : الدمينة الغربية",
+    "id": 495,
+    "region": "HOMS",
+    "lat": 34.60222222,
+    "lon": 36.59333333
+  },
+  {
+    "name": "HOMS : Dar-Assalamlam",
+    "name_ar": "حمص : دار السلملم",
+    "id": 496,
+    "region": "HOMS",
+    "lat": 34.882533,
+    "lon": 36.574516
+  },
+  {
+    "name": "HOMS : Gharnatah",
+    "name_ar": "حمص : غرناطة",
+    "id": 497,
+    "region": "HOMS",
+    "lat": 34.89472222,
+    "lon": 36.67888889
+  },
+  {
+    "name": "HOMS : Ghasaniyah",
+    "name_ar": "حمص : الغسانية",
+    "id": 498,
+    "region": "HOMS",
+    "lat": 34.59805556,
+    "lon": 36.55166667
+  },
+  {
+    "name": "HOMS : Hallat",
+    "name_ar": "حمص : هلات البشاير",
+    "id": 499,
+    "region": "HOMS",
+    "lat": 34.6425,
+    "lon": 36.22277778
+  },
+  {
+    "name": "HOMS : Kafar Laha",
+    "name_ar": "حمص : كفرلاها",
+    "id": 500,
+    "region": "HOMS",
+    "lat": 34.892865,
+    "lon": 36.495252
+  },
+  {
+    "name": "HOMS : Mahin",
+    "name_ar": "حمص : مهين",
+    "id": 501,
+    "region": "HOMS",
+    "lat": 34.24777778,
+    "lon": 37.05166667
+  },
+  {
+    "name": "HOMS : Marmarita",
+    "name_ar": "حمص : مرمريتا",
+    "id": 502,
+    "region": "HOMS",
+    "lat": 34.78111111,
+    "lon": 36.25972222
+  },
+  {
+    "name": "HOMS : Muharram",
+    "name_ar": "حمص : محرم",
+    "id": 503,
+    "region": "HOMS",
+    "lat": 34.81666667,
+    "lon": 37.08777778
+  },
+  {
+    "name": "HOMS : Naoureh",
+    "name_ar": "حمص : ناعورة",
+    "id": 504,
+    "region": "HOMS",
+    "lat": 34.68583333,
+    "lon": 36.3625
+  },
+  {
+    "name": "HOMS : Naqirah",
+    "name_ar": "حمص : نقيرة",
+    "id": 505,
+    "region": "HOMS",
+    "lat": 34.66444444,
+    "lon": 36.66722222
+  },
+  {
+    "name": "HOMS : Palmyra",
+    "name_ar": "حمص : تدمر",
+    "id": 506,
+    "region": "HOMS",
+    "lat": 34.55972222,
+    "lon": 38.31583333
+  },
+  {
+    "name": "HOMS : Qalaat al-Hosn",
+    "name_ar": "حمص : قلعة الحصن",
+    "id": 507,
+    "region": "HOMS",
+    "lat": 34.75611111,
+    "lon": 36.29666667
+  },
+  {
+    "name": "HOMS : Qaryatayn",
+    "name_ar": "حمص : القريتين",
+    "id": 508,
+    "region": "HOMS",
+    "lat": 34.232595,
+    "lon": 37.233245
+  },
+  {
+    "name": "HOMS : Qusayr",
+    "name_ar": "حمص : القصير",
+    "id": 509,
+    "region": "HOMS",
+    "lat": 34.51209,
+    "lon": 36.575777
+  },
+  {
+    "name": "HOMS : Rastan",
+    "name_ar": "حمص : الرستن",
+    "id": 510,
+    "region": "HOMS",
+    "lat": 34.91639,
+    "lon": 36.733818
+  },
+  {
+    "name": "HOMS : Shihshar",
+    "name_ar": "حمص : شنشار",
+    "id": 511,
+    "region": "HOMS",
+    "lat": 34.605005,
+    "lon": 36.721695
+  },
+  {
+    "name": "HOMS : Sukhnah",
+    "name_ar": "حمص : السخنة",
+    "id": 512,
+    "region": "HOMS",
+    "lat": 34.886652,
+    "lon": 38.871818
+  },
+  {
+    "name": "HOMS : Talbisah",
+    "name_ar": "حمص : تلبيسة",
+    "id": 513,
+    "region": "HOMS",
+    "lat": 34.833601,
+    "lon": 36.735749
+  },
+  {
+    "name": "HOMS : Talkalakh",
+    "name_ar": "حمص : تلكلخ",
+    "id": 514,
+    "region": "HOMS",
+    "lat": 34.67714,
+    "lon": 36.250098
+  },
+  {
+    "name": "HOMS : Zafaraneh",
+    "name_ar": "حمص : الزعفرانية الشرقية",
+    "id": 515,
+    "region": "HOMS",
+    "lat": 34.8925,
+    "lon": 36.77916667
+  },
+  {
+    "name": "HOMS : Zara",
+    "name_ar": "حمص : زارة",
+    "id": 516,
+    "region": "HOMS",
+    "lat": 34.70694444,
+    "lon": 36.25555556
+  },
+  {
+    "name": "HOMS : Dayr Baalbah",
+    "name_ar": "حمص : دير بعلبة",
+    "id": 517,
+    "region": "HOMS",
+    "lat": 34.759951,
+    "lon": 36.747342
+  },
+  {
+    "name": "HOMS : Al-Khaldeeye",
+    "name_ar": "حمص : الخالدية",
+    "id": 519,
+    "region": "HOMS",
+    "lat": 34.745732,
+    "lon": 36.720042
+  },
+  {
+    "name": "HOMS : Ash Shawmariyah",
+    "name_ar": "حمص : الشومرية",
+    "id": 520,
+    "region": "HOMS",
+    "lat": 34.6259001,
+    "lon": 36.5761016
+  },
+  {
+    "name": "HOMS : Taldou",
+    "name_ar": "حمص : تلدو",
+    "id": 521,
+    "region": "HOMS",
+    "lat": 34.872291,
+    "lon": 36.528597
+  },
+  {
+    "name": "HOMS : Ter Maela",
+    "name_ar": "حمص : تير معلة",
+    "id": 522,
+    "region": "HOMS",
+    "lat": 34.802527,
+    "lon": 36.707736
+  },
+  {
+    "name": "IDLIB : IDLIB",
+    "name_ar": "ادلب : ادلب",
+    "id": 523,
+    "region": "IDLIB",
+    "lat": 35.92324,
+    "lon": 36.643495
+  },
+  {
+    "name": "IDLIB : Mastumeh",
+    "name_ar": "ادلب : المسطومة",
+    "id": "",
+    "region": "IDLIB",
+    "lat": 35.87258898,
+    "lon": 36.6312692
+  },
+  {
+    "name": "IDLIB : Abadeen",
+    "name_ar": "ادلب : عابدين",
+    "id": 524,
+    "region": "IDLIB",
+    "lat": 35.46722222,
+    "lon": 36.53833333
+  },
+  {
+    "name": "IDLIB : Ablin",
+    "name_ar": "ادلب : إبلين",
+    "id": 525,
+    "region": "IDLIB",
+    "lat": 35.71611111,
+    "lon": 36.51916667
+  },
+  {
+    "name": "IDLIB : Abu Makki",
+    "name_ar": "ادلب : ابو مكي",
+    "id": 526,
+    "region": "IDLIB",
+    "lat": 35.61083333,
+    "lon": 36.82194444
+  },
+  {
+    "name": "IDLIB : Abu al-Zuhour Airbase",
+    "name_ar": "ادلب : ابو الضهور",
+    "id": 527,
+    "region": "IDLIB",
+    "lat": 35.73444444,
+    "lon": 37.10111111
+  },
+  {
+    "name": "IDLIB : Adwan",
+    "name_ar": "ادلب : عدوان",
+    "id": 528,
+    "region": "IDLIB",
+    "lat": 35.87527778,
+    "lon": 36.50083333
+  },
+  {
+    "name": "IDLIB : Ajaz",
+    "name_ar": "ادلب : قرية اعجاز",
+    "id": 529,
+    "region": "IDLIB",
+    "lat": 35.62222222,
+    "lon": 36.93138889
+  },
+  {
+    "name": "IDLIB : Akko",
+    "name_ar": "ادلب : قرية عكو",
+    "id": 530,
+    "region": "IDLIB",
+    "lat": 35.71333333,
+    "lon": 36.21888889
+  },
+  {
+    "name": "IDLIB : Allani",
+    "name_ar": "ادلب : قرية العلاني",
+    "id": 531,
+    "region": "IDLIB",
+    "lat": 36.16055556,
+    "lon": 36.38805556
+  },
+  {
+    "name": "IDLIB : Aqrabat",
+    "name_ar": "ادلب : عقربات",
+    "id": 532,
+    "region": "IDLIB",
+    "lat": 36.25583333,
+    "lon": 36.71361111
+  },
+  {
+    "name": "IDLIB : Ariha",
+    "name_ar": "ادلب : اريحة",
+    "id": 533,
+    "region": "IDLIB",
+    "lat": 35.81666667,
+    "lon": 36.6
+  },
+  {
+    "name": "IDLIB : Armala",
+    "name_ar": "ادلب : ارمله",
+    "id": 534,
+    "region": "IDLIB",
+    "lat": 35.89805556,
+    "lon": 36.21805556
+  },
+  {
+    "name": "IDLIB : Arnaba",
+    "name_ar": "ادلب : ارنبة",
+    "id": 535,
+    "region": "IDLIB",
+    "lat": 35.70138889,
+    "lon": 36.45861111
+  },
+  {
+    "name": "IDLIB : Ayn Bayda",
+    "name_ar": "ادلب : عين البيضة",
+    "id": 536,
+    "region": "IDLIB",
+    "lat": 35.96722222,
+    "lon": 36.35444444
+  },
+  {
+    "name": "IDLIB : Ayn Hour",
+    "name_ar": "ادلب : عين حور",
+    "id": 537,
+    "region": "IDLIB",
+    "lat": 35.78277778,
+    "lon": 36.16916667
+  },
+  {
+    "name": "IDLIB : Ayn Larouz",
+    "name_ar": "ادلب : عين لاروز",
+    "id": 538,
+    "region": "IDLIB",
+    "lat": 35.685,
+    "lon": 36.44916667
+  },
+  {
+    "name": "IDLIB : Ayn Sheeb",
+    "name_ar": "ادلب : عين شيب",
+    "id": 539,
+    "region": "IDLIB",
+    "lat": 35.90166667,
+    "lon": 36.54333333
+  },
+  {
+    "name": "IDLIB : Azmarin",
+    "name_ar": "ادلب : ازمرين",
+    "id": 540,
+    "region": "IDLIB",
+    "lat": 36.05527778,
+    "lon": 36.40083333
+  },
+  {
+    "name": "IDLIB : Babullah",
+    "name_ar": "ادلب : بابولا",
+    "id": 541,
+    "region": "IDLIB",
+    "lat": 35.8503818,
+    "lon": 36.5210932
+  },
+  {
+    "name": "IDLIB : Babuleen",
+    "name_ar": "ادلب : بابولين",
+    "id": 543,
+    "region": "IDLIB",
+    "lat": 35.53777778,
+    "lon": 36.67861111
+  },
+  {
+    "name": "IDLIB : Bafatamoun",
+    "name_ar": "ادلب : بفطامون",
+    "id": 544,
+    "region": "IDLIB",
+    "lat": 35.83305556,
+    "lon": 36.43583333
+  },
+  {
+    "name": "IDLIB : Balioun",
+    "name_ar": "ادلب : بلدة بليون",
+    "id": 545,
+    "region": "IDLIB",
+    "lat": 35.69527778,
+    "lon": 36.50888889
+  },
+  {
+    "name": "IDLIB : Basaida",
+    "name_ar": "ادلب : بصيدة",
+    "id": 546,
+    "region": "IDLIB",
+    "lat": 35.58972222,
+    "lon": 36.65166667
+  },
+  {
+    "name": "IDLIB : Basqanoul",
+    "name_ar": "ادلب : بسقلا",
+    "id": 547,
+    "region": "IDLIB",
+    "lat": 35.80583333,
+    "lon": 36.49722222
+  },
+  {
+    "name": "IDLIB : Bashiriyah",
+    "name_ar": "ادلب : البشيرية",
+    "id": 548,
+    "region": "IDLIB",
+    "lat": 35.85472222,
+    "lon": 36.40583333
+  },
+  {
+    "name": "IDLIB : Bassamas",
+    "name_ar": "ادلب : بسامس",
+    "id": 550,
+    "region": "IDLIB",
+    "lat": 35.73317,
+    "lon": 36.49832
+  },
+  {
+    "name": "IDLIB : Bawaider",
+    "name_ar": "ادلب : بويدر",
+    "id": 551,
+    "region": "IDLIB",
+    "lat": 35.66361111,
+    "lon": 37.16666667
+  },
+  {
+    "name": "IDLIB : Bayates",
+    "name_ar": "ادلب : بياطس",
+    "id": 552,
+    "region": "IDLIB",
+    "lat": 36.08222222,
+    "lon": 36.47444444
+  },
+  {
+    "name": "IDLIB : Bazabor",
+    "name_ar": "ادلب : بزابور",
+    "id": 553,
+    "region": "IDLIB",
+    "lat": 35.7754816,
+    "lon": 36.6159028
+  },
+  {
+    "name": "IDLIB : Bdama",
+    "name_ar": "ادلب : بداما",
+    "id": 554,
+    "region": "IDLIB",
+    "lat": 35.81277778,
+    "lon": 36.19305556
+  },
+  {
+    "name": "IDLIB : Bikafloun",
+    "name_ar": "ادلب : بكفلون",
+    "id": 555,
+    "region": "IDLIB",
+    "lat": 35.9025,
+    "lon": 36.61
+  },
+  {
+    "name": "IDLIB : Binein",
+    "name_ar": "ادلب : بنين",
+    "id": 556,
+    "region": "IDLIB",
+    "lat": 35.70944444,
+    "lon": 36.64027778
+  },
+  {
+    "name": "IDLIB : Binnish",
+    "name_ar": "ادلب : بنش",
+    "id": 557,
+    "region": "IDLIB",
+    "lat": 35.957925,
+    "lon": 36.711673
+  },
+  {
+    "name": "IDLIB : Bishlamoun",
+    "name_ar": "ادلب : بشلمون",
+    "id": 558,
+    "region": "IDLIB",
+    "lat": 35.8,
+    "lon": 36.3665
+  },
+  {
+    "name": "IDLIB : Burnan",
+    "name_ar": "ادلب : برنان",
+    "id": 559,
+    "region": "IDLIB",
+    "lat": 35.678,
+    "lon": 36.922
+  },
+  {
+    "name": "IDLIB : Bzaytah",
+    "name_ar": "ادلب : بزيتة",
+    "id": 560,
+    "region": "IDLIB",
+    "lat": 35.788,
+    "lon": 36.399
+  },
+  {
+    "name": "IDLIB : Dadikh",
+    "name_ar": "ادلب : داديخ",
+    "id": 561,
+    "region": "IDLIB",
+    "lat": 35.80194444,
+    "lon": 36.73305556
+  },
+  {
+    "name": "IDLIB : Dana",
+    "name_ar": "ادلب : الدانا",
+    "id": 562,
+    "region": "IDLIB",
+    "lat": 36.3974163,
+    "lon": 37.4662636
+  },
+  {
+    "name": "IDLIB : Dana village",
+    "name_ar": "ادلب : قرية الدانا",
+    "id": 563,
+    "region": "IDLIB",
+    "lat": 35.70166667,
+    "lon": 36.68555556
+  },
+  {
+    "name": "IDLIB : Deir Gharbi",
+    "name_ar": "ادلب : دير غربي",
+    "id": 564,
+    "region": "IDLIB",
+    "lat": 35.59111111,
+    "lon": 36.68583333
+  },
+  {
+    "name": "IDLIB : Deir Sinbal",
+    "name_ar": "ادلب : ديرسنبل",
+    "id": 565,
+    "region": "IDLIB",
+    "lat": 35.69916667,
+    "lon": 36.60583333
+  },
+  {
+    "name": "IDLIB : Deir Sharqi",
+    "name_ar": "ادلب : دير شرقي",
+    "id": 566,
+    "region": "IDLIB",
+    "lat": 35.6045,
+    "lon": 36.711
+  },
+  {
+    "name": "IDLIB : Faqi'a",
+    "name_ar": "ادلب : فكيلة",
+    "id": 567,
+    "region": "IDLIB",
+    "lat": 35.54944444,
+    "lon": 36.47277778
+  },
+  {
+    "name": "IDLIB : Farkaya",
+    "name_ar": "ادلب : فركيا",
+    "id": 568,
+    "region": "IDLIB",
+    "lat": 35.725,
+    "lon": 36.59861111
+  },
+  {
+    "name": "IDLIB : Fatirah",
+    "name_ar": "ادلب : فطيرة",
+    "id": 569,
+    "region": "IDLIB",
+    "lat": 35.61027778,
+    "lon": 36.485
+  },
+  {
+    "name": "IDLIB : Ghafar",
+    "name_ar": "ادلب : - قرية الغفر",
+    "id": 570,
+    "region": "IDLIB",
+    "lat": 35.93416667,
+    "lon": 36.45333333
+  },
+  {
+    "name": "IDLIB : Hafsarjah",
+    "name_ar": "ادلب : حفسرجة",
+    "id": 572,
+    "region": "IDLIB",
+    "lat": 36.01777778,
+    "lon": 36.52861111
+  },
+  {
+    "name": "IDLIB : Halban",
+    "name_ar": "ادلب : قرية حلبان",
+    "id": 573,
+    "region": "IDLIB",
+    "lat": 35.71361111,
+    "lon": 36.94833333
+  },
+  {
+    "name": "IDLIB : Hammameh",
+    "name_ar": "ادلب : الحمامة",
+    "id": 574,
+    "region": "IDLIB",
+    "lat": 35.92305556,
+    "lon": 36.35555556
+  },
+  {
+    "name": "IDLIB : Hantutin",
+    "name_ar": "ادلب : طريق حنتوتين",
+    "id": 575,
+    "region": "IDLIB",
+    "lat": 35.68,
+    "lon": 36.64944444
+  },
+  {
+    "name": "IDLIB : Harbanafsah",
+    "name_ar": "ادلب : حر بنفشة",
+    "id": 576,
+    "region": "IDLIB",
+    "lat": 34.93638889,
+    "lon": 36.62888889
+  },
+  {
+    "name": "IDLIB : Harbanoush",
+    "name_ar": "ادلب : حربنوش",
+    "id": 577,
+    "region": "IDLIB",
+    "lat": 36.07555556,
+    "lon": 36.63694444
+  },
+  {
+    "name": "IDLIB : Harem",
+    "name_ar": "ادلب : حارم",
+    "id": 578,
+    "region": "IDLIB",
+    "lat": 36.2,
+    "lon": 36.51666667
+  },
+  {
+    "name": "IDLIB : Hartamiyah",
+    "name_ar": "ادلب : الحرتمية",
+    "id": 579,
+    "region": "IDLIB",
+    "lat": 35.7415,
+    "lon": 36.821
+  },
+  {
+    "name": "IDLIB : Hawaij",
+    "name_ar": "ادلب : حواج",
+    "id": 580,
+    "region": "IDLIB",
+    "lat": 35.05,
+    "lon": 40.4666667
+  },
+  {
+    "name": "IDLIB : Haysh",
+    "name_ar": "ادلب : حيش",
+    "id": 581,
+    "region": "IDLIB",
+    "lat": 35.5475,
+    "lon": 36.64388889
+  },
+  {
+    "name": "IDLIB : Hazano",
+    "name_ar": "ادلب : حزانو",
+    "id": 582,
+    "region": "IDLIB",
+    "lat": 36.091557,
+    "lon": 36.714656
+  },
+  {
+    "name": "IDLIB : Hazarin",
+    "name_ar": "ادلب : حزارين",
+    "id": 583,
+    "region": "IDLIB",
+    "lat": 35.6,
+    "lon": 36.52611111
+  },
+  {
+    "name": "IDLIB : Heraki",
+    "name_ar": "ادلب : قرية الحراكي",
+    "id": 584,
+    "region": "IDLIB",
+    "lat": 35.65055556,
+    "lon": 36.85638889
+  },
+  {
+    "name": "IDLIB : Jadraya",
+    "name_ar": "ادلب : جدرايا",
+    "id": 585,
+    "region": "IDLIB",
+    "lat": 35.71888889,
+    "lon": 36.42527778
+  },
+  {
+    "name": "IDLIB : Jaradeh",
+    "name_ar": "ادلب : جيرادي",
+    "id": 586,
+    "region": "IDLIB",
+    "lat": 35.7225,
+    "lon": 36.71361111
+  },
+  {
+    "name": "IDLIB : Jbala",
+    "name_ar": "ادلب : جبالا",
+    "id": 587,
+    "region": "IDLIB",
+    "lat": 35.57416667,
+    "lon": 36.55055556
+  },
+  {
+    "name": "IDLIB : Jisr ash-Shughur",
+    "name_ar": "ادلب : جسر الشغور",
+    "id": 588,
+    "region": "IDLIB",
+    "lat": 35.8125,
+    "lon": 36.32111111
+  },
+  {
+    "name": "IDLIB : Joubas",
+    "name_ar": "ادلب : جوباس",
+    "id": 589,
+    "region": "IDLIB",
+    "lat": 35.83583333,
+    "lon": 36.75972222
+  },
+  {
+    "name": "IDLIB : Juzef",
+    "name_ar": "ادلب : قرية جوزيف",
+    "id": 590,
+    "region": "IDLIB",
+    "lat": 35.71833333,
+    "lon": 36.47416667
+  },
+  {
+    "name": "IDLIB : Kafar Amim",
+    "name_ar": "ادلب : كفر عميم",
+    "id": 591,
+    "region": "IDLIB",
+    "lat": 35.81527778,
+    "lon": 36.87027778
+  },
+  {
+    "name": "IDLIB : Kafar Arouq",
+    "name_ar": "ادلب : كفر عروق",
+    "id": 592,
+    "region": "IDLIB",
+    "lat": 36.12055556,
+    "lon": 36.65583333
+  },
+  {
+    "name": "IDLIB : Kafar Ayn",
+    "name_ar": "ادلب : كفر عين",
+    "id": 593,
+    "region": "IDLIB",
+    "lat": 35.44444444,
+    "lon": 36.56666667
+  },
+  {
+    "name": "IDLIB : Kafar Batikh",
+    "name_ar": "ادلب : كفر بطيخ",
+    "id": 594,
+    "region": "IDLIB",
+    "lat": 35.78055556,
+    "lon": 36.72694444
+  },
+  {
+    "name": "IDLIB : Kafar Dariyan",
+    "name_ar": "ادلب : كفر دريان",
+    "id": 595,
+    "region": "IDLIB",
+    "lat": 36.17527778,
+    "lon": 36.66555556
+  },
+  {
+    "name": "IDLIB : Kafar Haya",
+    "name_ar": "ادلب : كفر حايا",
+    "id": 596,
+    "region": "IDLIB",
+    "lat": 35.755,
+    "lon": 36.58611111
+  },
+  {
+    "name": "IDLIB : Kafar Houm",
+    "name_ar": "ادلب : كفر حوم",
+    "id": 597,
+    "region": "IDLIB",
+    "lat": 36.19694444,
+    "lon": 36.47805556
+  },
+  {
+    "name": "IDLIB : Kafar Jalis",
+    "name_ar": "ادلب : كفر جالس",
+    "id": 598,
+    "region": "IDLIB",
+    "lat": 35.97472222,
+    "lon": 36.61305556
+  },
+  {
+    "name": "IDLIB : Kafar Kila",
+    "name_ar": "ادلب : كفر كيلا",
+    "id": 599,
+    "region": "IDLIB",
+    "lat": 36.1432159,
+    "lon": 36.5726813
+  },
+  {
+    "name": "IDLIB : Kafar Latah",
+    "name_ar": "ادلب : كفر لاتا",
+    "id": 600,
+    "region": "IDLIB",
+    "lat": 35.79722222,
+    "lon": 36.63027778
+  },
+  {
+    "name": "IDLIB : Kafar Meed",
+    "name_ar": "ادلب : كفر ميد",
+    "id": 601,
+    "region": "IDLIB",
+    "lat": 35.80527778,
+    "lon": 36.44083333
+  },
+  {
+    "name": "IDLIB : Kafar Nabil",
+    "name_ar": "ادلب : كفر نبيل",
+    "id": 602,
+    "region": "IDLIB",
+    "lat": 35.5998804,
+    "lon": 36.5700531
+  },
+  {
+    "name": "IDLIB : Kafar Najed",
+    "name_ar": "ادلب : كفر ناجد",
+    "id": 603,
+    "region": "IDLIB",
+    "lat": 35.8395281,
+    "lon": 36.644861
+  },
+  {
+    "name": "IDLIB : Kafar Ruhin",
+    "name_ar": "ادلب : كفروحين",
+    "id": 604,
+    "region": "IDLIB",
+    "lat": 35.97305556,
+    "lon": 36.56222222
+  },
+  {
+    "name": "IDLIB : Kafar Sejnah",
+    "name_ar": "ادلب : كفرسجنة",
+    "id": 605,
+    "region": "IDLIB",
+    "lat": 35.52611111,
+    "lon": 36.58944444
+  },
+  {
+    "name": "IDLIB : Kafar Shalaya",
+    "name_ar": "ادلب : كفرشلايا",
+    "id": 606,
+    "region": "IDLIB",
+    "lat": 35.7676123,
+    "lon": 36.5355384
+  },
+  {
+    "name": "IDLIB : Kafar Takharim",
+    "name_ar": "ادلب : كفرتخاريم",
+    "id": 607,
+    "region": "IDLIB",
+    "lat": 36.11472222,
+    "lon": 36.51444444
+  },
+  {
+    "name": "IDLIB : Kafar Ziba",
+    "name_ar": "ادلب : كفرزيبا",
+    "id": 608,
+    "region": "IDLIB",
+    "lat": 35.794677,
+    "lon": 36.593871
+  },
+  {
+    "name": "IDLIB : Kafaraya",
+    "name_ar": "ادلب : كفريا",
+    "id": 609,
+    "region": "IDLIB",
+    "lat": 35.98861111,
+    "lon": 36.67833333
+  },
+  {
+    "name": "IDLIB : Kaniset Baniez",
+    "name_ar": "ادلب : كنيسة بني عز",
+    "id": 610,
+    "region": "IDLIB",
+    "lat": 35.86805556,
+    "lon": 36.43583333
+  },
+  {
+    "name": "IDLIB : Kaniset Nakhleh",
+    "name_ar": "ادلب : كنيسة نخلة",
+    "id": 611,
+    "region": "IDLIB",
+    "lat": 35.822345,
+    "lon": 36.375089
+  },
+  {
+    "name": "IDLIB : Karratin Al-kebire",
+    "name_ar": "ادلب : كراتين كبير",
+    "id": 612,
+    "region": "IDLIB",
+    "lat": 35.651295,
+    "lon": 36.957151
+  },
+  {
+    "name": "IDLIB : Karratin Al-seghire",
+    "name_ar": "ادلب : كراتين صغير",
+    "id": 613,
+    "region": "IDLIB",
+    "lat": 35.65799,
+    "lon": 36.982428
+  },
+  {
+    "name": "IDLIB : Kastan",
+    "name_ar": "ادلب : قسطن",
+    "id": 614,
+    "region": "IDLIB",
+    "lat": 35.83611111,
+    "lon": 36.39944444
+  },
+  {
+    "name": "IDLIB : Katian",
+    "name_ar": "ادلب : كتيان",
+    "id": 615,
+    "region": "IDLIB",
+    "lat": 36.05361111,
+    "lon": 36.80916667
+  },
+  {
+    "name": "IDLIB : Khan Shaykhun",
+    "name_ar": "ادلب : خان شيخون",
+    "id": 616,
+    "region": "IDLIB",
+    "lat": 35.440986,
+    "lon": 36.6464
+  },
+  {
+    "name": "IDLIB : Khan Subul",
+    "name_ar": "ادلب : خان سبل",
+    "id": 617,
+    "region": "IDLIB",
+    "lat": 35.7575,
+    "lon": 36.75638889
+  },
+  {
+    "name": "IDLIB : Khawari",
+    "name_ar": "ادلب : خواري",
+    "id": 618,
+    "region": "IDLIB",
+    "lat": 35.90916667,
+    "lon": 36.92472222
+  },
+  {
+    "name": "IDLIB : Khirbet al-Jouz",
+    "name_ar": "ادلب : خربت الجوز",
+    "id": 619,
+    "region": "IDLIB",
+    "lat": 35.90472222,
+    "lon": 36.19194444
+  },
+  {
+    "name": "IDLIB : Koukabah",
+    "name_ar": "ادلب : كوكبة",
+    "id": 620,
+    "region": "IDLIB",
+    "lat": 35.566,
+    "lon": 36.433
+  },
+  {
+    "name": "IDLIB : Kouin",
+    "name_ar": "ادلب : خوين",
+    "id": 621,
+    "region": "IDLIB",
+    "lat": 35.86416667,
+    "lon": 36.57027778
+  },
+  {
+    "name": "IDLIB : Kursaa",
+    "name_ar": "ادلب : كورسا",
+    "id": 622,
+    "region": "IDLIB",
+    "lat": 35.56388889,
+    "lon": 36.48333333
+  },
+  {
+    "name": "IDLIB : Laj",
+    "name_ar": "ادلب : اللج",
+    "id": 623,
+    "region": "IDLIB",
+    "lat": 35.71722222,
+    "lon": 36.40666667
+  },
+  {
+    "name": "IDLIB : Ma'di",
+    "name_ar": "ادلب : مغادي",
+    "id": 624,
+    "region": "IDLIB",
+    "lat": 36.19138889,
+    "lon": 37.16277778
+  },
+  {
+    "name": "IDLIB : Ma'isrounah",
+    "name_ar": "ادلب : معبصرونة",
+    "id": 625,
+    "region": "IDLIB",
+    "lat": 35.56055556,
+    "lon": 36.74444444
+  },
+  {
+    "name": "IDLIB : Maghara",
+    "name_ar": "ادلب : مغارة",
+    "id": 626,
+    "region": "IDLIB",
+    "lat": 35.73694444,
+    "lon": 36.57833333
+  },
+  {
+    "name": "IDLIB : Mahalah",
+    "name_ar": "ادلب : محلا",
+    "id": 627,
+    "region": "IDLIB",
+    "lat": 35.81944444,
+    "lon": 36.4975
+  },
+  {
+    "name": "IDLIB : Mahambel",
+    "name_ar": "ادلب : محمبل ادلب",
+    "id": 628,
+    "region": "IDLIB",
+    "lat": 35.78611111,
+    "lon": 36.47111111
+  },
+  {
+    "name": "IDLIB : Majadaliya",
+    "name_ar": "ادلب : مجدليا",
+    "id": 629,
+    "region": "IDLIB",
+    "lat": 35.831,
+    "lon": 36.681
+  },
+  {
+    "name": "IDLIB : Mantaf",
+    "name_ar": "ادلب : منطف",
+    "id": 630,
+    "region": "IDLIB",
+    "lat": 35.77833333,
+    "lon": 36.65055556
+  },
+  {
+    "name": "IDLIB : Maisarounah",
+    "name_ar": "ادلب : ميسرونة",
+    "id": 631,
+    "region": "IDLIB",
+    "lat": 35.56055556,
+    "lon": 36.74444444
+  },
+  {
+    "name": "IDLIB : Mar Baleet",
+    "name_ar": "ادلب : معربليت",
+    "id": 632,
+    "region": "IDLIB",
+    "lat": 35.80583333,
+    "lon": 36.66166667
+  },
+  {
+    "name": "IDLIB : Mar Dibsah",
+    "name_ar": "ادلب : معردبسة",
+    "id": 633,
+    "region": "IDLIB",
+    "lat": 35.77861111,
+    "lon": 36.76833333
+  },
+  {
+    "name": "IDLIB : Mar Shamarin",
+    "name_ar": "ادلب : معر شمارين",
+    "id": 634,
+    "region": "IDLIB",
+    "lat": 35.61222222,
+    "lon": 36.72583333
+  },
+  {
+    "name": "IDLIB : Mar Zita",
+    "name_ar": "ادلب : معرزيتا",
+    "id": 636,
+    "region": "IDLIB",
+    "lat": 35.55472222,
+    "lon": 36.57583333
+  },
+  {
+    "name": "IDLIB : Marateh",
+    "name_ar": "ادلب : معراته",
+    "id": 637,
+    "region": "IDLIB",
+    "lat": 35.70833333,
+    "lon": 36.47777778
+  },
+  {
+    "name": "IDLIB : Marat Hermeh",
+    "name_ar": "ادلب : معرة حرمة",
+    "id": 638,
+    "region": "IDLIB",
+    "lat": 35.54916667,
+    "lon": 36.54083333
+  },
+  {
+    "name": "IDLIB : Marat Hitat",
+    "name_ar": "ادلب : معرة حطاط",
+    "id": 639,
+    "region": "IDLIB",
+    "lat": 35.57694444,
+    "lon": 36.65777778
+  },
+  {
+    "name": "IDLIB : Marat Mattar",
+    "name_ar": "ادلب : معرة مطر",
+    "id": 640,
+    "region": "IDLIB",
+    "lat": 35.57416667,
+    "lon": 36.55055556
+  },
+  {
+    "name": "IDLIB : Maret Misrin",
+    "name_ar": "ادلب : معرة مصرين",
+    "id": 641,
+    "region": "IDLIB",
+    "lat": 36.012624,
+    "lon": 36.671501
+  },
+  {
+    "name": "IDLIB : Maret Al-khaskah",
+    "name_ar": "ادلب : معرة الخاسكة",
+    "id": 642,
+    "region": "IDLIB",
+    "lat": 36.03555556,
+    "lon": 36.83861111
+  },
+  {
+    "name": "IDLIB : Areha",
+    "name_ar": "ادلب : أريحا",
+    "id": 643,
+    "region": "IDLIB",
+    "lat": 35.816461,
+    "lon": 36.61203
+  },
+  {
+    "name": "IDLIB : Kourin",
+    "name_ar": "ادلب : كورين",
+    "id": 645,
+    "region": "IDLIB",
+    "lat": 35.864065,
+    "lon": 36.56986
+  },
+  {
+    "name": "IDLIB : Urum al-Jouz",
+    "name_ar": "ادلب : أورم الجوز",
+    "id": 646,
+    "region": "IDLIB",
+    "lat": 35.79083333,
+    "lon": 36.56805556
+  },
+  {
+    "name": "IDLIB : Ehsem nahiyah",
+    "name_ar": "ادلب : أحسم",
+    "id": 647,
+    "region": "IDLIB",
+    "lat": 35.6751474,
+    "lon": 36.2109375
+  },
+  {
+    "name": "IDLIB : al-Barrah",
+    "name_ar": "ادلب : البارة",
+    "id": 649,
+    "region": "IDLIB",
+    "lat": 35.688009,
+    "lon": 36.538811
+  },
+  {
+    "name": "IDLIB : Ehsem",
+    "name_ar": "ادلب : احسم",
+    "id": 650,
+    "region": "IDLIB",
+    "lat": 35.6751474,
+    "lon": 36.2109375
+  },
+  {
+    "name": "IDLIB : Kansafrah",
+    "name_ar": "ادلب : كنصفرة",
+    "id": 651,
+    "region": "IDLIB",
+    "lat": 35.659545,
+    "lon": 36.484566
+  },
+  {
+    "name": "IDLIB : Mhambel nahiyah",
+    "name_ar": "ادلب : محمبل الضاحية",
+    "id": 653,
+    "region": "IDLIB",
+    "lat": 35.68277778,
+    "lon": 36.42027778
+  },
+  {
+    "name": "IDLIB : Armanaz nahiyah",
+    "name_ar": "ادلب : ارمناز",
+    "id": 656,
+    "region": "IDLIB",
+    "lat": 36.083372,
+    "lon": 36.499779
+  },
+  {
+    "name": "IDLIB : Kafr Takharim nahiyah",
+    "name_ar": "ادلب : كفر تخاريم",
+    "id": 659,
+    "region": "IDLIB",
+    "lat": 36.116595,
+    "lon": 36.515064
+  },
+  {
+    "name": "IDLIB : Qorqania nahiyah",
+    "name_ar": "ادلب : قورقانيا",
+    "id": 660,
+    "region": "IDLIB",
+    "lat": 36.138646,
+    "lon": 36.610544
+  },
+  {
+    "name": "IDLIB : Salqin nahiyah",
+    "name_ar": "ادلب : سلقين",
+    "id": 661,
+    "region": "IDLIB",
+    "lat": 36.14073,
+    "lon": 36.455368
+  },
+  {
+    "name": "IDLIB : Saraqib nahiyah",
+    "name_ar": "ادلب : سراقب",
+    "id": 663,
+    "region": "IDLIB",
+    "lat": 35.863558,
+    "lon": 36.799534
+  },
+  {
+    "name": "IDLIB : Sarmin nahiyah",
+    "name_ar": "ادلب : سرمين",
+    "id": 664,
+    "region": "IDLIB",
+    "lat": 35.900312,
+    "lon": 36.716094
+  },
+  {
+    "name": "IDLIB : Taftanaz",
+    "name_ar": "ادلب : تفتناز",
+    "id": 665,
+    "region": "IDLIB",
+    "lat": 35.99719,
+    "lon": 36.786204
+  },
+  {
+    "name": "IDLIB : Darkoush nahiyah",
+    "name_ar": "ادلب : دركوش",
+    "id": 667,
+    "region": "IDLIB",
+    "lat": 35.992506,
+    "lon": 36.392651
+  },
+  {
+    "name": "IDLIB : al-Janudiyah nahiyah",
+    "name_ar": "ادلب : الجانودية",
+    "id": 668,
+    "region": "IDLIB",
+    "lat": 35.88479,
+    "lon": 36.290546
+  },
+  {
+    "name": "IDLIB : Maret Numan",
+    "name_ar": "ادلب : معرة النعمان",
+    "id": 670,
+    "region": "IDLIB",
+    "lat": 35.638899,
+    "lon": 36.671548
+  },
+  {
+    "name": "IDLIB : Kafranbel nahiyah",
+    "name_ar": "ادلب : كفرنبل",
+    "id": 671,
+    "region": "IDLIB",
+    "lat": 35.6141381,
+    "lon": 36.5606273
+  },
+  {
+    "name": "IDLIB : Sanjar nahiyah",
+    "name_ar": "ادلب : ناحية سنجار",
+    "id": 672,
+    "region": "IDLIB",
+    "lat": 35.59147,
+    "lon": 37.00515
+  },
+  {
+    "name": "IDLIB : Tamana'ah nahiyah",
+    "name_ar": "ادلب : التمانعة",
+    "id": 673,
+    "region": "IDLIB",
+    "lat": 35.456562,
+    "lon": 36.745706
+  },
+  {
+    "name": "IDLIB : Maret Sin",
+    "name_ar": "ادلب : معرة الصين",
+    "id": 674,
+    "region": "IDLIB",
+    "lat": 35.5725,
+    "lon": 36.5175
+  },
+  {
+    "name": "IDLIB : Mariyan",
+    "name_ar": "ادلب : مرعيان",
+    "id": 675,
+    "region": "IDLIB",
+    "lat": 35.73833333,
+    "lon": 36.56416667
+  },
+  {
+    "name": "IDLIB : Maratin",
+    "name_ar": "ادلب : مرتين",
+    "id": 677,
+    "region": "IDLIB",
+    "lat": 35.9265175,
+    "lon": 36.5273465
+  },
+  {
+    "name": "IDLIB : Mashmashan",
+    "name_ar": "ادلب : مشمشان",
+    "id": 678,
+    "region": "IDLIB",
+    "lat": 35.86194444,
+    "lon": 36.37166667
+  },
+  {
+    "name": "IDLIB : Ma'tarem",
+    "name_ar": "ادلب : معترم",
+    "id": 679,
+    "region": "IDLIB",
+    "lat": 35.7974757,
+    "lon": 36.5571689
+  },
+  {
+    "name": "IDLIB : Mouqa",
+    "name_ar": "ادلب : موقا",
+    "id": 680,
+    "region": "IDLIB",
+    "lat": 35.49972222,
+    "lon": 36.63944444
+  },
+  {
+    "name": "IDLIB : Muzrah",
+    "name_ar": "ادلب : الموزرة",
+    "id": 681,
+    "region": "IDLIB",
+    "lat": 35.65638889,
+    "lon": 36.43944444
+  },
+  {
+    "name": "IDLIB : Nabhan",
+    "name_ar": "ادلب : نبهان",
+    "id": 682,
+    "region": "IDLIB",
+    "lat": 35.94583333,
+    "lon": 36.41722222
+  },
+  {
+    "name": "IDLIB : Nahal",
+    "name_ar": "ادلب : ناحل",
+    "id": 683,
+    "region": "IDLIB",
+    "lat": 35.8,
+    "lon": 36.47083333
+  },
+  {
+    "name": "IDLIB : Nahlaya",
+    "name_ar": "ادلب : نحلية",
+    "id": 684,
+    "region": "IDLIB",
+    "lat": 35.845,
+    "lon": 36.59972222
+  },
+  {
+    "name": "IDLIB : Nahleh",
+    "name_ar": "ادلب : نحلة",
+    "id": 685,
+    "region": "IDLIB",
+    "lat": 35.80722222,
+    "lon": 36.565
+  },
+  {
+    "name": "IDLIB : Al Naqeer",
+    "name_ar": "ادلب : النقير",
+    "id": 686,
+    "region": "IDLIB",
+    "lat": 35.49888889,
+    "lon": 36.54055556
+  },
+  {
+    "name": "IDLIB : Qarati",
+    "name_ar": "ادلب : قراطي",
+    "id": 687,
+    "region": "IDLIB",
+    "lat": 35.58583333,
+    "lon": 36.79055556
+  },
+  {
+    "name": "IDLIB : Qominas",
+    "name_ar": "ادلب : قميناس",
+    "id": 688,
+    "region": "IDLIB",
+    "lat": 35.88361111,
+    "lon": 36.68333333
+  },
+  {
+    "name": "IDLIB : Qouqafin",
+    "name_ar": "ادلب : قوقفين",
+    "id": 689,
+    "region": "IDLIB",
+    "lat": 35.63527778,
+    "lon": 36.42666667
+  },
+  {
+    "name": "IDLIB : Qourqaniya",
+    "name_ar": "ادلب : قـورقـانيا",
+    "id": 690,
+    "region": "IDLIB",
+    "lat": 36.13861111,
+    "lon": 36.6125
+  },
+  {
+    "name": "IDLIB : Rakaya",
+    "name_ar": "ادلب : ركايا سجنة",
+    "id": 691,
+    "region": "IDLIB",
+    "lat": 35.50277778,
+    "lon": 36.57666667
+  },
+  {
+    "name": "IDLIB : Rami",
+    "name_ar": "ادلب : الرامي",
+    "id": 692,
+    "region": "IDLIB",
+    "lat": 35.76527778,
+    "lon": 36.56
+  },
+  {
+    "name": "IDLIB : Rayan",
+    "name_ar": "ادلب : ريان",
+    "id": 693,
+    "region": "IDLIB",
+    "lat": 35.783,
+    "lon": 36.85
+  },
+  {
+    "name": "IDLIB : Rusafa",
+    "name_ar": "ادلب : ارصافة",
+    "id": 694,
+    "region": "IDLIB",
+    "lat": 35.87583333,
+    "lon": 36.90111111
+  },
+  {
+    "name": "IDLIB : San",
+    "name_ar": "ادلب : سان",
+    "id": 695,
+    "region": "IDLIB",
+    "lat": 35.84111111,
+    "lon": 36.73527778
+  },
+  {
+    "name": "IDLIB : Sararif",
+    "name_ar": "ادلب : صراريف",
+    "id": 696,
+    "region": "IDLIB",
+    "lat": 35.7513,
+    "lon": 36.4348
+  },
+  {
+    "name": "IDLIB : Sarjah",
+    "name_ar": "ادلب : سرجة",
+    "id": 697,
+    "region": "IDLIB",
+    "lat": 35.75694444,
+    "lon": 36.62638889
+  },
+  {
+    "name": "IDLIB : Saqi'ah",
+    "name_ar": "ادلب : الصقيعة",
+    "id": 698,
+    "region": "IDLIB",
+    "lat": 35.61527778,
+    "lon": 36.86861111
+  },
+  {
+    "name": "IDLIB : Shagurit",
+    "name_ar": "ادلب : الشاغوريت",
+    "id": 699,
+    "region": "IDLIB",
+    "lat": 35.68277778,
+    "lon": 36.42027778
+  },
+  {
+    "name": "IDLIB : Sheikh Idris",
+    "name_ar": "ادلب : شيخ ادريس",
+    "id": 700,
+    "region": "IDLIB",
+    "lat": 35.76694444,
+    "lon": 36.86166667
+  },
+  {
+    "name": "IDLIB : Sheikh Yusef",
+    "name_ar": "ادلب : شيخ يوسف",
+    "id": 701,
+    "region": "IDLIB",
+    "lat": 35.96916667,
+    "lon": 36.51055556
+  },
+  {
+    "name": "IDLIB : Shillakh",
+    "name_ar": "ادلب : شللخ",
+    "id": 702,
+    "region": "IDLIB",
+    "lat": 36.0175,
+    "lon": 36.79277778
+  },
+  {
+    "name": "IDLIB : Shughour",
+    "name_ar": "ادلب : شاغور",
+    "id": 703,
+    "region": "IDLIB",
+    "lat": 35.84916667,
+    "lon": 36.28305556
+  },
+  {
+    "name": "IDLIB : Shuhah",
+    "name_ar": "ادلب : شوحة",
+    "id": 704,
+    "region": "IDLIB",
+    "lat": 35.8,
+    "lon": 36.916
+  },
+  {
+    "name": "IDLIB : Tah",
+    "name_ar": "ادلب : طريق التح",
+    "id": 706,
+    "region": "IDLIB",
+    "lat": 35.54111111,
+    "lon": 36.72777778
+  },
+  {
+    "name": "IDLIB : Tahtaya",
+    "name_ar": "ادلب : تحتايا",
+    "id": 707,
+    "region": "IDLIB",
+    "lat": 35.50972222,
+    "lon": 36.7125
+  },
+  {
+    "name": "IDLIB : Tal Dabs",
+    "name_ar": "ادلب : تل دبس",
+    "id": 708,
+    "region": "IDLIB",
+    "lat": 35.72527778,
+    "lon": 36.8525
+  },
+  {
+    "name": "IDLIB : Tal Karameh",
+    "name_ar": "ادلب : تل كرامة",
+    "id": 709,
+    "region": "IDLIB",
+    "lat": 36.189724,
+    "lon": 36.772399
+  },
+  {
+    "name": "IDLIB : Mardikh",
+    "name_ar": "ادلب : مرديخ",
+    "id": 710,
+    "region": "IDLIB",
+    "lat": 35.81111111,
+    "lon": 36.78972222
+  },
+  {
+    "name": "IDLIB : Tal Sandal",
+    "name_ar": "ادلب : تل صندل",
+    "id": 711,
+    "region": "IDLIB",
+    "lat": 36.0666,
+    "lon": 36.75
+  },
+  {
+    "name": "IDLIB : Tal Sultan",
+    "name_ar": "ادلب : تل سلطان",
+    "id": 712,
+    "region": "IDLIB",
+    "lat": 35.79805556,
+    "lon": 36.99111111
+  },
+  {
+    "name": "IDLIB : Talheya",
+    "name_ar": "ادلب : طلحية",
+    "id": 713,
+    "region": "IDLIB",
+    "lat": 35.96666667,
+    "lon": 36.8375
+  },
+  {
+    "name": "IDLIB : Termala",
+    "name_ar": "ادلب : قرية ترملا",
+    "id": 715,
+    "region": "IDLIB",
+    "lat": 35.5254327,
+    "lon": 36.4826989
+  },
+  {
+    "name": "IDLIB : Termanin",
+    "name_ar": "ادلب : تيرمانين",
+    "id": 716,
+    "region": "IDLIB",
+    "lat": 36.22805556,
+    "lon": 36.81611111
+  },
+  {
+    "name": "IDLIB : Tranbeh",
+    "name_ar": "ادلب : طرمبة",
+    "id": 717,
+    "region": "IDLIB",
+    "lat": 35.86055556,
+    "lon": 36.76944444
+  },
+  {
+    "name": "IDLIB : Tur Laha",
+    "name_ar": "ادلب : طورلاها",
+    "id": 718,
+    "region": "IDLIB",
+    "lat": 36.2165,
+    "lon": 36.575
+  },
+  {
+    "name": "IDLIB : Zahera",
+    "name_ar": "ادلب : الزاهرة",
+    "id": 719,
+    "region": "IDLIB",
+    "lat": 35.98361111,
+    "lon": 36.37888889
+  },
+  {
+    "name": "IDLIB : Zarzour",
+    "name_ar": "ادلب : زرزور",
+    "id": 720,
+    "region": "IDLIB",
+    "lat": 35.95416667,
+    "lon": 36.33972222
+  },
+  {
+    "name": "IDLIB : Zeiyniyah",
+    "name_ar": "ادلب : الزعينية",
+    "id": 721,
+    "region": "IDLIB",
+    "lat": 35.84083333,
+    "lon": 36.22472222
+  },
+  {
+    "name": "LATTAKIA : LATTAKIA",
+    "name_ar": "اللاذقية : اللاذقية",
+    "id": 722,
+    "region": "LATTAKIA",
+    "lat": 35.53666667,
+    "lon": 35.78166667
+  },
+  {
+    "name": "LATTAKIA : Ali Jamal",
+    "name_ar": "اللاذقية : الجمال",
+    "id": 723,
+    "region": "LATTAKIA",
+    "lat": 35.53694444,
+    "lon": 35.78583333
+  },
+  {
+    "name": "LATTAKIA : Amoud",
+    "name_ar": "اللاذقية : حي العامود",
+    "id": 724,
+    "region": "LATTAKIA",
+    "lat": 35.50555556,
+    "lon": 35.77416667
+  },
+  {
+    "name": "LATTAKIA : Awainah",
+    "name_ar": "اللاذقية : العوينة",
+    "id": 726,
+    "region": "LATTAKIA",
+    "lat": 35.52111111,
+    "lon": 35.78138889
+  },
+  {
+    "name": "LATTAKIA : Beir Qaddar mosque",
+    "name_ar": "اللاذقية : جامع البيرقدار",
+    "id": 727,
+    "region": "LATTAKIA",
+    "lat": 35.51,
+    "lon": 35.77944444
+  },
+  {
+    "name": "LATTAKIA : Joud mosque",
+    "name_ar": "اللاذقية : جامع الجود",
+    "id": 728,
+    "region": "LATTAKIA",
+    "lat": 35.52083333,
+    "lon": 35.7825
+  },
+  {
+    "name": "LATTAKIA : Qneinas",
+    "name_ar": "اللاذقية : حي القنينص",
+    "id": 729,
+    "region": "LATTAKIA",
+    "lat": 35.53527778,
+    "lon": 35.79444444
+  },
+  {
+    "name": "LATTAKIA : Raml al-Shamali",
+    "name_ar": "اللاذقية : الرمل الشمالي",
+    "id": 730,
+    "region": "LATTAKIA",
+    "lat": 35.53666667,
+    "lon": 35.78166667
+  },
+  {
+    "name": "LATTAKIA : Sidawi",
+    "name_ar": "اللاذقية : بستان الصيداوي",
+    "id": 731,
+    "region": "LATTAKIA",
+    "lat": 35.52083333,
+    "lon": 35.83555556
+  },
+  {
+    "name": "LATTAKIA : Sleibeh",
+    "name_ar": "اللاذقية : الصليبة",
+    "id": 732,
+    "region": "LATTAKIA",
+    "lat": 35.51305556,
+    "lon": 35.77777778
+  },
+  {
+    "name": "LATTAKIA : Sleibeh Projects",
+    "name_ar": "اللاذقية : مشروع الصليبة",
+    "id": 733,
+    "region": "LATTAKIA",
+    "lat": 35.50611111,
+    "lon": 35.77222222
+  },
+  {
+    "name": "LATTAKIA : Tabayat",
+    "name_ar": "اللاذقية : حي الطابيات",
+    "id": 734,
+    "region": "LATTAKIA",
+    "lat": 35.50888889,
+    "lon": 35.78222222
+  },
+  {
+    "name": "LATTAKIA : Tijar Souj",
+    "name_ar": "اللاذقية : شارع سيف الدولة",
+    "id": 735,
+    "region": "LATTAKIA",
+    "lat": 35.51638889,
+    "lon": 35.77638889
+  },
+  {
+    "name": "LATTAKIA : Aku",
+    "name_ar": "اللاذقية : عكو",
+    "id": 736,
+    "region": "LATTAKIA",
+    "lat": 35.7111162,
+    "lon": 36.2172031
+  },
+  {
+    "name": "LATTAKIA : obin",
+    "name_ar": "اللاذقية : اوبين",
+    "id": 737,
+    "region": "LATTAKIA",
+    "lat": 35.749246,
+    "lon": 36.096997
+  },
+  {
+    "name": "LATTAKIA : Aydu",
+    "name_ar": "اللاذقية : عيدو",
+    "id": 738,
+    "region": "LATTAKIA",
+    "lat": 35.7333333,
+    "lon": 36.1166667
+  },
+  {
+    "name": "LATTAKIA : Ayn al-Qantarah",
+    "name_ar": "اللاذقية : عين القنطرة",
+    "id": 739,
+    "region": "LATTAKIA",
+    "lat": 35.743,
+    "lon": 36.1775
+  },
+  {
+    "name": "LATTAKIA : Dorrin",
+    "name_ar": "اللاذقية : طريق دورين",
+    "id": 740,
+    "region": "LATTAKIA",
+    "lat": 35.67222222,
+    "lon": 36.13583333
+  },
+  {
+    "name": "LATTAKIA : Duwayrikah",
+    "name_ar": "اللاذقية : دويركة",
+    "id": 741,
+    "region": "LATTAKIA",
+    "lat": 35.7005,
+    "lon": 36.15
+  },
+  {
+    "name": "LATTAKIA : Ghanaymiyah",
+    "name_ar": "اللاذقية : الغنيمية",
+    "id": 742,
+    "region": "LATTAKIA",
+    "lat": 35.7107681,
+    "lon": 36.0975981
+  },
+  {
+    "name": "LATTAKIA : Haffah",
+    "name_ar": "اللاذقية : الحفة",
+    "id": 743,
+    "region": "LATTAKIA",
+    "lat": 35.59861111,
+    "lon": 36.035
+  },
+  {
+    "name": "LATTAKIA : Jabal Akrad",
+    "name_ar": "اللاذقية : جبل الاكراد",
+    "id": 744,
+    "region": "LATTAKIA",
+    "lat": 35.6516387,
+    "lon": 36.2152618
+  },
+  {
+    "name": "LATTAKIA : Jabal Turkman",
+    "name_ar": "اللاذقية : جبل تركمان",
+    "id": 745,
+    "region": "LATTAKIA",
+    "lat": 35.7874449,
+    "lon": 36.0372269
+  },
+  {
+    "name": "LATTAKIA : Jableh",
+    "name_ar": "اللاذقية : جبلة",
+    "id": 746,
+    "region": "LATTAKIA",
+    "lat": 35.37166667,
+    "lon": 35.93611111
+  },
+  {
+    "name": "LATTAKIA : Kabanah",
+    "name_ar": "اللاذقية : كبانة",
+    "id": 747,
+    "region": "LATTAKIA",
+    "lat": 35.717,
+    "lon": 36.232
+  },
+  {
+    "name": "LATTAKIA : Kafar Ajouz",
+    "name_ar": "اللاذقية : كفر الجوز",
+    "id": 748,
+    "region": "LATTAKIA",
+    "lat": 35.6685,
+    "lon": 36.151
+  },
+  {
+    "name": "LATTAKIA : Kansiba",
+    "name_ar": "اللاذقية : كنسبا",
+    "id": 749,
+    "region": "LATTAKIA",
+    "lat": 35.74166667,
+    "lon": 36.16888889
+  },
+  {
+    "name": "LATTAKIA : Dorien",
+    "name_ar": "اللاذقية : دورين",
+    "id": 750,
+    "region": "LATTAKIA",
+    "lat": 35.666,
+    "lon": 36.1
+  },
+  {
+    "name": "LATTAKIA : Marand",
+    "name_ar": "اللاذقية : مرعند",
+    "id": 751,
+    "region": "LATTAKIA",
+    "lat": 35.7653837,
+    "lon": 36.2161752
+  },
+  {
+    "name": "IDLIB : Al-Najeya",
+    "name_ar": "ادلب : الناجية",
+    "id": 752,
+    "region": "IDLIB",
+    "lat": 35.790646,
+    "lon": 36.212012
+  },
+  {
+    "name": "LATTAKIA : Marj al-Zawiyah",
+    "name_ar": "اللاذقية : مرج الزاوية",
+    "id": 753,
+    "region": "LATTAKIA",
+    "lat": 35.75,
+    "lon": 36.116
+  },
+  {
+    "name": "LATTAKIA : Maruniyat",
+    "name_ar": "اللاذقية : المارونيات",
+    "id": 754,
+    "region": "LATTAKIA",
+    "lat": 35.7,
+    "lon": 36.1165
+  },
+  {
+    "name": "LATTAKIA : Mazzin",
+    "name_ar": "اللاذقية : مازن دروبي",
+    "id": 755,
+    "region": "LATTAKIA",
+    "lat": 35.733,
+    "lon": 36.1
+  },
+  {
+    "name": "LATTAKIA : Mushayrifah",
+    "name_ar": "اللاذقية : مشيرفة الساموك",
+    "id": 756,
+    "region": "LATTAKIA",
+    "lat": 35.5205782,
+    "lon": 35.9300136
+  },
+  {
+    "name": "LATTAKIA : Nabi Yunes",
+    "name_ar": "اللاذقية : نبيل يونس",
+    "id": 757,
+    "region": "LATTAKIA",
+    "lat": 35.633,
+    "lon": 36.2165
+  },
+  {
+    "name": "LATTAKIA : Qardahah",
+    "name_ar": "اللاذقية : القرداحة",
+    "id": 758,
+    "region": "LATTAKIA",
+    "lat": 35.4587824,
+    "lon": 36.0573006
+  },
+  {
+    "name": "LATTAKIA : Rabia",
+    "name_ar": "اللاذقية : طريق ربيعة",
+    "id": 759,
+    "region": "LATTAKIA",
+    "lat": 35.78583333,
+    "lon": 36.03805556
+  },
+  {
+    "name": "LATTAKIA : Rihaniyah",
+    "name_ar": "اللاذقية : الريحانية",
+    "id": 760,
+    "region": "LATTAKIA",
+    "lat": 35.75916667,
+    "lon": 36.05833333
+  },
+  {
+    "name": "LATTAKIA : Salma",
+    "name_ar": "اللاذقية : سلمى",
+    "id": 761,
+    "region": "LATTAKIA",
+    "lat": 35.68555556,
+    "lon": 36.15055556
+  },
+  {
+    "name": "LATTAKIA : Shalaf",
+    "name_ar": "اللاذقية : شلف",
+    "id": 762,
+    "region": "LATTAKIA",
+    "lat": 35.73027778,
+    "lon": 36.16833333
+  },
+  {
+    "name": "LATTAKIA : Shalfatiyah",
+    "name_ar": "اللاذقية : الشلفاطية",
+    "id": 763,
+    "region": "LATTAKIA",
+    "lat": 35.53722222,
+    "lon": 35.89666667
+  },
+  {
+    "name": "LATTAKIA : Sharifah",
+    "name_ar": "اللاذقية : ‏قرية شريفا",
+    "id": 764,
+    "region": "LATTAKIA",
+    "lat": 35.62611111,
+    "lon": 36.03333333
+  },
+  {
+    "name": "LATTAKIA : Tardin",
+    "name_ar": "اللاذقية : قرية تردين",
+    "id": 766,
+    "region": "LATTAKIA",
+    "lat": 35.75,
+    "lon": 36.184
+  },
+  {
+    "name": "LATTAKIA : Wadi Basour",
+    "name_ar": "اللاذقية : وادي باصور",
+    "id": 767,
+    "region": "LATTAKIA",
+    "lat": 35.74333333,
+    "lon": 36.14472222
+  },
+  {
+    "name": "LATTAKIA : Wadi Shaykhan",
+    "name_ar": "اللاذقية : وادي شيخان",
+    "id": 768,
+    "region": "LATTAKIA",
+    "lat": 35.722,
+    "lon": 36.0725
+  },
+  {
+    "name": "LATTAKIA : Zanqufah",
+    "name_ar": "اللاذقية : زنقوفة",
+    "id": 769,
+    "region": "LATTAKIA",
+    "lat": 35.59944444,
+    "lon": 36.04305556
+  },
+  {
+    "name": "QUINETRA : QUINETRA",
+    "name_ar": "القنيطرة : القنيطرة",
+    "id": 770,
+    "region": "QUINETRA",
+    "lat": 33.126,
+    "lon": 35.824
+  },
+  {
+    "name": "QUINETRA : Jeba",
+    "name_ar": "القنيطرة : جبها",
+    "id": 771,
+    "region": "QUINETRA",
+    "lat": 33.161647,
+    "lon": 35.928735
+  },
+  {
+    "name": "QUINETRA : Bariqa",
+    "name_ar": "القنيطرة : البريقة",
+    "id": 772,
+    "region": "QUINETRA",
+    "lat": 33.042576,
+    "lon": 35.870082
+  },
+  {
+    "name": "QUINETRA : BeerAjam",
+    "name_ar": "القنيطرة : بئر عجم",
+    "id": 773,
+    "region": "QUINETRA",
+    "lat": 33.058978,
+    "lon": 35.868945
+  },
+  {
+    "name": "QUINETRA : Masharah",
+    "name_ar": "القنيطرة : مسحرة",
+    "id": 774,
+    "region": "QUINETRA",
+    "lat": 33.136814,
+    "lon": 35.962071
+  },
+  {
+    "name": "QUINETRA : Majduliyah",
+    "name_ar": "القنيطرة : مجدولية",
+    "id": 775,
+    "region": "QUINETRA",
+    "lat": 33.073639,
+    "lon": 35.917415
+  },
+  {
+    "name": "QUINETRA : Ar-RAQQAH",
+    "name_ar": "القنيطرة : الرقة",
+    "id": 776,
+    "region": "QUINETRA",
+    "lat": 35.958829,
+    "lon": 38.997087
+  },
+  {
+    "name": "QUINETRA : al-Karamah nahiyah",
+    "name_ar": "القنيطرة : مدينة الكرامة",
+    "id": 777,
+    "region": "QUINETRA",
+    "lat": 35.87611111,
+    "lon": 39.27555556
+  },
+  {
+    "name": "QUINETRA : Ma'adan nahiyah",
+    "name_ar": "القنيطرة : معدان",
+    "id": 778,
+    "region": "QUINETRA",
+    "lat": 35.75472222,
+    "lon": 39.60861111
+  },
+  {
+    "name": "QUINETRA : as-Sabkhah nahiyah",
+    "name_ar": "القنيطرة : ناحية السبخة",
+    "id": 779,
+    "region": "QUINETRA",
+    "lat": 35.81027778,
+    "lon": 39.26388889
+  },
+  {
+    "name": "QUINETRA : Tal Abyad mantiqah",
+    "name_ar": "القنيطرة : تل أبيض",
+    "id": 780,
+    "region": "QUINETRA",
+    "lat": 35.96694444,
+    "lon": 39.02305556
+  },
+  {
+    "name": "QUINETRA : Ayn Issa nahiyah",
+    "name_ar": "القنيطرة : عين عيسى",
+    "id": 781,
+    "region": "QUINETRA",
+    "lat": 36.38361111,
+    "lon": 38.85944444
+  },
+  {
+    "name": "QUINETRA : Suluk nahiyah",
+    "name_ar": "القنيطرة : ‫الرقة سلوك ‬‎",
+    "id": 782,
+    "region": "QUINETRA",
+    "lat": 36.51638889,
+    "lon": 39.09111111
+  },
+  {
+    "name": "QUINETRA : ath-Thawrah mantiqah",
+    "name_ar": "القنيطرة : مدينة الثورة",
+    "id": 783,
+    "region": "QUINETRA",
+    "lat": 35.865,
+    "lon": 38.55944444
+  },
+  {
+    "name": "QUINETRA : al-Jerniyah nahiyah",
+    "name_ar": "القنيطرة : الرقة الجرنية",
+    "id": 784,
+    "region": "QUINETRA",
+    "lat": 36.15944444,
+    "lon": 38.23305556
+  },
+  {
+    "name": "QUINETRA : al-Mansourah nahiyah",
+    "name_ar": "القنيطرة : المنصورة",
+    "id": 785,
+    "region": "QUINETRA",
+    "lat": 35.83944444,
+    "lon": 38.7425
+  },
+  {
+    "name": "QUINETRA : Ali Bajliyah",
+    "name_ar": "القنيطرة : علي باجلية",
+    "id": 786,
+    "region": "QUINETRA",
+    "lat": 36.54416667,
+    "lon": 38.98305556
+  },
+  {
+    "name": "QUINETRA : Dabsi Afnan",
+    "name_ar": "القنيطرة : دبسي عفنان",
+    "id": 787,
+    "region": "QUINETRA",
+    "lat": 35.81777778,
+    "lon": 38.21611111
+  },
+  {
+    "name": "QUINETRA : Hammam al-Turkman",
+    "name_ar": "القنيطرة : حمام التركمان",
+    "id": 788,
+    "region": "QUINETRA",
+    "lat": 36.52111111,
+    "lon": 39.08222222
+  },
+  {
+    "name": "QUINETRA : Kantari",
+    "name_ar": "القنيطرة : شارة قنطاري",
+    "id": 789,
+    "region": "QUINETRA",
+    "lat": 36.40083333,
+    "lon": 39.26527778
+  },
+  {
+    "name": "QUINETRA : Mashrafiyah",
+    "name_ar": "القنيطرة : مشرفة الهزاع",
+    "id": 790,
+    "region": "QUINETRA",
+    "lat": 36.41277778,
+    "lon": 39.11638889
+  },
+  {
+    "name": "QUINETRA : Shabedagh",
+    "name_ar": "القنيطرة : شابداغ",
+    "id": 791,
+    "region": "QUINETRA",
+    "lat": 36.633,
+    "lon": 39.2333
+  },
+  {
+    "name": "SUWAYDA : SUWAYDA",
+    "name_ar": "السويداء : السويداء",
+    "id": 792,
+    "region": "SUWAYDA",
+    "lat": 32.7093878,
+    "lon": 36.5687496
+  },
+  {
+    "name": "SUWAYDA : Ariqah",
+    "name_ar": "السويداء : عريقة",
+    "id": 793,
+    "region": "SUWAYDA",
+    "lat": 32.890255,
+    "lon": 36.483621
+  },
+  {
+    "name": "SUWAYDA : Dama",
+    "name_ar": "السويداء : داما",
+    "id": 794,
+    "region": "SUWAYDA",
+    "lat": 32.9531091,
+    "lon": 36.4308571
+  },
+  {
+    "name": "SUWAYDA : al-Ghariyah",
+    "name_ar": "السويداء : الغارية",
+    "id": 795,
+    "region": "SUWAYDA",
+    "lat": 32.39083333,
+    "lon": 36.64694444
+  },
+  {
+    "name": "SUWAYDA : al-Hit",
+    "name_ar": "السويداء : الهيت",
+    "id": 796,
+    "region": "SUWAYDA",
+    "lat": 32.9258993,
+    "lon": 36.6743964
+  },
+  {
+    "name": "SUWAYDA : Hout",
+    "name_ar": "السويداء : حوط",
+    "id": 797,
+    "region": "SUWAYDA",
+    "lat": 32.4896582,
+    "lon": 36.6086478
+  },
+  {
+    "name": "SUWAYDA : Imtan",
+    "name_ar": "السويداء : امتان‎",
+    "id": 798,
+    "region": "SUWAYDA",
+    "lat": 32.4180871,
+    "lon": 36.8191681
+  },
+  {
+    "name": "SUWAYDA : Majadel",
+    "name_ar": "السويداء : مجادل",
+    "id": 799,
+    "region": "SUWAYDA",
+    "lat": 32.91694444,
+    "lon": 36.55222222
+  },
+  {
+    "name": "SUWAYDA : Malah",
+    "name_ar": "السويداء : ملح",
+    "id": 800,
+    "region": "SUWAYDA",
+    "lat": 32.50944444,
+    "lon": 36.84972222
+  },
+  {
+    "name": "SUWAYDA : al-Mazraa",
+    "name_ar": "السويداء : المزرعة‎",
+    "id": 801,
+    "region": "SUWAYDA",
+    "lat": 32.7825337,
+    "lon": 36.4780728
+  },
+  {
+    "name": "SUWAYDA : al-Mushannaf",
+    "name_ar": "السويداء : المشنف",
+    "id": 802,
+    "region": "SUWAYDA",
+    "lat": 32.7425363,
+    "lon": 36.7761276
+  },
+  {
+    "name": "SUWAYDA : Nimreh",
+    "name_ar": "السويداء : نمرة‎",
+    "id": 803,
+    "region": "SUWAYDA",
+    "lat": 32.8248115,
+    "lon": 36.7082749
+  },
+  {
+    "name": "SUWAYDA : al-Qurayya",
+    "name_ar": "السويداء : القريا‎",
+    "id": 804,
+    "region": "SUWAYDA",
+    "lat": 32.5440531,
+    "lon": 36.5976629
+  },
+  {
+    "name": "SUWAYDA : Salkhid",
+    "name_ar": "السويداء : صلخد",
+    "id": 805,
+    "region": "SUWAYDA",
+    "lat": 32.4915361,
+    "lon": 36.7115643
+  },
+  {
+    "name": "SUWAYDA : Shaqqa",
+    "name_ar": "السويداء : شقا‎",
+    "id": 807,
+    "region": "SUWAYDA",
+    "lat": 32.8971289,
+    "lon": 36.695745
+  },
+  {
+    "name": "SUWAYDA : Surah as-Saghirah",
+    "name_ar": "السويداء : الصورة الصغيرة",
+    "id": 808,
+    "region": "SUWAYDA",
+    "lat": 33.03333333,
+    "lon": 36.57277778
+  },
+  {
+    "name": "SUWAYDA : Thaybin",
+    "name_ar": "السويداء : ذيبين",
+    "id": 809,
+    "region": "SUWAYDA",
+    "lat": 32.43722222,
+    "lon": 36.56444444
+  },
+  {
+    "name": "TARTOUS : TARTOUS",
+    "name_ar": "طرطوس : طرطوس",
+    "id": 810,
+    "region": "TARTOUS",
+    "lat": 34.882798,
+    "lon": 35.882079
+  },
+  {
+    "name": "TARTOUS : Baniyas",
+    "name_ar": "طرطوس : بانياس",
+    "id": 811,
+    "region": "TARTOUS",
+    "lat": 35.183272,
+    "lon": 35.940681
+  },
+  {
+    "name": "TARTOUS : Bayda",
+    "name_ar": "طرطوس : بياضة",
+    "id": 812,
+    "region": "TARTOUS",
+    "lat": 35.125,
+    "lon": 35.94861111
+  },
+  {
+    "name": "TARTOUS : Duraykish",
+    "name_ar": "طرطوس : دريكيش",
+    "id": 813,
+    "region": "TARTOUS",
+    "lat": 34.89277778,
+    "lon": 36.11833333
+  },
+  {
+    "name": "TARTOUS : Duweir Raslan",
+    "name_ar": "طرطوس : دوير رسلان",
+    "id": 814,
+    "region": "TARTOUS",
+    "lat": 34.965381,
+    "lon": 36.221967
+  },
+  {
+    "name": "TARTOUS : Hmein",
+    "name_ar": "طرطوس : حمين",
+    "id": 815,
+    "region": "TARTOUS",
+    "lat": 34.9,
+    "lon": 36.040833
+  },
+  {
+    "name": "TARTOUS : Juneinat Raslan",
+    "name_ar": "طرطوس : جنينة رسلان",
+    "id": 816,
+    "region": "TARTOUS",
+    "lat": 34.92777778,
+    "lon": 36.12388889
+  },
+  {
+    "name": "TARTOUS : Mashta al-Helou",
+    "name_ar": "طرطوس : مشتى الحلو",
+    "id": 817,
+    "region": "TARTOUS",
+    "lat": 34.87666667,
+    "lon": 36.25333333
+  },
+  {
+    "name": "TARTOUS : Safita",
+    "name_ar": "طرطوس : صافيتا",
+    "id": 819,
+    "region": "TARTOUS",
+    "lat": 34.816956,
+    "lon": 36.116588
+  },
+  {
+    "name": "DAMASCUS : Ayn Tarma",
+    "name_ar": "دمشق : عين ترما",
+    "id": 1653,
+    "region": "DAMASCUS",
+    "lat": 33.5123488,
+    "lon": 36.3499285
+  },
+  {
+    "name": "DAMASCUS : Shafuniyeh",
+    "name_ar": "دمشق : الشيفونية",
+    "id": "",
+    "region": "DAMASCUS",
+    "lat": 33.55829582,
+    "lon": 36.44094582
+  },
+  {
+    "name": "DAMASCUS : Hazzah",
+    "name_ar": "دمشق : حزة",
+    "id": 1655,
+    "region": "DAMASCUS",
+    "lat": 33.5188698,
+    "lon": 36.3647745
+  },
+  {
+    "name": "DAMASCUS : Saqba",
+    "name_ar": "دمشق : سقبا",
+    "id": 1656,
+    "region": "DAMASCUS",
+    "lat": 33.5184752,
+    "lon": 36.3799215
+  },
+  {
+    "name": "DAMASCUS : zamalka",
+    "name_ar": "دمشق : زملكا",
+    "id": 1657,
+    "region": "DAMASCUS",
+    "lat": 33.5261956,
+    "lon": 36.3510736
+  },
+  {
+    "name": "DAMASCUS : Hammuriyah",
+    "name_ar": "دمشق : حمورية",
+    "id": 1658,
+    "region": "DAMASCUS",
+    "lat": 33.5296468,
+    "lon": 36.3848593
+  },
+  {
+    "name": "DAMASCUS : Bseimeh",
+    "name_ar": "دمشق : بسيمة",
+    "id": "",
+    "region": "DAMASCUS",
+    "lat": 33.60471387,
+    "lon": 36.19880413
+  },
+  {
+    "name": "IDLIB : Tall Manissss",
+    "name_ar": "ادلب : تل منيس",
+    "id": 1659,
+    "region": "IDLIB",
+    "lat": 35.6383733,
+    "lon": 36.7396118
+  },
+  {
+    "name": "DAMASCUS : Adra",
+    "name_ar": "دمشق : عدرا",
+    "id": 1660,
+    "region": "DAMASCUS",
+    "lat": 35.6383733,
+    "lon": 36.5112588
+  },
+  {
+    "name": "IDLIB : Jarjanaz",
+    "name_ar": "ادلب : جرجناز",
+    "id": 1664,
+    "region": "IDLIB",
+    "lat": 35.617955,
+    "lon": 36.784644
+  },
+  {
+    "name": "ALEPPO : Harithan",
+    "name_ar": "حلب : حريتان",
+    "id": 1665,
+    "region": "ALEPPO",
+    "lat": 36.287871,
+    "lon": 37.0838783
+  },
+  {
+    "name": "DAMASCUS : Mazzeh military airport",
+    "name_ar": "دمشق : مطار المزة العسكري",
+    "id": 1667,
+    "region": "DAMASCUS",
+    "lat": 33.48109,
+    "lon": 36.227824
+  },
+  {
+    "name": "ALEPPO : Front Al-Burayj",
+    "name_ar": "حلب : جبهة البريج",
+    "id": 1668,
+    "region": "ALEPPO",
+    "lat": 36.15,
+    "lon": 37.0833333
+  },
+  {
+    "name": "HAMA : Alsayad",
+    "name_ar": "حماة : الصياد",
+    "id": 1670,
+    "region": "HAMA",
+    "lat": 35.399519,
+    "lon": 36.61947
+  },
+  {
+    "name": "DARAA : Athman",
+    "name_ar": "درعا : عتمان",
+    "id": 1671,
+    "region": "DARAA",
+    "lat": 32.664342,
+    "lon": 36.114678
+  },
+  {
+    "name": "ALEPPO : Sheikh Maqsoud",
+    "name_ar": "حلب : حي الشيخ مقصود",
+    "id": 1672,
+    "region": "ALEPPO",
+    "lat": 36.236882,
+    "lon": 37.150311
+  },
+  {
+    "name": "IDLIB : Afes",
+    "name_ar": "ادلب : أفس",
+    "id": 1673,
+    "region": "IDLIB",
+    "lat": 35.906098,
+    "lon": 36.8039983
+  },
+  {
+    "name": "DAMASCUS : Khan al-Shih",
+    "name_ar": "دمشق : خان الشيح",
+    "id": 1674,
+    "region": "DAMASCUS",
+    "lat": 33.3741823,
+    "lon": 36.1149217
+  },
+  {
+    "name": "HOMS : Al-Ghantu",
+    "name_ar": "حمص : الغنطو",
+    "id": 1675,
+    "region": "HOMS",
+    "lat": 34.8223907,
+    "lon": 36.6935635
+  },
+  {
+    "name": "DARAA : Eastern Al-Ghariyah",
+    "name_ar": "درعا : الغارية الشرقية",
+    "id": 1676,
+    "region": "DARAA",
+    "lat": 32.67386667,
+    "lon": 36.25983056
+  },
+  {
+    "name": "DAMASCUS : Eastern Ghouta",
+    "name_ar": "دمشق : الغوطة الشرقية",
+    "id": 1677,
+    "region": "DAMASCUS",
+    "lat": 33.5380079,
+    "lon": 36.3666112
+  },
+  {
+    "name": "ALEPPO : Sarmada",
+    "name_ar": "حلب : سرمدا",
+    "id": 1678,
+    "region": "ALEPPO",
+    "lat": 36.1808809,
+    "lon": 36.7200484
+  },
+  {
+    "name": "ALEPPO : Kafr hamrah",
+    "name_ar": "حلب : كفر حمرة",
+    "id": 1679,
+    "region": "ALEPPO",
+    "lat": 36.253303,
+    "lon": 37.087435
+  },
+  {
+    "name": "HAMA : Kafr Nabudah",
+    "name_ar": "حماة : كفر نبودة",
+    "id": 1680,
+    "region": "HAMA",
+    "lat": 35.433661,
+    "lon": 36.49441
+  },
+  {
+    "name": "ALEPPO : Anadan",
+    "name_ar": "حلب : عندان",
+    "id": 1681,
+    "region": "ALEPPO",
+    "lat": 36.2924395,
+    "lon": 37.041918
+  },
+  {
+    "name": "ALEPPO : Hayyan",
+    "name_ar": "حلب : حيان",
+    "id": 1682,
+    "region": "ALEPPO",
+    "lat": 36.3248097,
+    "lon": 37.0586887
+  },
+  {
+    "name": "HOMS : Houla",
+    "name_ar": "حمص : الحولة",
+    "id": 1683,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DAMASCUS : Misraba",
+    "name_ar": "دمشق : مسرابا",
+    "id": 1684,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Ahras",
+    "name_ar": "حلب : احرص",
+    "id": 1685,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al atarib",
+    "name_ar": "حلب : الأتارب",
+    "id": 1686,
+    "region": "ALEPPO",
+    "lat": 36.14078597,
+    "lon": 36.82308197
+  },
+  {
+    "name": "DAMASCUS : Deir al-Asafir",
+    "name_ar": "دمشق : دير العصافير",
+    "id": 1687,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Hobait",
+    "name_ar": "ادلب : الهبيط",
+    "id": 1688,
+    "region": "IDLIB",
+    "lat": 35.438783,
+    "lon": 36.538768
+  },
+  {
+    "name": "HAMA : Lahaya",
+    "name_ar": "حماة : لحايا",
+    "id": 1689,
+    "region": "HAMA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Tal Alhara",
+    "name_ar": "درعا : تل الحارة",
+    "id": 1690,
+    "region": "DARAA",
+    "lat": 33.063474,
+    "lon": 35.988271
+  },
+  {
+    "name": "DAMASCUS : Marj al sultan",
+    "name_ar": "دمشق : مرج السلطان",
+    "id": 1692,
+    "region": "DAMASCUS",
+    "lat": 33.4924839,
+    "lon": 36.4694617
+  },
+  {
+    "name": "IDLIB : Masaran",
+    "name_ar": "ادلب : معصران",
+    "id": 1693,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DEIR EZZOR : Al Bukamal",
+    "name_ar": "دير الزور : البوكمال",
+    "id": 1694,
+    "region": "DEIR EZZOR",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HAMA : Mar kbeh",
+    "name_ar": "حماة : معر كبة",
+    "id": 1695,
+    "region": "HAMA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Al Zafaraneh",
+    "name_ar": "حمص : الزعفرانة",
+    "id": 1696,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Umm Sharshuh",
+    "name_ar": "حمص : أم شرشوح",
+    "id": 1697,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Western Al-Ghariyah",
+    "name_ar": "درعا : الغارية الغربية",
+    "id": 1698,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Kafr Nasij",
+    "name_ar": "درعا : كفر ناسج",
+    "id": 1699,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Killi",
+    "name_ar": "ادلب : كللى",
+    "id": 1700,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Maarstah",
+    "name_ar": "حلب : معرسته",
+    "id": 1701,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Maret Al nasan",
+    "name_ar": "ادلب : معارة النعسان",
+    "id": 1702,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al Hader",
+    "name_ar": "حلب : الحاضر",
+    "id": 1703,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Al soura",
+    "name_ar": "درعا : الصورة",
+    "id": 1704,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Aljzmate",
+    "name_ar": "حلب : حي الجزماتي",
+    "id": 1705,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Aqraba",
+    "name_ar": "درعا : عقربا",
+    "id": 1706,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Atshanah",
+    "name_ar": "حلب : عطشانة",
+    "id": 1707,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Burj qai",
+    "name_ar": "حمص : برج قاعي",
+    "id": 1708,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Dayr Jamal",
+    "name_ar": "حلب : دير جمال",
+    "id": 1709,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DAMASCUS : Qalamoun",
+    "name_ar": "دمشق : القلمون",
+    "id": 1710,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Sakhour",
+    "name_ar": "حلب : حي الصاخور",
+    "id": 1711,
+    "region": "ALEPPO",
+    "lat": 36.217002,
+    "lon": 37.189449
+  },
+  {
+    "name": "HOMS : San Aswad",
+    "name_ar": "حمص : السعن الأسود",
+    "id": 1712,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Zitan",
+    "name_ar": "حلب : زيتان",
+    "id": 1713,
+    "region": "ALEPPO",
+    "lat": 36.05971571,
+    "lon": 37.01345444
+  },
+  {
+    "name": "ALEPPO : Bab Qinnesrin",
+    "name_ar": "حلب : باب قنسرين",
+    "id": 1714,
+    "region": "ALEPPO",
+    "lat": 36.1963044,
+    "lon": 37.15624452
+  },
+  {
+    "name": "HOMS : Aldar alkabera",
+    "name_ar": "حمص : الدار الكبيرة",
+    "id": 1715,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Aljaser",
+    "name_ar": "حلب : الجسر",
+    "id": 1716,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al eis",
+    "name_ar": "حلب : العيس",
+    "id": 1717,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Al farhanyeh",
+    "name_ar": "حمص : الفرحانية",
+    "id": 1718,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Al ghadfah",
+    "name_ar": "ادلب : الغدفة",
+    "id": 1719,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Al hamidia",
+    "name_ar": "ادلب : الحامدية",
+    "id": 1720,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al Hmera",
+    "name_ar": "حلب : الحميرة",
+    "id": 1721,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al Jubeilah",
+    "name_ar": "حلب : الجبيلة",
+    "id": 1722,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Al naymah",
+    "name_ar": "درعا : النعيمة",
+    "id": 1723,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Al waer",
+    "name_ar": "حمص : الوعر",
+    "id": 1724,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al zarba",
+    "name_ar": "حلب : الزربة",
+    "id": 1725,
+    "region": "ALEPPO",
+    "lat": 36.06736513,
+    "lon": 36.98322058
+  },
+  {
+    "name": "ALEPPO : Azzan",
+    "name_ar": "حلب : عزان",
+    "id": "",
+    "region": "ALEPPO",
+    "lat": 36.06374369,
+    "lon": 37.158351
+  },
+  {
+    "name": "DAMASCUS : Al ashari",
+    "name_ar": "دمشق : الأشعري",
+    "id": 1726,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HAMA : Aqrab",
+    "name_ar": "حماة : عقرب",
+    "id": 1727,
+    "region": "HAMA",
+    "lat": 34.93617066,
+    "lon": 36.45912861
+  },
+  {
+    "name": "ALEPPO : Ashrafieh",
+    "name_ar": "حلب : الاشرفية",
+    "id": 1728,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Asileh",
+    "name_ar": "حلب : الاصيله",
+    "id": 1729,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Az Ziyarah",
+    "name_ar": "حلب : زيارة",
+    "id": 1730,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Bab al salamah",
+    "name_ar": "حلب : باب السلامة",
+    "id": 1732,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Bayanoun",
+    "name_ar": "حلب : بيانون",
+    "id": 1733,
+    "region": "ALEPPO",
+    "lat": 36.34541133,
+    "lon": 37.05392361
+  },
+  {
+    "name": "DARAA : Busra al-Harir",
+    "name_ar": "درعا : بصرى الحرير",
+    "id": 1734,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Bustan al-Qasr",
+    "name_ar": "حلب : بستان القصر",
+    "id": 1735,
+    "region": "ALEPPO",
+    "lat": 36.1944169,
+    "lon": 37.13902473
+  },
+  {
+    "name": "DARAA : Elma",
+    "name_ar": "درعا : علما",
+    "id": 1736,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Ghajar",
+    "name_ar": "حمص : الغجر",
+    "id": 1737,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : hardetneen",
+    "name_ar": "حلب : حردتنين",
+    "id": 1738,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DAMASCUS : Hazrama",
+    "name_ar": "دمشق : حزرما",
+    "id": 1739,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HAMA : Hirbinafsah",
+    "name_ar": "حماة : حربنفسه",
+    "id": 1740,
+    "region": "HAMA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Jawalak",
+    "name_ar": "حمص : جوالك",
+    "id": 1741,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DAMASCUS : Jisrayn",
+    "name_ar": "دمشق : جسرين",
+    "id": 1742,
+    "region": "DAMASCUS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Kafar Kalbin",
+    "name_ar": "حلب : كفر كلبين",
+    "id": 1743,
+    "region": "ALEPPO",
+    "lat": 36.55773963,
+    "lon": 37.08911419
+  },
+  {
+    "name": "ALEPPO : Kafer Khasher",
+    "name_ar": "حلب : كفر خاشر",
+    "id": 1744,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Kafr aweed",
+    "name_ar": "ادلب : كفر عويد",
+    "id": 1745,
+    "region": "IDLIB",
+    "lat": 35.628862,
+    "lon": 36.456102
+  },
+  {
+    "name": "ALEPPO : Al-Nuzaha",
+    "name_ar": "حلب : النزهة",
+    "id": 1746,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Khalsah",
+    "name_ar": "حلب : خلصة",
+    "id": 1747,
+    "region": "ALEPPO",
+    "lat": 36.05818921,
+    "lon": 37.05647707
+  },
+  {
+    "name": "ALEPPO : Masaken Hanano",
+    "name_ar": "حلب : مساكن هنانو",
+    "id": 1748,
+    "region": "ALEPPO",
+    "lat": 36.228232,
+    "lon": 37.199379
+  },
+  {
+    "name": "HOMS : Mashroua",
+    "name_ar": "حمص : المشروع",
+    "id": 1749,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Mdaya",
+    "name_ar": "ادلب : مدايا",
+    "id": 1750,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Misqan",
+    "name_ar": "حلب : مسقان",
+    "id": 1751,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Qabtan al Jabal",
+    "name_ar": "حلب : قبتان الجبل",
+    "id": 1752,
+    "region": "ALEPPO",
+    "lat": 36.26268427,
+    "lon": 36.94925308
+  },
+  {
+    "name": "IDLIB : Ram hamdan",
+    "name_ar": "ادلب : رام حمدان",
+    "id": 1753,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Rif al Mohandeseen",
+    "name_ar": "حلب : ريف المهندسين",
+    "id": 1754,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "DARAA : Saida",
+    "name_ar": "درعا : صيدا",
+    "id": 1755,
+    "region": "DARAA",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Sheikh Khider",
+    "name_ar": "حلب : الشيخ خضر",
+    "id": 1757,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "HOMS : Sneisel",
+    "name_ar": "حمص : سنيسل",
+    "id": 1758,
+    "region": "HOMS",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Talmenes",
+    "name_ar": "ادلب : تلمنس",
+    "id": 1759,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "IDLIB : Tell Sultan",
+    "name_ar": "ادلب : تل السلطان",
+    "id": 1760,
+    "region": "IDLIB",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Termaneen",
+    "name_ar": "حلب : ترمانين",
+    "id": 1761,
+    "region": "ALEPPO",
+    "lat": 36.2293348,
+    "lon": 36.8169524
+  },
+  {
+    "name": "ALEPPO : Bshantara",
+    "name_ar": "حلب : بشنطرة",
+    "id": 1762,
+    "region": "ALEPPO",
+    "lat": 36.22094163,
+    "lon": 37.00092316
+  },
+  {
+    "name": "ALEPPO : Tal msebeen",
+    "name_ar": "حلب : تل مصيبين",
+    "id": 1763,
+    "region": "ALEPPO",
+    "lat": 36.308994,
+    "lon": 37.098248
+  },
+  {
+    "name": "IDLIB : Al nerab",
+    "name_ar": "ادلب : النيرب",
+    "id": 1764,
+    "region": "IDLIB",
+    "lat": 35.869771,
+    "lon": 36.719153
+  },
+  {
+    "name": "HAMA : Al hawash",
+    "name_ar": "حماة : الحواش",
+    "id": 1765,
+    "region": "HAMA",
+    "lat": 35.548249,
+    "lon": 36.379745
+  },
+  {
+    "name": "DAMASCUS : Al-Qadam",
+    "name_ar": "دمشق : القدم",
+    "id": 1766,
+    "region": "DAMASCUS",
+    "lat": 33.4666667,
+    "lon": 36.2833333
+  },
+  {
+    "name": "DARAA : Muzayrib",
+    "name_ar": "درعا : مزيريب",
+    "id": 1767,
+    "region": "DARAA",
+    "lat": 32.7111111,
+    "lon": 36.0255556
+  },
+  {
+    "name": "DAMASCUS : Al-Bahariyah",
+    "name_ar": "دمشق : البحارية",
+    "id": 1768,
+    "region": "DAMASCUS",
+    "lat": 33.529038,
+    "lon": 36.526294
+  },
+  {
+    "name": "DAMASCUS : Al-Otaybah",
+    "name_ar": "دمشق : العتيبة",
+    "id": 1769,
+    "region": "DAMASCUS",
+    "lat": 33.485091,
+    "lon": 36.607821
+  },
+  {
+    "name": "ALEPPO : Batbo",
+    "name_ar": "حلب : باتبو",
+    "id": 1770,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Al-Jinah",
+    "name_ar": "حلب : الجينة",
+    "id": 1771,
+    "region": "ALEPPO",
+    "lat": 36.1182267,
+    "lon": 36.802708
+  },
+  {
+    "name": "HOMS :  Al Mukarramiyah",
+    "name_ar": "حمص : مكرمية",
+    "id": 1772,
+    "region": "HOMS",
+    "lat": 34.867353,
+    "lon": 36.779379
+  },
+  {
+    "name": "ALEPPO : Anjara",
+    "name_ar": "حلب : عنجارة",
+    "id": 1773,
+    "region": "ALEPPO",
+    "lat": 36.2185035,
+    "lon": 36.9481133
+  },
+  {
+    "name": "ALEPPO : Castillo",
+    "name_ar": "حلب : كاستيلو",
+    "id": 1774,
+    "region": "ALEPPO",
+    "lat": 36.252942,
+    "lon": 37.131858
+  },
+  {
+    "name": "ALEPPO : Jib Al-Qubeh",
+    "name_ar": "حلب : جب القبة",
+    "id": 1775,
+    "region": "ALEPPO",
+    "lat": 36.19894,
+    "lon": 37.167815
+  },
+  {
+    "name": "ALEPPO : Asia",
+    "name_ar": "حلب : آسيا",
+    "id": 1776,
+    "region": "ALEPPO",
+    "lat": 36.269666,
+    "lon": 37.079019
+  },
+  {
+    "name": "ALEPPO : Babis",
+    "name_ar": "حلب : بابيص",
+    "id": 1777,
+    "region": "ALEPPO",
+    "lat": 36.247451,
+    "lon": 37.015893
+  },
+  {
+    "name": "ALEPPO : Bezzeh",
+    "name_ar": "حلب : بزة",
+    "id": 1778,
+    "region": "ALEPPO",
+    "lat": 36.192896,
+    "lon": 37.160606
+  },
+  {
+    "name": "ALEPPO : Bab Al-Maqam",
+    "name_ar": "حلب : باب المقام",
+    "id": 1779,
+    "region": "ALEPPO",
+    "lat": 36.191381,
+    "lon": 37.159337
+  },
+  {
+    "name": "ALEPPO : Al-Alamji",
+    "name_ar": "حلب : الألمجي",
+    "id": 1780,
+    "region": "ALEPPO",
+    "lat": 36.20568,
+    "lon": 37.16453
+  },
+  {
+    "name": "ALEPPO : Qarlak",
+    "name_ar": "حلب : قرلق",
+    "id": 1781,
+    "region": "ALEPPO",
+    "lat": 36.20808,
+    "lon": 37.177312
+  },
+  {
+    "name": "ALEPPO : Dahret Awad",
+    "name_ar": "حلب : ضهرة عواد",
+    "id": 1782,
+    "region": "ALEPPO",
+    "lat": 36.201863,
+    "lon": 37.191906
+  },
+  {
+    "name": "ALEPPO : Karam Homad",
+    "name_ar": "حلب : كرم حومد",
+    "id": 1783,
+    "region": "ALEPPO",
+    "lat": 36.192623,
+    "lon": 37.169526
+  },
+  {
+    "name": "ALEPPO : Qabr Al-Englizi",
+    "name_ar": "حلب : قبر إنكليزي",
+    "id": 1784,
+    "region": "ALEPPO",
+    "lat": 36.264505,
+    "lon": 37.092285
+  },
+  {
+    "name": "ALEPPO : Karam Al-Tahan",
+    "name_ar": "حلب : كرم الطحان",
+    "id": 1785,
+    "region": "ALEPPO",
+    "lat": 36.195761,
+    "lon": 37.181053
+  },
+  {
+    "name": "ALEPPO : Yaqed Al Adas",
+    "name_ar": "حلب : ياقد العدس",
+    "id": 1786,
+    "region": "ALEPPO",
+    "lat": 36.270336,
+    "lon": 37.023568
+  },
+  {
+    "name": "ALEPPO : Gaziantep road",
+    "name_ar": "حلب : طريق غازي عنتاب",
+    "id": 1787,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Kalaseh",
+    "name_ar": "حلب : كلاسة",
+    "id": 1788,
+    "region": "ALEPPO",
+    "lat": 36.188562,
+    "lon": 37.150588
+  },
+  {
+    "name": "ALEPPO : Ra'ai",
+    "name_ar": "حلب : راعي",
+    "id": 1789,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Teqad",
+    "name_ar": "حلب : تقاد",
+    "id": 1790,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Kafar beseen",
+    "name_ar": "حلب : كفر بسين",
+    "id": 1791,
+    "region": "ALEPPO",
+    "lat": 36.27071181,
+    "lon": 37.00070858
+  },
+  {
+    "name": "ALEPPO : Masaken Al Baladyeh",
+    "name_ar": "حلب : مساكن البلدية",
+    "id": 1792,
+    "region": "ALEPPO",
+    "lat": 36.1949364,
+    "lon": 37.20331192
+  },
+  {
+    "name": "ALEPPO : Dahyet Al asad",
+    "name_ar": "حلب : ضاحية الأسد",
+    "id": 1793,
+    "region": "ALEPPO",
+    "lat": 36.175415,
+    "lon": 37.08196
+  },
+  {
+    "name": "ALEPPO : New Aleppo",
+    "name_ar": "حلب : حلب الجديدة",
+    "id": 1794,
+    "region": "ALEPPO",
+    "lat": 36.199766,
+    "lon": 37.09645
+  },
+  {
+    "name": "ALEPPO : Numan",
+    "name_ar": "حلب : نعمان",
+    "id": 1795,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Jazraya",
+    "name_ar": "حلب : جزرايا",
+    "id": 1796,
+    "region": "ALEPPO",
+    "lat": 35.8595265,
+    "lon": 36.9795942
+  },
+  {
+    "name": "ALEPPO : khan Touman",
+    "name_ar": "حلب : خان طومان",
+    "id": 1797,
+    "region": "ALEPPO",
+    "lat": 36.117874,
+    "lon": 37.055818
+  },
+  {
+    "name": "ALEPPO : Al Nayrab",
+    "name_ar": "حلب : قرية النيرب",
+    "id": 1798,
+    "region": "ALEPPO",
+    "lat": 36.189069,
+    "lon": 37.255691
+  },
+  {
+    "name": "ALEPPO : 1070 project",
+    "name_ar": "حلب : مشروع 1070",
+    "id": 1799,
+    "region": "ALEPPO",
+    "lat": 36.164221,
+    "lon": 37.101364
+  },
+  {
+    "name": "ALEPPO : 3000 apartments area",
+    "name_ar": "حلب : مشروع 3000 شقة",
+    "id": 1800,
+    "region": "ALEPPO",
+    "lat": 36.175452,
+    "lon": 37.098716
+  },
+  {
+    "name": "ALEPPO : Al Qasemyeh",
+    "name_ar": "حلب : القاسمية",
+    "id": 1801,
+    "region": "ALEPPO",
+    "lat": 36.233945,
+    "lon": 36.95971
+  },
+  {
+    "name": "ALEPPO : Binan Al hes",
+    "name_ar": "حلب : بنان الحص",
+    "id": 1802,
+    "region": "ALEPPO",
+    "lat": 35.9729703,
+    "lon": 37.3019528
+  },
+  {
+    "name": "ALEPPO : Tal Al Daman",
+    "name_ar": "حلب : تل الضمان",
+    "id": 1803,
+    "region": "ALEPPO",
+    "lat": 35.807306,
+    "lon": 37.253254
+  },
+  {
+    "name": "ALEPPO : Al Haj bridge",
+    "name_ar": "حلب : جسر الحاج",
+    "id": 1804,
+    "region": "ALEPPO",
+    "lat": 36.18375773,
+    "lon": 37.14817107
+  },
+  {
+    "name": "ALEPPO : Al mentar",
+    "name_ar": "حلب : المنطار",
+    "id": 1805,
+    "region": "ALEPPO",
+    "lat": 36.287012,
+    "lon": 37.363789
+  },
+  {
+    "name": "ALEPPO : Jaloum district",
+    "name_ar": "حلب : حي الجلوم",
+    "id": 1806,
+    "region": "ALEPPO",
+    "lat": 36.19653,
+    "lon": 37.1541
+  },
+  {
+    "name": "ALEPPO : Al qseyleh",
+    "name_ar": "حلب : القصيلة",
+    "id": 1807,
+    "region": "ALEPPO",
+    "lat": 36.193988,
+    "lon": 37.16338
+  },
+  {
+    "name": "ALEPPO : Othmanyeh",
+    "name_ar": "حلب : عثمانية",
+    "id": 1808,
+    "region": "ALEPPO",
+    "lat": 35.87952307,
+    "lon": 36.9732213
+  },
+  {
+    "name": "ALEPPO : Kafar Nouran",
+    "name_ar": "حلب : كفر نوران",
+    "id": 1809,
+    "region": "ALEPPO",
+    "lat": 36.08212416,
+    "lon": 36.83067799
+  },
+  {
+    "name": "ALEPPO : Karfur Mall",
+    "name_ar": "حلب : سوق الكارفور",
+    "id": 1810,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Ramousah",
+    "name_ar": "حلب : راموسة",
+    "id": 1811,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Electricity association",
+    "name_ar": "حلب : جمعية الكهرباء",
+    "id": 1812,
+    "region": "ALEPPO",
+    "lat": 36.19213106,
+    "lon": 36.9638443
+  },
+  {
+    "name": "ALEPPO : Mouasalat",
+    "name_ar": "حلب : مواصلات",
+    "id": 1813,
+    "region": "ALEPPO",
+    "lat": 36.20054678,
+    "lon": 37.18244433
+  },
+  {
+    "name": "ALEPPO : Aleppo damascus International road",
+    "name_ar": "حلب : طريق حلب الشام الدولي",
+    "id": 1814,
+    "region": "ALEPPO",
+    "lat": 36.17003116,
+    "lon": 37.06272125
+  },
+  {
+    "name": "ALEPPO : Zahret Al Mada'en",
+    "name_ar": "حلب : زهرة المدائن",
+    "id": 1815,
+    "region": "ALEPPO",
+    "lat": 36.14764779,
+    "lon": 37.02178001
+  },
+  {
+    "name": "ALEPPO : Al Houtah",
+    "name_ar": "حلب : الهوتة",
+    "id": 1816,
+    "region": "ALEPPO",
+    "lat": 36.20556808,
+    "lon": 36.95766449
+  },
+  {
+    "name": "ALEPPO : Ard Al Hamra",
+    "name_ar": "حلب : أرض الحمراء",
+    "id": 1817,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Halak",
+    "name_ar": "حلب : هلك",
+    "id": 1818,
+    "region": "ALEPPO",
+    "lat": 36.24046584,
+    "lon": 37.17567444
+  },
+  {
+    "name": "DAMASCUS : Medaany",
+    "name_ar": "دمشق : ميدعاني",
+    "id": 1819,
+    "region": "DAMASCUS",
+    "lat": 33.547547,
+    "lon": 36.444569
+  },
+  {
+    "name": "DAMASCUS : Housh Al Dawahrah",
+    "name_ar": "دمشق : حوش الضواهرة",
+    "id": 1820,
+    "region": "DAMASCUS",
+    "lat": 33.550873,
+    "lon": 36.4651251
+  },
+  {
+    "name": "ALEPPO : Um Al Karameel",
+    "name_ar": "حلب : أم الكراميل",
+    "id": 1821,
+    "region": "ALEPPO",
+    "lat": 35.862163,
+    "lon": 37.063402
+  },
+  {
+    "name": "IDLIB : Keftein",
+    "name_ar": "ادلب : كفتين",
+    "id": 1822,
+    "region": "IDLIB",
+    "lat": 36.095333,
+    "lon": 36.677577
+  },
+  {
+    "name": "IDLIB : karsa'a",
+    "name_ar": "ادلب : كرسعة",
+    "id": 1823,
+    "region": "IDLIB",
+    "lat": 35.561197,
+    "lon": 36.484451
+  },
+  {
+    "name": "IDLIB : Shanan",
+    "name_ar": "ادلب : شنان",
+    "id": 1824,
+    "region": "IDLIB",
+    "lat": 35.733264,
+    "lon": 36.616074
+  },
+  {
+    "name": "ALEPPO : Electricity association",
+    "name_ar": "حلب : جمعية الكهرباء",
+    "id": 1812,
+    "region": "ALEPPO",
+    "lat": 36.19213106,
+    "lon": 36.9638443
+  },
+  {
+    "name": "ALEPPO : Mouasalat",
+    "name_ar": "حلب : مواصلات",
+    "id": 1813,
+    "region": "ALEPPO",
+    "lat": 36.20054678,
+    "lon": 37.18244433
+  },
+  {
+    "name": "ALEPPO : Aleppo damascus International road",
+    "name_ar": "حلب : طريق حلب الشام الدولي",
+    "id": 1814,
+    "region": "ALEPPO",
+    "lat": 36.17003116,
+    "lon": 37.06272125
+  },
+  {
+    "name": "ALEPPO : Zahret Al Mada'en",
+    "name_ar": "حلب : زهرة المدائن",
+    "id": 1815,
+    "region": "ALEPPO",
+    "lat": 36.14764779,
+    "lon": 37.02178001
+  },
+  {
+    "name": "ALEPPO : Al Houtah",
+    "name_ar": "حلب : الهوتة",
+    "id": 1816,
+    "region": "ALEPPO",
+    "lat": 36.20556808,
+    "lon": 36.95766449
+  },
+  {
+    "name": "ALEPPO : Ard Al Hamra",
+    "name_ar": "حلب : أرض الحمراء",
+    "id": 1817,
+    "region": "ALEPPO",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "name": "ALEPPO : Halak",
+    "name_ar": "حلب : هلك",
+    "id": 1818,
+    "region": "ALEPPO",
+    "lat": 36.24046584,
+    "lon": 37.17567444
+  },
+  {
+    "name": "DAMASCUS : Medaany",
+    "name_ar": "دمشق : ميدعاني",
+    "id": 1819,
+    "region": "DAMASCUS",
+    "lat": 33.547547,
+    "lon": 36.444569
+  },
+  {
+    "name": "DAMASCUS : Housh Al Dawahrah",
+    "name_ar": "دمشق : حوش الضواهرة",
+    "id": 1820,
+    "region": "DAMASCUS",
+    "lat": 33.550873,
+    "lon": 36.4651251
+  },
+  {
+    "name": "ALEPPO : Um Al Karameel",
+    "name_ar": "حلب : أم الكراميل",
+    "id": 1821,
+    "region": "ALEPPO",
+    "lat": 35.862163,
+    "lon": 37.063402
+  },
+  {
+    "name": "IDLIB : Keftein",
+    "name_ar": "ادلب : كفتين",
+    "id": 1822,
+    "region": "IDLIB",
+    "lat": 36.095333,
+    "lon": 36.677577
+  },
+  {
+    "name": "IDLIB : karsa'a",
+    "name_ar": "ادلب : كرسعة",
+    "id": 1823,
+    "region": "IDLIB",
+    "lat": 35.561197,
+    "lon": 36.484451
+  },
+  {
+    "name": "IDLIB : Shanan",
+    "name_ar": "ادلب : شنان",
+    "id": 1824,
+    "region": "IDLIB",
+    "lat": 35.733264,
+    "lon": 36.616074
+  }
+]
