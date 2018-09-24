@@ -1,16 +1,17 @@
 {
   "ar": {
-    "Site Name": "الأرشيف السوري",
-    "Site URL": "https://syrianarchive.org/",
-    "Facebook URL": "https://facebook.com/syrianarchive",
-    "Twitter Username": "@syrian_archive",
-    "Twitter URL": "https://twitter.com/syrian_archive"
+    "site name": "الأرشيف السوري",
+    "site url": "https://syrianarchive.org/",
+    "facebook url": "https://facebook.com/syrianarchive",
+    "twitter username": "@syrian_archive",
+    "twitter url": "https://twitter.com/syrian_archive",
+    "donate url": "https://www.patreon.com/syrianarchive"
   },
   "en": {
-    "Site Name": "Syrian Archive",
-    "Site URL": "https://syrianarchive.org/",
-    "Facebook URL": "https://facebook.com/syrianarchive",
-    "Twitter Username": "@syrian_archive",
-    "Twitter URL": "https://twitter.com/syrian_archive"
+    "site name": "Syrian Archive",
+    "site url": "https://syrianarchive.org/",
+    "facebook url": "https://facebook.com/syrianarchive",
+    "twitter username": "@syrian_archive",
+    "twitter url": "https://twitter.com/syrian_archive"
   }
 }
