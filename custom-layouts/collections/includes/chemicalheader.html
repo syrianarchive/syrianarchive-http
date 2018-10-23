@@ -1,15 +1,24 @@
 
+<script type="text/javascript">
 
+function parentLink (s) {
+  return window.location.replace(window.location.href.replace("database/", ""));
+}
+
+function dbLink (s) {
+  return window.location.replace(window.location.href.replace("database/", "") + "database");
+}
+</script>
   <div class="container subheader">
     <div class="columns">
       <div class="col-12 nav">
         <header class="navbar">
           <section class="navbar-section">
-            {{ "Chemical Weapons Database" |t(locale)}} 
+            {{ title }}
           </section>
           <section class="navbar-section">
-            <a class="btn btn-link" href="/{{locale}}/collections/chemical-weapons"> {{ "Key Findings" |t(locale)}} </a> 
-            <a class="btn btn-link" href="/{{locale}}/collections/chemical-weapons/database">{{ "Database" |t(locale)}}</a> 
+            <a class="btn btn-link" href="javascript:parentLink('{{url}}');"> {{ "Key Findings" |t(locale)}} </a>
+            <a class="btn btn-link" href="javascript:dbLink('{{url}}');">{{ "Database" |t(locale)}}</a>
           </section>
         </header>
       </div>
