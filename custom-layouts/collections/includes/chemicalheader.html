@@ -2,11 +2,11 @@
 <script type="text/javascript">
 
 function parentLink (s) {
-  return window.location.replace(window.location.href.replace("database/", ""));
+  return window.location.replace(window.location.href.split('?')[0].replace("database/", ""));
 }
 
 function dbLink (s) {
-  return window.location.replace(window.location.href.replace("database/", "") + "database");
+  return window.location.replace(window.location.href.split('?')[0].replace("database/", "") + "database");
 }
 </script>
   <div class="container subheader">
