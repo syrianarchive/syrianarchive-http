@@ -20,7 +20,7 @@ chemical-weapons
   </div>
 </div>
 
-<div class="container blackback videocont">
+<!-- <div class="container blackback videocont">
   <div class="columns nopad">
     <div class="col-12">
       <video autoplay loop controls muted width="100%">
@@ -29,7 +29,7 @@ chemical-weapons
       </video>
     </div>
   </div>
-</div>
+</div> -->
 
 {% include 'collections/includes/russiancollectionsheader.html' %}
 
@@ -39,6 +39,10 @@ chemical-weapons
 {% block content %}
 
 <style type="text/css">
+
+.exxxtra .card-body {
+  display:none;
+}
 
  .somepadtop{
    padding-top: 2rem !important;
@@ -129,6 +133,15 @@ chemical-weapons
       <div class="col-7 padrightextra">
         {{ contents|safe }}
       </div>
+      <div class="col-1">
+      </div>
+      <div class="col-4">
+        {% set post = sibs.civiliandatabase %}
+        {% include 'includes/card.html' %}
+
+        {% set post = sibs.russianMoDdatabase %}
+        {% include 'includes/card.html' %}
+      </div>
     </div>
   </div>
 
@@ -162,10 +175,10 @@ chemical-weapons
   </div> -->
 
   <div class="container">
-    <div class="columns normalback nopad">
+    <div class="columns normalback exxxtra">
 
 
-    {% for post in siblings|sort(attribute='date')%}
+    {% for post in siblings|sort(attribute='date', reverse=true)%}
       {% if post.locale === locale and post.title != title %}
         <div class="col-6 padright">
             {% include 'includes/card.html' %}
