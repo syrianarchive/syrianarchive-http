@@ -1,0 +1,33 @@
+
+<script type="text/javascript">
+
+const a = window.location.pathname.split('?')[0];
+const b = a.split('/').slice(0, 4).join('/');
+const c = window.location.origin + b;
+
+function parentLink (s) {
+  return window.location.replace(c);
+}
+
+function dbLink (s) {
+  const a = window.location.href.split('?')[0];
+  console.log(a);
+  return window.location.replace([c, "database"].join('/'));
+}
+
+</script>
+  <div class="container subheader">
+    <div class="columns">
+      <div class="col-12 nav">
+        <header class="navbar">
+          <section class="navbar-section">
+            {{ title }}
+          </section>
+          <section class="navbar-section">
+            <a class="btn btn-link" href="javascript:parentLink('{{url}}');"> {{ "Key Findings" |t(locale)}} </a>
+            <a class="btn btn-link" href="javascript:dbLink('{{url}}');">{{ "Database" |t(locale)}}</a>
+          </section>
+        </header>
+      </div>
+    </div>
+  </div>
