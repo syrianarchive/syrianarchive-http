@@ -8,7 +8,7 @@ chemical-weapons
 {% endblock %}
 
 {% block titlecontainer %}
-<div class="container chem title {% if image %}imaged{% endif %}" style="{% if image %}background-image:url({{image}}){% endif %}">
+<div class="container chem title {% if image %}imaged{% endif %}" style="display:none;{% if image %}background-image:url({{image}}){% endif %}">
   <div class="columns">
     <div class="col-12">
       {% block title %}
@@ -16,6 +16,17 @@ chemical-weapons
       <div class="desc">
       </div>
       {% endblock %}
+    </div>
+  </div>
+</div>
+
+<div class="container blackback videocont">
+  <div class="columns nopad">
+    <div class="col-12">
+      <video autoplay loop controls muted width="100%">
+        <source src="https://cube.syrianarchive.org/syrian_archive_russian_collection.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
 </div>
