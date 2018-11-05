@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block htmlclass %}
+home
+{% endblock %}
+
+{% block title %}
+<h1>{{ title }} <i class="fa fa-bars menu-button" id="menuButton"></i> </h1>
+
+<div class="desc">
+  </div>
+{% endblock %}
+
+  {% block content %}
+
+  <div class="container intro homeheader">
+    <div class="columns ">
+      <div class = "col-12 col-sm-12">
+        <h3>{{desc}}</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container intro">
+    <div class="columns">
+      <div class = "col-6 col-sm-12 padright">
+
+        <div class="homecontent">
+          {{ contents|safe }}
+        </div>
+
+        {% set items = latest  | sort(true, true, 'date') %}
+        <div class="container investigations">
+          <div class="limiter columns">
+          {% for post in items  | sort(true, true, 'date')%}
+            {% if post.locale === locale and post.title != title %}
+            <div class="col-12 col-sm-12">
+              {% include 'includes/card.html' %}
+            </div>
+            {% endif %}
+	    {% endfor %}
+	    <div class="col-12 col-sm-12">
+	      TAREEF MANDO
+	    </div>	
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class = "col-6 col-sm-12 flx">
+        {% for post in siblings  | sort(true, true, 'date')%}
+          {% if post.locale === locale and post.title != title %}
+            <div class="fll">
+                {% include 'includes/card.html' %}
+              </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+  <!-- <div class="columns latestinfo">
+    <div class = "col-6 col-sm-12">
+        {% if locale === 'ar' %}
+          <span>آخر التحقيقات</span>
+        {% else %}
+          <span>Latest Investigations</span>
+        {% endif %}
+    </div>
+    <div class = "col-6 col-sm-12">
+           {% if locale === 'ar' %}
+          <span> الأقسام</span>
+        {% else %}
+          <span>More</span>
+        {% endif %}
+    </div>
+  </div> -->
+
+
+
+  <div class="columns lotsacards">
+
+    <div class="col-6 col-sm-6 padright">
+
+    </div>
+
+
+    <div class = "col-6 col-sm-12 flx">
+
+    </div>
+
+  </div>
+</div>
+
+<div id="js-root"></div>
+
+
+  {% endblock %}
+
+  {% block jstop %}
+  {% endblock %}
+
+
+{% block jsbottom %}
+{% endblock %}
