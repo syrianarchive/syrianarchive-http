@@ -1,0 +1,222 @@
+{% extends 'collections/basecollection.html' %}
+
+{% block htmlclass %}
+chemical-weapons
+{% endblock %}
+
+{% block extraheadjs %}
+{% endblock %}
+
+{% block titlecontainer %}
+<div class="container chem title {% if image %}imaged{% endif %}" style="display:none;{% if image %}background-image:url({{image}}){% endif %}">
+  <div class="columns">
+    <div class="col-12">
+      {% block title %}
+      <h1>{{ title }} <i class="fa fa-bars menu-button" id="menuButton"></i></h1>
+      <div class="desc">
+      </div>
+      {% endblock %}
+    </div>
+  </div>
+</div>
+
+<div class="container blackback videocont">
+  <div class="columns nopad">
+    <div class="col-12">
+      <video autoplay loop controls muted width="100%">
+        <source src="https://cube.syrianarchive.org/syrian_archive_russian_collection.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container blackback videocont">
+  <div class="columns nopad">
+    <div class="col-12">
+      <video autoplay loop controls muted width="100%">
+        <source src="https://cube.syrianarchive.org/syrian_archive_trailer_2018_720p.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div> -->
+
+{% include 'collections/includes/russiancollectionsheader.html' %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<style type="text/css">
+
+.exxxtra .card-body {
+  display:none;
+}
+
+ .somepadtop{
+   padding-top: 2rem !important;
+ }
+
+ .chemicalweapons .columns p {
+   margin-bottom: 2rem;
+ }
+
+ .chemicalweapons > .container:nth-of-type(even) {
+   background: #e0e0e0;
+ }
+
+ .chemicalweapons .container .columns {
+   background-color: white;
+ }
+
+
+ .chemicalweapons > .container:nth-of-type(even) .columns{
+   background: #f9f9f9 !important;
+ }
+
+ .chemicalweapons a{
+   text-decoration: none !important;
+   color: #066884 !important;
+ }
+
+ iframe{
+   overflow:hidden;
+   border: 0px solid black;
+ }
+
+ .vizcall{
+   padding-top:13rem;
+
+ }
+
+
+ .floatright{
+   float:right;
+ }
+
+ ul li{
+   font-family: "Merriweather" !important;
+ }
+
+ .dblink{
+   display: block;
+   position: relative;
+ }
+
+ .dblink h6{
+   background-color: white;
+   margin-top:-4em;
+   display: inline;
+   position:absolute;
+   margin-left:2rem;
+   padding: 1rem;
+   border-bottom: 3px solid orange;
+ }
+
+ .shadowme{
+   box-shadow:inset 0 0 10px rgba(0,0,0,.2);
+   width:100%;
+   height:100%;
+   position:absolute;
+   top: 0;
+   left:0;
+ }
+
+ .dllink{
+   opacity: .7;
+ }
+
+ @media only screen and (max-width: 750px){
+   .vizcall{
+     padding-top: 0;
+   }
+   .chemicalweapons .dllink a{
+     margin-bottom: 1rem;
+   }
+ }
+</style>
+
+<div class='chemicalweapons'>
+  <div class="container">
+    <div class="columns">
+      <div class="col-7 padrightextra">
+        {{ contents|safe }}
+      </div>
+      <div class="col-1">
+      </div>
+      <div class="col-4">
+        {% set post = sibs.civiliandatabase %}
+        {% include 'includes/card.html' %}
+
+        {% set post = sibs.russianMoDdatabase %}
+        {% include 'includes/card.html' %}
+      </div>
+    </div>
+  </div>
+
+
+  <!-- intro text and visualisation -->
+
+  <!-- <div class="container">
+    <div class="columns">
+      <div class="col-7 padrightextra">
+        <h1>{{sibs.intro.title}}</h1>
+        <hr />
+        {{sibs.intro.contents|safe}}
+        <hr />
+        {{sibs.shortSAabout.contents|safe}}
+      </div>
+
+      <div class="col-5 vizcall">
+
+        <a class="dblink" href="/en/collections/chemical-weapons/database">
+          <img src="/assets/chemical/chemicalmap.jpg" width="100%" />
+          <div class="shadowme"></div>
+          <h6>{{ "View the Database of incidents and videos" |t(locale)}} -></h6>
+        </a>
+        <small class="floatright"><i>
+          <a class="dllink" href="/assets/chemical/chemicalmap.jpg">{{ "Download Image" |t(locale)}}</a>
+        </i></small>
+
+
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container">
+    <div class="columns normalback exxxtra">
+
+
+    {% for post in siblings|sort(attribute='date', reverse=true)%}
+      {% if post.locale === locale and post.title != title %}
+        <div class="col-6 padright">
+            {% include 'includes/card.html' %}
+          </div>
+      {% endif %}
+    {% endfor %}
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script type = "text/javascript">
+
+   const onMyFrameLoad = (node) => {
+     var iframeWin = node.contentWindow || node.contentDocument.parentWindow;
+     if (iframeWin.document.body) {
+       node.height = iframeWin.document.body.scrollHeight || iframeWin.document.documentElement.scrollHeight;
+     }
+   }
+  </script>
+
+
+
+</div>
+{% endblock %}
