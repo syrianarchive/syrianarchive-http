@@ -1,22 +1,22 @@
 {% extends 'homepage.html' %}
 
-{% block sycustom %}
+{% block latestrelease %}
 <div class="col-12 col-sm-12">
   <div class="card {{post.class}}">
     <a href="/collections/russian-airstrikes/">
       <div class="card-image">
-	<img src="http://localhost:8080/assets/collections/atarib-airstrike.png" class="img-responsive" />
+	<img src="/assets/collections/atarib-airstrike.png" class="img-responsive" />
       </div>
       <div class="card-header">
 	<div class="card-title">
 	  <div class="tcontent">
-	    Russian Airstrikes Database
+	    {{ "Russian Airstrikes Database" |t(locale)}}
 	  </div>
 	</div>
       </div>
     </a>
     <div class="card-body">
-      Documentation of alleged Russian airstrikes targeting civilians and civilian infrastructure
+      {{ "Documentation of alleged Russian airstrikes targeting civilians and civilian infrastructure" |t(locale)}}
     </div>
   </div>
 </div>
