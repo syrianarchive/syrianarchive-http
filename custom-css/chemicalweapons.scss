@@ -36,6 +36,9 @@
 
 .back-button {
   margin-top: 5rem;
+  @include breakpoint(medium) {
+    margin-top: 1rem;
+  }
 }
 
 .blackback {
@@ -139,7 +142,7 @@
     padding: 0rem;
   }
 
-  .incidentcol{
+  .incidentcol {
     padding:2rem;
     background-color:white;
     .lbl {
@@ -151,6 +154,9 @@
       padding-left:1rem;
       padding-right:1rem;
       font-size: 1rem;
+    }
+    @include breakpoint(medium) {
+      padding: 0rem 2rem;
     }
   }
 
@@ -181,17 +187,18 @@
       text-decoration: underline;
       font-weight: bold;
     }
-    .clickme{
+    .clickme {
       cursor: pointer;
       margin-left: 1rem;
       margin-right: 1rem;
       @include breakpoint(medium) {
 	display: block;
+	padding: .25rem 0;
       }
     }
   }
 
-  .listincident{
+  .listincident {
     padding:2rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -211,6 +218,10 @@
       padding-bottom: .2rem;
       padding-top: .1rem;
       text-decoration: underline;
+      @include breakpoint(medium) {
+	font-size: 1.2rem;
+	line-height: 1.7;
+      }
     }
     h5::after {
       content: ">";
@@ -222,6 +233,10 @@
       padding-left: 1.5rem;
       color: $primary-color;
       line-height: 4rem;
+      @include breakpoint(medium) {
+	left: -1.2rem;
+	top: 0rem;
+      }
     }
     .code{
       color: #111;
@@ -248,6 +263,10 @@
       //   }  &.confidence-3{
       //       border-left: 5px solid $primary-color;
       //     }
+    @include breakpoint(medium) {
+      padding: 1rem;
+      padding-left: 1.6rem;
+    }
   }
   .listincident:hover{
     border-right:5px solid teal;
@@ -303,6 +322,9 @@
       &:hover{
 	background-color: #efefef;
 	border-bottom: 2px solid $primary-color;
+      }
+      @include breakpoint(medium) {
+	padding-left: 1rem;
       }
     }
   }
