@@ -1,0 +1,151 @@
+[
+  {
+    "governorate": "Aleppo",
+    "total_sources": "",
+    "districts": {
+      "Afrin": "2",
+      "Al-Bab": "4",
+      "Atarib": "10",
+      "Ayn al-Arab": "7",
+      "Azaz": "2",
+      "Dayr Hafir": "4",
+      "Jarabulus": "1",
+      "Manbij": "7",
+      "Jabal Saman": "2",
+      "Al-Safirah": "1"
+  }
+  },
+  {
+    "governorate": "Damascus",
+    "total_sources": "",
+    "districts": {
+      "Damascus": "23"
+  }
+  },
+  {
+    "governorate": "Daraa",
+    "total_sources": "",
+    "districts": {
+      "Al-Sanamayn": "12",
+      "Daraa": "5",
+      "Izra": "3"
+  }
+  },
+  {
+    "governorate": "Dayr Al-Zor",
+    "total_sources": "",
+    "districts": {
+      "Abu-Kamal": "2",
+      "Deir-Al-Zor": "7",
+      "Mayadin": "6"
+  }
+  },
+  {
+    "governorate": "Hama",
+    "total_sources": "",
+    "districts": {
+      "Salamiyah": "7",
+      "Al-Suqaylabiyah": "3",
+      "Hama": "10",
+      "Masyaf": "3",
+      "Mhardeh": "8"
+  }
+  },
+  {
+    "governorate": "Al-Hasakah",
+    "total_sources": "",
+    "districts": {
+      "Al-Hasakah": "2",
+      "Al-Malikiyah": "7",
+      "Al-Qamishli": "8",
+      "Ras al-Ayn": "3"
+  }
+  },
+  {
+    "governorate": "Homs",
+    "total_sources": "",
+    "districts": {
+      "Al-Mukharram": "3",
+      "Al-Qusayr": "3",
+      "Al-Rastan": "1",
+      "Homs": "9",
+      "Tadmur": "3",
+      "Taldou": "0",
+      "Talkalakh": "2"
+  }
+  },
+  {
+    "governorate": "Idlib",
+    "total_sources": "",
+    "districts": {
+      "Arihah": "3",
+      "Harem": "9",
+      "Idlib": "12",
+      "Jisr Al-Shughur": "6",
+      "Maarrat al-Numan": "9"
+  }
+  },
+  {
+    "governorate": "Latakia",
+    "total_sources": "",
+    "districts": {
+      "Al-Haffah": "2",
+      "Jableh": "2",
+      "Latakia": "4",
+      "Qardaha": "1"
+  }
+  },
+  {
+    "governorate": "Quneitra",
+    "total_sources": "",
+    "districts": {
+      "Fiq": "1",
+      "Quneitra": "3"
+  }
+  },
+  {
+    "governorate": "Al-Raqqa",
+    "total_sources": "",
+    "districts": {
+      "Al-Thawrah": "1",
+      "Al-Raqqa": "5",
+      "Tal Abyad": "7"
+  }
+  },
+  {
+    "governorate": "Rif Dimashq",
+    "total_sources": "",
+    "districts": {
+      "Al-Nabk": "10",
+      "Al-Qutayfah": "3",
+      "Al-Tall": "5",
+      "Al-Zabadani": "8",
+      "Darayya": "17",
+      "Duma": "20",
+      "Markaz Rif Dimashq": "4",
+      "Qatana": "5",
+      "Qudsaya": "2",
+      "Yabrud": "1"
+  }
+  },
+  {
+    "governorate": "Al-Suwayda",
+    "total_sources": "",
+    "districts": {
+      "Al-Suwayda": "2",
+      "Salkhad": "4",
+      "Shahba": "2"
+  }
+  },
+  {
+    "governorate": "Tartus",
+    "total_sources": "",
+    "districts": {
+      "Al-Shaykh Badr": "7",
+      "Baniyas": "4",
+      "Duraykish": "8",
+      "Safita": "9",
+      "Tartus": "2"
+  }
+  }
+]

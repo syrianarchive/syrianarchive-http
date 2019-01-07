@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  /* max-width: 1000px; */
+  flex-wrap:   nowrap;
+}
+
+.child {
+  margin: auto;
+  flex: 1 10em;
+}
+
+.county {
+  pointer-events: all;
+}
+
+.tip, h5 {
+  display: inline-block;
+  margin-bottom: .1rem;
+}
+
+
