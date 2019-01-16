@@ -1,5 +1,5 @@
 const margin = {top: 10, left: 10, bottom: 10, right: 10};
-let width = 800 - margin.left - margin.right;
+let width = parseInt(d3.select('#viz').style('width'), 10) - margin.left - margin.right;
 let height = 700 - margin.top - margin.bottom;
 const mapRatio = 0.5;
 const syriaCenter = [38, 35];
@@ -26,7 +26,7 @@ const num = d3.select('#num');
 
 // adjust map size when browser window size changes
 function resize() {
-  width = parseInt(d3.select('#viz').style('width'));
+  width = parseInt(d3.select('#viz').style('width'), 10);
   width = width - margin.left - margin.right;
   height = width * mapRatio;
 
