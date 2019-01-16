@@ -1,3 +1,7 @@
+body {
+  /* background: hsl(28, 97%, 75); */
+}
+
 .container {
   display: flex;
   /* max-width: 1000px; */
@@ -18,4 +22,33 @@
   margin-bottom: .1rem;
 }
 
+.tip {
+  color: #E17334;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow( -5px -5px 5px #000 ); 
+  filter: drop-shadow( 0px 0px 6px #565656 );
+}
+
+.info {
+  background: url("./logo.svg") 205% 50% no-repeat #E9E8EE;
+  background-size: 228px 278px;
+  width: 300px;
+  height: 170px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 50px;
+  box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.41);
+  position: relative;
+  margin-top: 2rem;
+}
+
+.pointer {
+  width: 27px;
+  height: 32px;
+  position: absolute;
+  left: 47%;
+  top: -13%;
+}
 

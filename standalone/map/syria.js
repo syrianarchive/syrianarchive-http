@@ -7,8 +7,8 @@ const mapRatioAdjuster = 6;
 
 const projection = d3.geoMercator()
       .center(syriaCenter)
- //    .translate([width / 2, height / 2])
-     .scale(width * 1.2 * [mapRatio + mapRatioAdjuster]);
+//    .translate([width / 2, height / 2])
+      .scale(width * 1.2 * [mapRatio + mapRatioAdjuster]);
 
 const svg = d3.select('#viz')
       .append('svg')
@@ -47,46 +47,57 @@ d3.select(window).on('resize', resize);
 
 d3.json('./sources.json').then((s) => {
   d3.json('./syria-districts-topojson.json').then((syr) => {
-    function mouseover(d) {
+
+    function fill(d) {
       const governorate = d.properties.NAME_1;
-      const district =  d.properties.NAME_2;
+      const district = d.properties.NAME_2;
       const result = s.filter(obj => obj.governorate === governorate);
       const or = result[0].districts[district];
+      if (or > 17) return '#fcaf6d';
+      else if (or > 12) return '#fdba80';
+      else if (or > 9) return '#fdc494';
+      else if (or > 7) return '#fdcfa7';
+      else if (or > 5) return '#fed9ba';
+      else if (or > 3) return '#fee4cd';
+      else if (or > 0) return '#feeee1';
+      return '#fff9f4';
+    }
+
+    function mouseover(d) {
+      const governorate = d.properties.NAME_1;
+      const district = d.properties.NAME_2;
+      const result = s.filter(obj => obj.governorate === governorate);
+      const soruces = result[0].districts[district];
       gov.transition().style('opacity', 1);
       gov.html(d.properties.NAME_1);
       dis.transition().style('opacity', 1);
       dis.html(d.properties.NAME_2);
       num.transition().style('opacity', 1);
-      num.html(or);
+      num.html(soruces);
+      d3.selectAll('.district').style('filter', 'contrast(30%)');
+//      d3.select(this).style('filter', 'drop-shadow(5px 5px 5px rgba(0,0,0,0.5))');
+      d3.select(this).style('filter', 'none');
+      d3.select(this).style('stroke-width', 1.5);
     }
 
     function mouseout() {
+      d3.selectAll('.district').style('filter', 'none');
       gov.transition().duration(200).style('opacity', 0);
       dis.transition().duration(200).style('opacity', 0);
       num.transition().duration(200).style('opacity', 0);
+      d3.select(this).style('stroke-width', 0.3);
     }
 
     features.selectAll('path')
       .data(topojson.feature(syr, syr.objects.SYR_adm2).features)
       .enter()
       .append('path')
+      .attr('class', 'district')
       .attr('d', path)
-      .attr('fill', d => {
-        const governorate = d.properties.NAME_1;
-        const district =  d.properties.NAME_2;
-        const result = s.filter(obj => obj.governorate === governorate);
-        const or = result[0].districts[district];
-        if (or > 17) return '#fcaf6d';
-        else if (or > 12) return '#fdba80';
-        else if (or > 9) return '#fdc494';
-        else if (or > 7) return '#fdcfa7';
-        else if (or > 5) return '#fed9ba';
-        else if (or > 3) return '#fee4cd';
-        else if (or > 0) return '#feeee1';
-        return '#fff9f4';
-      })
+      .attr('fill', d => fill(d))
       .attr('district', d => d.properties.NAME_2)
       .attr('stroke', '#404040')
+      .style('filter', '6px 9px 9px rgba(0, 0, 0, .7)')
       .attr('stroke-width', 0.3)
       .on('mouseover', mouseover)
       .on('mouseout', mouseout);
