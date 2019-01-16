@@ -7,8 +7,7 @@ const mapRatioAdjuster = 6;
 
 const projection = d3.geoMercator()
       .center(syriaCenter)
-//    .translate([width / 2, height / 2])
-      .scale(width * 1.2 * [mapRatio + mapRatioAdjuster]);
+      .scale(width * 1.1 * [mapRatio + mapRatioAdjuster]);
 
 const svg = d3.select('#viz')
       .append('svg')
