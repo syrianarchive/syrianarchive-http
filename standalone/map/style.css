@@ -5,12 +5,16 @@ body {
 .container {
   display: flex;
   /* max-width: 1000px; */
-  flex-wrap:   nowrap;
+  flex-wrap: wrap;
 }
 
 .child {
   margin: auto;
   flex: 1 10em;
+}
+
+.fist {
+  flex-basis: 50%;
 }
 
 .county {
