@@ -23,6 +23,7 @@ const features =  svg.append('g')
 const gov = d3.select('#gov');
 const dis = d3.select('#dis');
 const num = d3.select('#num');
+const els = document.getElementById('viz');
 
 // adjust map size when browser window size changes
 function resize() {
@@ -47,22 +48,45 @@ d3.select(window).on('resize', resize);
 d3.json('./sources.json').then((s) => {
   d3.json('./syria-districts-topojson.json').then((syr) => {
 
-    function fill(d) {
+    const color = {
+      original: {
+        first: '#fcaf6d',
+        second: '#fdba80',
+        third: '#fdc494',
+        fourth: '#fdcfa7',
+        fifth: '#fed9ba',
+        sixth: '#fee4cd',
+        seventh: '#feeee1'
+      },
+      dim: {
+        first: '#a58e7a',
+        second: '#a59180',
+        third: '#a58e7a',
+        fourth: '#a5978b',
+        fifth: '#a59a91',
+        sixth: '#a59e97',
+        seventh: '#a5a19d'
+      }
+    };
+
+    function coloriz(d, type){
       const governorate = d.properties.NAME_1;
       const district = d.properties.NAME_2;
       const result = s.filter(obj => obj.governorate === governorate);
-      const or = result[0].districts[district];
-      if (or > 17) return '#fcaf6d';
-      else if (or > 12) return '#fdba80';
-      else if (or > 9) return '#fdc494';
-      else if (or > 7) return '#fdcfa7';
-      else if (or > 5) return '#fed9ba';
-      else if (or > 3) return '#fee4cd';
-      else if (or > 0) return '#feeee1';
-      return '#fff9f4';
+      const numberOfSources = result[0].districts[district];
+      if (numberOfSources > 17) return color[type].first ;
+      else if (numberOfSources > 12) return color[type].second;
+      else if (numberOfSources > 9) return color[type].third;
+      else if (numberOfSources > 7) return color[type].fourth;
+      else if (numberOfSources > 5) return color[type].fifth;
+      else if (numberOfSources > 3) return color[type].sixth;
+      return color[type].seventh;
     }
 
+    // It's better to use css's filter rule with contrast, although there is a bug with it in chrome https://stackoverflow.com/questions/32567156/why-dont-css-filters-work-on-svg-elements-in-chrome
+    // https://bugs.chromium.org/p/chromium/issues/detail?id=109224    
     function mouseover(d) {
+      const Ocolor = d3.select(this).attr('Ocolor');
       const governorate = d.properties.NAME_1;
       const district = d.properties.NAME_2;
       const result = s.filter(obj => obj.governorate === governorate);
@@ -73,14 +97,13 @@ d3.json('./sources.json').then((s) => {
       dis.html(d.properties.NAME_2);
       num.transition().style('opacity', 1);
       num.html(soruces);
-      d3.selectAll('.district').style('filter', 'contrast(30%)');
-//      d3.select(this).style('filter', 'drop-shadow(5px 5px 5px rgba(0,0,0,0.5))');
-      d3.select(this).style('filter', 'none');
+      d3.selectAll('.district').attr('fill', d => coloriz(d, 'dim'));
+      d3.select(this).attr('fill', Ocolor);
       d3.select(this).style('stroke-width', 1.5);
     }
 
     function mouseout() {
-      d3.selectAll('.district').style('filter', 'none');
+      d3.selectAll('.district').attr('fill', d => coloriz(d, 'original'));
       gov.transition().duration(200).style('opacity', 0);
       dis.transition().duration(200).style('opacity', 0);
       num.transition().duration(200).style('opacity', 0);
@@ -93,10 +116,10 @@ d3.json('./sources.json').then((s) => {
       .append('path')
       .attr('class', 'district')
       .attr('d', path)
-      .attr('fill', d => fill(d))
+      .attr('fill', d => coloriz(d, 'original'))
+      .attr('Ocolor', d => coloriz(d, 'original'))
       .attr('district', d => d.properties.NAME_2)
       .attr('stroke', '#404040')
-      .style('filter', '6px 9px 9px rgba(0, 0, 0, .7)')
       .attr('stroke-width', 0.3)
       .on('mouseover', mouseover)
       .on('mouseout', mouseout);
