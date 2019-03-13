@@ -1,4 +1,4 @@
-const margin = {top: 10, left: 10, bottom: 10, right: 10};
+const margin = {top: 10, left: 10, bottom: 10, right: 2};
 let width = parseInt(d3.select('#viz').style('width'), 10) - margin.left - margin.right;
 let height = 700 - margin.top - margin.bottom;
 const mapRatio = 0.5;

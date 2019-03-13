@@ -1,11 +1,32 @@
-body {
-  /* background: hsl(28, 97%, 75); */
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  background-color: white;
 }
 
-.container {
-  display: flex;
-  /* max-width: 1000px; */
-  flex-wrap: wrap;
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight:200;
+  height: auto;
+  color: #202020;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding-left: 4rem;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.7rem;
+  margin-top: 50%;
+}
+
+.columns {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .child {
@@ -23,7 +44,9 @@ body {
 
 .tip, h5 {
   display: inline-block;
-  margin-bottom: .1rem;
+  font-size: 1.4rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
 }
 
 .tip {
@@ -38,14 +61,14 @@ body {
 .info {
   background: url("./logo.svg") 205% 50% no-repeat #E9E8EE;
   background-size: 228px 278px;
-  width: 300px;
-  height: 170px;
+  width: 400px;
+  height: 200px;
   border-radius: 10px;
+  margin-top: 2rem;
   padding-top: 20px;
   padding-left: 50px;
   box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.41);
   position: relative;
-  margin-top: 2rem;
 }
 
 .pointer {
